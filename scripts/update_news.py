@@ -57,7 +57,7 @@ Web検索を使って、世界のシェアサイクル・電動キックボー�
 2. **ticker**: newsの中から特に目を引く6本を選び、絵文字1つ＋短い一文（30字以内）で書き直す。
 3. **featured**: 直近で最もインパクトの大きい1本。既存のものより大きなニュースがなければ据え置き。
 4. **pulse**: 各地域のtext/statを最新の状況に合わせて微修正（大きな変化がなければ据え置き）。
-5. **ranking**: 業績発表や大きな動きがあったプレイヤーのdesc・score・tagsを更新。順位変動は大きなニュースがある場合のみ。
+5. **ranking**: 業績発表や大きな動きがあったプレイヤーのdesc・score・tagsを更新。順位変動は大きなニュースがある場合のみ。各項目の site（公式サイトURL）は変更しない。新しいプレイヤーを追加する場合のみ、検索結果で確認できた公式サイトURLを site に入れる。
 6. **stats**: より新しい統計が見つかった場合のみ差し替え。
 7. **archive**: newsに含まれる年月（"YYYY.MM"）を新しい順に列挙。
 8. **updated**: "{today}" にする。
@@ -99,6 +99,9 @@ def validate(data: dict) -> None:
         raise ValueError("pulseは4地域必要です")
     if not (6 <= len(data["ranking"]) <= 10):
         raise ValueError("rankingは6〜10件にしてください")
+    for i, r in enumerate(data["ranking"]):
+        if "site" in r and not str(r["site"]).startswith("http"):
+            raise ValueError(f"ranking[{i}] のsiteが不正: {r['site']}")
     for k in ("date", "title", "text", "url"):
         if k not in data["featured"]:
             raise ValueError(f"featured.{k} がありません")
