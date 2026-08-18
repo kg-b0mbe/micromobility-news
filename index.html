@@ -86,11 +86,11 @@ header{padding:26px 0 8px}
   border-top:var(--border);border-bottom:var(--border);
   overflow:hidden;
 }
-.road-inner{position:relative;height:120px}
+.road-inner{position:relative;height:128px}
 .lane-line{
   position:absolute;left:0;right:0;top:50%;height:6px;transform:translateY(-50%);
-  background:repeating-linear-gradient(90deg,var(--lane) 0 46px,transparent 46px 84px);
-  animation:laneMove 1.2s linear infinite;opacity:.95;
+  background:repeating-linear-gradient(90deg,#F4F8FC 0 46px,transparent 46px 84px);
+  animation:laneMove 1.2s linear infinite;opacity:.9;
 }
 @keyframes laneMove{from{background-position:0 0}to{background-position:-84px 0}}
 .ticker{
@@ -102,7 +102,7 @@ header{padding:26px 0 8px}
 .ticker-track .star{color:var(--lane)}
 @keyframes tick{from{transform:translateX(0)}to{transform:translateX(-100%)}}
 .rider{
-  position:absolute;bottom:10px;left:-140px;width:118px;
+  position:absolute;bottom:8px;left:-140px;width:110px;
   animation:ride 17s linear infinite;
 }
 .rider svg{display:block;width:100%;height:auto}
@@ -251,7 +251,7 @@ footer .frow{display:flex;justify-content:space-between;align-items:center;gap:1
 footer .en{font-size:20px;font-weight:800;color:#fff}
 footer small{font-size:12px;font-weight:600}
 footer .flane{height:6px;margin-top:22px;border-radius:4px;
-  background:repeating-linear-gradient(90deg,var(--lane) 0 40px,transparent 40px 74px)}
+  background:repeating-linear-gradient(90deg,#F4F8FC 0 40px,transparent 40px 74px);opacity:.85}
 
 @media (prefers-reduced-motion: reduce){
   .lane-line,.ticker-track,.rider,.wheel,.bob,.date-badge .dot{animation:none}
@@ -291,13 +291,22 @@ footer .flane{height:6px;margin-top:22px;border-radius:4px;
     <div class="ticker"><div class="ticker-track" id="ticker-track"></div></div>
     <div class="lane-line"></div>
     <div class="rider" aria-hidden="true">
-      <svg viewBox="0 0 120 70" xmlns="http://www.w3.org/2000/svg">
+      <svg viewBox="0 -24 120 96" xmlns="http://www.w3.org/2000/svg">
         <g class="bob">
-          <path d="M28 52 L52 24 L88 52 M52 24 L84 24 M28 52 L58 52 L84 24 M84 24 L88 52" fill="none" stroke="#FF6A4D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M84 24 L82 14 L92 12" fill="none" stroke="#23303F" stroke-width="4" stroke-linecap="round"/>
-          <path d="M52 24 L46 15 L38 15" fill="none" stroke="#23303F" stroke-width="4" stroke-linecap="round"/>
-          <circle cx="60" cy="4" r="6.5" fill="#FFC53D" stroke="#23303F" stroke-width="3"/>
-          <path d="M60 11 L66 26 L58 40 M66 26 L82 15" fill="none" stroke="#23303F" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <!-- frame -->
+          <path d="M28 52 L52 24 L84 24 M28 52 L58 52 L84 24 M84 24 L88 52" fill="none" stroke="#FF6A4D" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <!-- handlebar -->
+          <path d="M84 24 L82 13 L93 11" fill="none" stroke="#FFC53D" stroke-width="4.5" stroke-linecap="round"/>
+          <!-- seat -->
+          <path d="M52 24 L47 15 M39 14 L53 14" fill="none" stroke="#FFC53D" stroke-width="4.5" stroke-linecap="round"/>
+          <!-- rider: legs -->
+          <path d="M47 12 L60 28 L57 45" fill="none" stroke="#CFE6FB" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <!-- rider: torso + arm -->
+          <path d="M47 12 L65 -3" fill="none" stroke="#F4F8FC" stroke-width="6.5" stroke-linecap="round"/>
+          <path d="M65 -3 L83 12" fill="none" stroke="#F4F8FC" stroke-width="5" stroke-linecap="round"/>
+          <!-- head + helmet -->
+          <circle cx="70" cy="-11" r="7" fill="#FFD9B0" stroke="#1D2733" stroke-width="2.5"/>
+          <path d="M62.5 -12.5 A 8 8 0 0 1 77.5 -13.5 L 79 -11.5 L 62.5 -10.5 Z" fill="#FF6A4D" stroke="#1D2733" stroke-width="2.5" stroke-linejoin="round"/>
         </g>
         <g class="wheel"><circle cx="28" cy="52" r="14" fill="none" stroke="#F4F8FC" stroke-width="4"/><path d="M28 40 V64 M16 52 H40 M20 44 L36 60 M36 44 L20 60" stroke="#F4F8FC" stroke-width="2"/></g>
         <g class="wheel"><circle cx="88" cy="52" r="14" fill="none" stroke="#F4F8FC" stroke-width="4"/><path d="M88 40 V64 M76 52 H100 M80 44 L96 60 M96 44 L80 60" stroke="#F4F8FC" stroke-width="2"/></g>
