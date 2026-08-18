@@ -4,10 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>RIDE THE WORLD — 世界のシェアサイクル＆マイクロモビリティニュース</title>
-<meta name="description" content="シェアサイクル・電動キックボードなど世界のマイクロモビリティの最新ニュースを日本語でお届け。日本・北米・欧州・アジアの動向がひと目でわかるニュースハブ。">
+<meta name="description" content="シェアサイクル・電動キックボードなど世界のマイクロモビリティの最新ニュースを毎朝AIが自動更新。日本・北米・欧州・アジアの動向がひと目でわかるニュースハブ。">
 <meta property="og:title" content="RIDE THE WORLD — 世界のシェアサイクルニュース">
-<meta property="og:description" content="日本・北米・欧州・アジア、世界中のシェアサイクル＆マイクロモビリティの動向をまとめてお届け。">
+<meta property="og:description" content="日本・北米・欧州・アジア、世界中のシェアサイクル＆マイクロモビリティの動向を毎朝AIが自動更新でお届け。">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://kg-b0mbe.github.io/micromobility-news/">
+<meta property="og:image" content="https://kg-b0mbe.github.io/micromobility-news/ogp.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -223,6 +225,7 @@ section{padding:56px 0 8px}
   padding:22px;box-shadow:var(--shadow);
 }
 .datum .num{font-family:"Baloo 2",sans-serif;font-size:34px;font-weight:800;color:var(--lane);line-height:1.1}
+.datum .num span{font-size:16px}
 .datum .lbl{font-size:13.5px;font-weight:700;margin-top:6px}
 .datum .src{font-size:11px;color:#9FB2C2;margin-top:8px;font-weight:600}
 
@@ -260,7 +263,7 @@ footer .flane{height:6px;margin-top:22px;border-radius:4px;
         <small>世界のシェアサイクル＆マイクロモビリティニュース</small>
       </span>
     </a>
-    <div class="date-badge mono"><span class="dot"></span>2026.08.18 UPDATE</div>
+    <div class="date-badge mono"><span class="dot"></span><span id="update-date">…</span> UPDATE</div>
   </div>
 </header>
 
@@ -278,32 +281,17 @@ footer .flane{height:6px;margin-top:22px;border-radius:4px;
 <!-- signature: road ticker -->
 <div class="road" aria-label="ニュースティッカー">
   <div class="road-inner">
-    <div class="ticker"><div class="ticker-track">
-      <span>🛴 Luup「夜風割」8/20から夜のライド料金が半額に <b class="star">★</b></span>
-      <span>💹 Lime、NASDAQ上場 — 時価総額は約16.6億ドル <b class="star">★</b></span>
-      <span>🚲 ドコモ・バイクシェアが「NOLL」に全面刷新 <b class="star">★</b></span>
-      <span>🇪🇺 Voi、四半期売上€68.8Mの過去最高を記録 <b class="star">★</b></span>
-      <span>🏙️ シカゴDivvy、年間1,290万トリップで過去最高 <b class="star">★</b></span>
-      <span>🇫🇷 パリVélib'は中国圏外で世界一の利用数 <b class="star">★</b></span>
-      <span>🛴 Luup「夜風割」8/20から夜のライド料金が半額に <b class="star">★</b></span>
-      <span>💹 Lime、NASDAQ上場 — 時価総額は約16.6億ドル <b class="star">★</b></span>
-      <span>🚲 ドコモ・バイクシェアが「NOLL」に全面刷新 <b class="star">★</b></span>
-      <span>🇪🇺 Voi、四半期売上€68.8Mの過去最高を記録 <b class="star">★</b></span>
-    </div></div>
+    <div class="ticker"><div class="ticker-track" id="ticker-track"></div></div>
     <div class="lane-line"></div>
     <div class="rider" aria-hidden="true">
       <svg viewBox="0 0 120 70" xmlns="http://www.w3.org/2000/svg">
         <g class="bob">
-          <!-- frame -->
           <path d="M28 52 L52 24 L88 52 M52 24 L84 24 M28 52 L58 52 L84 24 M84 24 L88 52" fill="none" stroke="#FF6A4D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-          <!-- handlebar & seat -->
           <path d="M84 24 L82 14 L92 12" fill="none" stroke="#23303F" stroke-width="4" stroke-linecap="round"/>
           <path d="M52 24 L46 15 L38 15" fill="none" stroke="#23303F" stroke-width="4" stroke-linecap="round"/>
-          <!-- rider -->
           <circle cx="60" cy="4" r="6.5" fill="#FFC53D" stroke="#23303F" stroke-width="3"/>
           <path d="M60 11 L66 26 L58 40 M66 26 L82 15" fill="none" stroke="#23303F" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
         </g>
-        <!-- wheels -->
         <g class="wheel"><circle cx="28" cy="52" r="14" fill="none" stroke="#F4F8FC" stroke-width="4"/><path d="M28 40 V64 M16 52 H40 M20 44 L36 60 M36 44 L20 60" stroke="#F4F8FC" stroke-width="2"/></g>
         <g class="wheel"><circle cx="88" cy="52" r="14" fill="none" stroke="#F4F8FC" stroke-width="4"/><path d="M88 40 V64 M76 52 H100 M80 44 L96 60 M96 44 L80 60" stroke="#F4F8FC" stroke-width="2"/></g>
       </svg>
@@ -316,32 +304,7 @@ footer .flane{height:6px;margin-top:22px;border-radius:4px;
   <div class="container">
     <div class="sec-head"><h2><span class="en">WORLD PULSE</span> 世界の今</h2><span class="sub">各地域のいちばんホットな動き</span></div>
     <div class="lane-divider"></div>
-    <div class="pulse-grid">
-      <div class="pulse jp">
-        <div class="flag">🇯🇵</div>
-        <h3><small>JAPAN</small>日本</h3>
-        <span class="stat">全国323都市に拡大</span>
-        <p>ドコモ系が「NOLL」へブランド統合、HELLO CYCLINGは全国5万台へ。Luupは夜割やみまもり機能で攻勢。国内シェアサイクルは「乱立」から「インフラ化」の段階へ。</p>
-      </div>
-      <div class="pulse na">
-        <div class="flag">🌎</div>
-        <h3><small>NORTH AMERICA</small>北米</h3>
-        <span class="stat">Lime、ついに上場</span>
-        <p>LimeがNASDAQ上場を果たし、シカゴは年間1,290万トリップの新記録。都市が事業者を選抜する時代になり、デンバーはVeo一本化へ。業界は「生き残り」から「成長」へ。</p>
-      </div>
-      <div class="pulse eu">
-        <div class="flag">🇪🇺</div>
-        <h3><small>EUROPE</small>欧州</h3>
-        <span class="stat">Voi・Dott揃って黒字</span>
-        <p>VoiとDott（旧TIER統合）がそろって黒字化を達成し、新型車両を大量投入。パリVélib'は中国圏外で世界最多の利用数を誇り、ロンドンも長期契約を更新。</p>
-      </div>
-      <div class="pulse as">
-        <div class="flag">🌏</div>
-        <h3><small>ASIA</small>アジア</h3>
-        <span class="stat">中国3強が寡占</span>
-        <p>中国はハローバイク・美団・青桔の3強体制が定着し、1回約30円の圧倒的低価格。Alipay経由で訪日・訪中旅行者の利用ハードルも低下中。世界最大の自転車シェア圏。</p>
-      </div>
-    </div>
+    <div class="pulse-grid" id="pulse-grid"></div>
   </div>
 </section>
 
@@ -350,81 +313,8 @@ footer .flane{height:6px;margin-top:22px;border-radius:4px;
   <div class="container">
     <div class="sec-head"><h2><span class="en">GLOBAL PLAYERS</span> 注目ランキング</h2><span class="sub">規模 × 成長 × 話題性で編集部が独自スコアリング</span></div>
     <div class="lane-divider y"></div>
-    <p class="rank-note">※ スコアは公開情報（車両数・利用回数・業績・ニュース量）をもとにした本サイト独自の目安です。</p>
-    <div class="rank-list">
-      <div class="rank">
-        <div class="medal">🥇</div>
-        <div>
-          <h3>Lime <span class="meta">米国 · 世界29カ国230都市</span></h3>
-          <div class="desc">累計10億ライド超え。2026年7月にNASDAQ上場を果たし、シェアマイクロモビリティの「勝ち組」を象徴する存在に。</div>
-          <div class="tags"><span class="tag">NASDAQ上場</span><span class="tag">eバイク＋キックボード</span><span class="tag">5大陸展開</span></div>
-        </div>
-        <div class="score en">SCORE<b>96</b></div>
-      </div>
-      <div class="rank">
-        <div class="medal">🥈</div>
-        <div>
-          <h3>Vélib' Métropole <span class="meta">フランス · パリ</span></h3>
-          <div class="desc">約18,000台・1,400ステーション。中国圏を除けば世界一使われている自転車シェア。市の政策と一体で「自転車のまちパリ」を牽引。</div>
-          <div class="tags"><span class="tag">世界最多級の利用数</span><span class="tag">月€10で乗り放題級</span><span class="tag">ドック式</span></div>
-        </div>
-        <div class="score en">SCORE<b>93</b></div>
-      </div>
-      <div class="rank">
-        <div class="medal">🥉</div>
-        <div>
-          <h3>Citi Bike <span class="meta">米国 · ニューヨーク</span></h3>
-          <div class="desc">北米最大、約37,000台で年間4,400万ライド超。eバイク比率が急上昇し、Bike to Work Weekは通勤時間帯の利用が70%増。</div>
-          <div class="tags"><span class="tag">北米最大</span><span class="tag">eバイク急成長</span><span class="tag">Lyft運営</span></div>
-        </div>
-        <div class="score en">SCORE<b>91</b></div>
-      </div>
-      <div class="rank">
-        <div class="medal num">#4</div>
-        <div>
-          <h3>ハローバイク（哈啰） <span class="meta">中国 · 全国展開</span></h3>
-          <div class="desc">中国3強の一角で、旅行者にも一番使いやすいと評判。Alipayだけで審査なしに乗れる手軽さと1回約30円の価格が強み。</div>
-          <div class="tags"><span class="tag">世界最大級フリート</span><span class="tag">超低価格</span><span class="tag">Alipay連携</span></div>
-        </div>
-        <div class="score en">SCORE<b>88</b></div>
-      </div>
-      <div class="rank">
-        <div class="medal num">#5</div>
-        <div>
-          <h3>Voi <span class="meta">スウェーデン · 欧州100+都市</span></h3>
-          <div class="desc">2026年Q2は売上€68.8M（前年比+47%）で過去最高。累計5億ライドの知見を注いだ新型3車種を投入し、IPOも視野に。</div>
-          <div class="tags"><span class="tag">黒字成長</span><span class="tag">新型Voiager 9</span><span class="tag">Net Zero 2035</span></div>
-        </div>
-        <div class="score en">SCORE<b>86</b></div>
-      </div>
-      <div class="rank">
-        <div class="medal num">#6</div>
-        <div>
-          <h3>HELLO CYCLING <span class="meta">日本 · OpenStreet</span></h3>
-          <div class="desc">全国約5万台。地場企業90社と組む独自モデルで地方にも浸透し、日本のシェアサイクルの面的カバーではトップ級。</div>
-          <div class="tags"><span class="tag">全国5万台</span><span class="tag">地域連携90社</span><span class="tag">電動アシスト</span></div>
-        </div>
-        <div class="score en">SCORE<b>84</b></div>
-      </div>
-      <div class="rank">
-        <div class="medal num">#7</div>
-        <div>
-          <h3>Dott（旧TIER統合） <span class="meta">オランダ · 欧州</span></h3>
-          <div class="desc">2025年に統合後初の黒字化（売上€173M）。2026年春には新型45,000台をヘルシンキからリヨンまで一斉投入。</div>
-          <div class="tags"><span class="tag">TIERと統合</span><span class="tag">初の黒字化</span><span class="tag">新車4.5万台</span></div>
-        </div>
-        <div class="score en">SCORE<b>82</b></div>
-      </div>
-      <div class="rank">
-        <div class="medal num">#8</div>
-        <div>
-          <h3>Luup <span class="meta">日本 · 電動キックボード＋自転車</span></h3>
-          <div class="desc">国内最大の電動マイクロモビリティ。ポート1.2万カ所超・車両3万台超で、夜割・みまもりストップなど話題の施策を連発。</div>
-          <div class="tags"><span class="tag">国内最大手</span><span class="tag">ポート1.2万+</span><span class="tag">安全機能強化</span></div>
-        </div>
-        <div class="score en">SCORE<b>80</b></div>
-      </div>
-    </div>
+    <p class="rank-note">※ スコアは公開情報（車両数・利用回数・業績・ニュース量）をもとにした本サイト独自の目安です。毎朝AIが自動更新。</p>
+    <div class="rank-list" id="rank-list"></div>
   </div>
 </section>
 
@@ -434,10 +324,10 @@ footer .flane{height:6px;margin-top:22px;border-radius:4px;
     <div class="sec-head"><h2><span class="en">FEATURED</span> 今週の注目</h2></div>
     <div class="lane-divider r"></div>
     <div class="featured">
-      <span class="badge">TOP STORY</span><span class="fdate mono">2026.07.01</span>
-      <h3>Lime、NASDAQ上場 — 「スクーター戦争」を生き延びた業界の勝者が示すマイクロモビリティの新章</h3>
-      <p>eバイク・電動キックボードシェア世界最大手のLimeが、ティッカー「LIME」でNASDAQに上場。売出価格は1株25ドルで、時価総額は約16.6億ドルに。初日は約9%上昇して始まった。2017年の乱立期から倒産・撤退が相次いだ業界で、累計10億ライド・29カ国230都市まで成長したLimeの上場は、シェアマイクロモビリティが「実験」から「都市交通の一部」へ移行したことを象徴する出来事だ。</p>
-      <a class="more" href="https://techcrunch.com/2026/07/01/lime-begins-life-as-a-public-company-after-years-of-uncertainty/" target="_blank" rel="noopener">READ MORE →</a>
+      <span class="badge">TOP STORY</span><span class="fdate mono" id="featured-date"></span>
+      <h3 id="featured-title"></h3>
+      <p id="featured-text"></p>
+      <a class="more" id="featured-link" href="#" target="_blank" rel="noopener">READ MORE →</a>
     </div>
   </div>
 </section>
@@ -455,121 +345,7 @@ footer .flane{height:6px;margin-top:22px;border-radius:4px;
       <button class="fbtn" data-f="as">🌏 アジア</button>
       <button class="fbtn" data-f="gl">🌐 世界</button>
     </div>
-    <div class="news-grid">
-
-      <article class="news" data-r="jp">
-        <div class="top"><span class="rtag jp">日本</span><span class="ndate mono">2026.08.13</span></div>
-        <h3>Luup「夜風割」開始 — 8/20から夜のライド料金が半額に</h3>
-        <p>夏の夜の移動需要を狙ったキャンペーン。エントリー制で、夜間のライドが半額になる。ハチ公をテーマにした渋谷「HACHI-8 PROJECT」への参画や、乗り放題パスのeギフト販売開始など、8月は話題が続く。</p>
-        <a class="more" href="https://luup.sc/news/2026-08-13-yokazewari/" target="_blank" rel="noopener">READ MORE →</a>
-      </article>
-
-      <article class="news" data-r="jp">
-        <div class="top"><span class="rtag jp">日本</span><span class="ndate mono">2026.05.01</span></div>
-        <h3>ドコモ・バイクシェアが「NOLL（ノル）」へ全面刷新 — 全国63エリアの名称を統一</h3>
-        <p>2011年から自治体連携で広がった赤いシェアサイクルがブランド一新。「ちよくる」など各地でバラバラだった名称を統一し、料金も10分ごと99円からに刷新。全国323都市に広がる移動インフラの覇権争いが加速する。</p>
-        <a class="more" href="https://news.yahoo.co.jp/articles/33594d4405850b0a32ae70d7e7a978d0b65c0d18" target="_blank" rel="noopener">READ MORE →</a>
-      </article>
-
-      <article class="news" data-r="jp">
-        <div class="top"><span class="rtag jp">日本</span><span class="ndate mono">2026.06.23</span></div>
-        <h3>Luup、自動で止まる「地域みまもりストップ機能」を導入</h3>
-        <p>京都府・京都府警と連携し、通行禁止の鴨川沿い河川敷で電動キックボードを音声案内とともに自動停止させる業界初の機能。GPSで歩行者空間をみまもり、テクノロジーで安全を担保するアプローチとして注目される。</p>
-        <a class="more" href="https://luup.sc/news/2026-6-23-safe-stop/" target="_blank" rel="noopener">READ MORE →</a>
-      </article>
-
-      <article class="news" data-r="jp">
-        <div class="top"><span class="rtag jp">日本</span><span class="ndate mono">2026.05.11</span></div>
-        <h3>HELLO CYCLING、全国5万台へ — 地場90社と組む独自モデルで拡大</h3>
-        <p>OpenStreetが展開する電動アシスト自転車シェアが全国で利用者を伸ばす。異業種企業の資金やノウハウを取り込む事業モデルで、観光地から地方都市まで移動の選択肢を増やしている。</p>
-        <a class="more" href="https://www.nikkei.com/article/DGXZQOUC20AZY0Q6A220C2000000/" target="_blank" rel="noopener">READ MORE →</a>
-      </article>
-
-      <article class="news" data-r="jp">
-        <div class="top"><span class="rtag jp">日本</span><span class="ndate mono">2026.04.01</span></div>
-        <h3>大阪のシェアサイクル2ブランドが統合 — 「HUBchari」へ一本化</h3>
-        <p>相互乗り入れで連携してきた大阪の2ブランドが統合。ホームレス支援のNPO・Homedoorが運営する「ハブチャリ」に一本化され、社会課題解決型シェアサイクルの先進例として注目を集める。</p>
-        <a class="more" href="https://www.nikkei.com/compass/theme/14799" target="_blank" rel="noopener">READ MORE →</a>
-      </article>
-
-      <article class="news" data-r="na">
-        <div class="top"><span class="rtag na">北米</span><span class="ndate mono">2026.01.15</span></div>
-        <h3>シカゴ、年間1,290万トリップで過去最高 — 市の補助でシェアバイクが爆発的成長</h3>
-        <p>Divvyバイクとスクーターの2025年利用が前年比約200万回増の新記録。市が300万ドル超を投じ、年会費の凍結・99ドルの割引メンバーシップ・eバイク料金の上限設定を実施した「公共投資」が実を結んだ形だ。</p>
-        <a class="more" href="https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2026/january/micromobility-record-year.html" target="_blank" rel="noopener">READ MORE →</a>
-      </article>
-
-      <article class="news" data-r="na">
-        <div class="top"><span class="rtag na">北米</span><span class="ndate mono">2026.06.02</span></div>
-        <h3>Bike to Work Week、NYのCiti Bikeは通勤時間帯の利用が70%増</h3>
-        <p>5月の自転車通勤週間で主要都市の通勤時間帯ライドが平均45%増。NYで+70%、シカゴで+68%と、シェアサイクルが「イベント」ではなく通勤インフラとして定着していることを示した。</p>
-        <a class="more" href="https://lyfturbansolutions.com/blog/2026/06/commuter-rides-spike-across-cities-a-bike-to-work-week-recap" target="_blank" rel="noopener">READ MORE →</a>
-      </article>
-
-      <article class="news" data-r="na">
-        <div class="top"><span class="rtag na">北米</span><span class="ndate mono">2026.03.20</span></div>
-        <h3>Bird、アトランタの公営住宅と連携 — 住民のライドが54%増</h3>
-        <p>全米初の「マイクロモビリティ×住宅×雇用」の取り組み。公営住宅の住民に手頃な価格でeスクーター・eバイクを提供し、仕事や交通機関へのアクセスを改善。指定ゾーンでのライドは54%増加した。</p>
-        <a class="more" href="https://bird.co/" target="_blank" rel="noopener">READ MORE →</a>
-      </article>
-
-      <article class="news" data-r="na">
-        <div class="top"><span class="rtag na">北米</span><span class="ndate mono">2026.05.31</span></div>
-        <h3>デンバー、LimeとBirdに別れを告げVeo一本化へ — 「選抜」の時代に</h3>
-        <p>5年間続いたLime・Birdとの契約が満了し、市はVeoと3年契約を交渉。安全性・アクセシビリティ・低所得者向けプログラムを評価しての選定で、都市が事業者を厳選する流れを象徴する動きだ。</p>
-        <a class="more" href="https://denverite.com/2025/12/30/denver-ends-contracts-with-lime-bird-for-veo-scooters-bikes/" target="_blank" rel="noopener">READ MORE →</a>
-      </article>
-
-      <article class="news" data-r="eu">
-        <div class="top"><span class="rtag eu">欧州</span><span class="ndate mono">2026.07.20</span></div>
-        <h3>Voi、四半期売上€68.8Mで過去最高 — 前年比47%増の急成長</h3>
-        <p>2026年Q2は調整後EBITDAがほぼ倍増の€19.7M。パリ・ロンドンなど主要市場での拡大と車両あたり収益の改善が牽引し、直近12カ月の売上は€210Mを突破。欧州勢の黒字成長が鮮明になっている。</p>
-        <a class="more" href="https://micromobility.substack.com/p/a-blockbuster-q2-for-voi-688m-revenue" target="_blank" rel="noopener">READ MORE →</a>
-      </article>
-
-      <article class="news" data-r="eu">
-        <div class="top"><span class="rtag eu">欧州</span><span class="ndate mono">2026.04.01</span></div>
-        <h3>Dott、新型45,000台を欧州一斉投入 — バッテリー容量は2倍に</h3>
-        <p>ヘルシンキ、ハンブルク、ブリストル、ブリュッセル、ミラノ、リヨンなどでeバイク13,000台・eスクーター32,000台を展開。2025年に統合後初の黒字（売上€173M）を達成した勢いのままフリートを刷新する。</p>
-        <a class="more" href="https://futuretransport-news.com/dott-expands-european-fleet-with-45000-new-e-bikes-and-e-scooters/" target="_blank" rel="noopener">READ MORE →</a>
-      </article>
-
-      <article class="news" data-r="eu">
-        <div class="top"><span class="rtag eu">欧州</span><span class="ndate mono">2026.03.02</span></div>
-        <h3>Voi、2026年の新型3車種を発表 — 累計5億ライドの知見を注いだ「Voiager 9」</h3>
-        <p>新型eスクーターVoiager 9と、バッテリー容量40%増の新型eバイク2種をストックホルムから順次投入。自社開発IoTで精密なジオフェンシングに対応し、都市の規制にも即応できる設計だ。</p>
-        <a class="more" href="https://micromobility.io/news/voi-introduces-three-new-vehicles-for-2026" target="_blank" rel="noopener">READ MORE →</a>
-      </article>
-
-      <article class="news" data-r="eu">
-        <div class="top"><span class="rtag eu">欧州</span><span class="ndate mono">2026.01.12</span></div>
-        <h3>ロンドン「サンタンデール・サイクルズ」長期契約を更新 — 充電ドック＋新アプリへ</h3>
-        <p>Boris Bikesの愛称で親しまれた公共シェアサイクルが次章へ。ドック内充電ステーション、新ライダーアプリ、キオスク刷新を計画。ビルバオやラ・コルーニャなど欧州各都市もステーション拡張を発表している。</p>
-        <a class="more" href="https://lyfturbansolutions.com/blog/2026/01/2025-in-motion-a-year-of-global-success-and-growth-in-shared-micromobility" target="_blank" rel="noopener">READ MORE →</a>
-      </article>
-
-      <article class="news" data-r="as">
-        <div class="top"><span class="rtag as">アジア</span><span class="ndate mono">2026.07.25</span></div>
-        <h3>中国シェアサイクル3強レポート — 旅行者に一番やさしいのは青いハローバイク</h3>
-        <p>ハローバイク（青）・美団（黄）・青桔（緑）の3色が街に揃う中国。Alipayさえあれば審査なしで借りられるハローバイクが訪中旅行者に最も使いやすいと判明。1回約30円で2時間乗れる価格も驚異的だ。</p>
-        <a class="more" href="https://rocketnews24.com/2026/07/25/2783119/" target="_blank" rel="noopener">READ MORE →</a>
-      </article>
-
-      <article class="news" data-r="gl">
-        <div class="top"><span class="rtag gl">世界</span><span class="ndate mono">2026.03.28</span></div>
-        <h3>世界のバイクシェア市場、2026年は45.3億ドルへ — 2030年に約60億ドル予測</h3>
-        <p>市場規模は2025年の42.4億ドルから年率6.7%で成長中。都市の自転車インフラ拡充、脱炭素意識の高まり、短距離通勤ニーズが追い風で、ドックレス型とeバイクシェアの拡大が主要トレンドとなっている。</p>
-        <a class="more" href="https://www.gii.co.jp/report/tbrc1995977-bike-sharing-global-market-report.html" target="_blank" rel="noopener">READ MORE →</a>
-      </article>
-
-      <article class="news" data-r="gl">
-        <div class="top"><span class="rtag gl">世界</span><span class="ndate mono">2026.06.15</span></div>
-        <h3>「ドック式」回帰の流れ — 欧州の都市が選ぶのは秩序あるステーション型</h3>
-        <p>放置問題に悩んだ都市が、駐輪場所が予測できるステーション型を再評価。スペインの利用補助、バルセロナBicingへの継続投資、ロンドンの長期契約更新など、公共交通と統合しやすいドック式が復権しつつある。</p>
-        <a class="more" href="https://futuretransport-news.com/why-station-based-bike-sharing-is-coming-back-research-and-real-life-examples-of-successful-businesses/" target="_blank" rel="noopener">READ MORE →</a>
-      </article>
-
-    </div>
+    <div class="news-grid" id="news-grid"></div>
   </div>
 </section>
 
@@ -578,28 +354,7 @@ footer .flane{height:6px;margin-top:22px;border-radius:4px;
   <div class="container">
     <div class="sec-head"><h2><span class="en">BY THE NUMBERS</span> 数字で見る世界</h2></div>
     <div class="lane-divider y"></div>
-    <div class="data-grid">
-      <div class="datum">
-        <div class="num">45.3億<span style="font-size:16px">ドル</span></div>
-        <div class="lbl">2026年の世界バイクシェア市場規模（前年比+6.7%）</div>
-        <div class="src">出典: The Business Research Company</div>
-      </div>
-      <div class="datum">
-        <div class="num">2.25億<span style="font-size:16px">回</span></div>
-        <div class="lbl">北米のシェアバイク・スクーター年間トリップ数（前年比+31%）</div>
-        <div class="src">出典: NABSA 北米シェアマイクロモビリティレポート</div>
-      </div>
-      <div class="datum">
-        <div class="num">10億<span style="font-size:16px">ライド</span></div>
-        <div class="lbl">Limeの累計ライド数 — 5大陸・29カ国・約230都市で展開</div>
-        <div class="src">出典: Lime S-1（SEC提出書類）</div>
-      </div>
-      <div class="datum">
-        <div class="num">18,200<span style="font-size:16px">台</span></div>
-        <div class="lbl">パリVélib'の車両数 — 中国圏外で世界最多の利用数を記録</div>
-        <div class="src">出典: Vélib' Métropole / Fluctuo</div>
-      </div>
-    </div>
+    <div class="data-grid" id="data-grid"></div>
   </div>
 </section>
 
@@ -608,15 +363,7 @@ footer .flane{height:6px;margin-top:22px;border-radius:4px;
   <div class="container">
     <div class="sec-head"><h2><span class="en">ARCHIVE</span> アーカイブ</h2><span class="sub">過去のニュースを年月で振り返る</span></div>
     <div class="lane-divider"></div>
-    <div class="arch">
-      <a href="#news">2026.08</a>
-      <a href="#news">2026.07</a>
-      <a href="#news">2026.06</a>
-      <a href="#news">2026.05</a>
-      <a href="#news">2026.04</a>
-      <a href="#news">2026.03</a>
-      <a href="#news">2026.01</a>
-    </div>
+    <div class="arch" id="arch-list"></div>
   </div>
 </section>
 
@@ -627,21 +374,138 @@ footer .flane{height:6px;margin-top:22px;border-radius:4px;
         <span class="en">RIDE THE WORLD 🚲</span><br>
         <small>世界のシェアサイクル＆マイクロモビリティニュース</small>
       </div>
-      <small class="mono">© 2026 — LAST UPDATE 2026.08.18 // さあ、今日もどこかへ走り出そう。</small>
+      <small class="mono">© 2026 — LAST UPDATE <span id="footer-date"></span> // さあ、今日もどこかへ走り出そう。</small>
     </div>
     <div class="flane"></div>
   </div>
 </footer>
 
 <script>
-const btns = document.querySelectorAll('.fbtn');
-const cards = document.querySelectorAll('.news');
-btns.forEach(b => b.addEventListener('click', () => {
-  btns.forEach(x => x.classList.remove('active'));
-  b.classList.add('active');
-  const f = b.dataset.f;
-  cards.forEach(c => c.classList.toggle('hidden', f !== 'all' && c.dataset.r !== f));
-}));
+// フォールバックデータ（data.jsonの取得に失敗した場合に使用）
+const FALLBACK_DATA = {"updated":"2026.08.18","ticker":["🛴 Luup「夜風割」8/20から夜のライド料金が半額に","💹 Lime、NASDAQ上場 — 時価総額は約16.6億ドル","🚲 ドコモ・バイクシェアが「NOLL」に全面刷新","🇪🇺 Voi、四半期売上€68.8Mの過去最高を記録","🏙️ シカゴDivvy、年間1,290万トリップで過去最高","🇫🇷 パリVélib'は中国圏外で世界一の利用数"],"pulse":[{"cls":"jp","flag":"🇯🇵","en":"JAPAN","ja":"日本","stat":"全国323都市に拡大","text":"ドコモ系が「NOLL」へブランド統合、HELLO CYCLINGは全国5万台へ。Luupは夜割やみまもり機能で攻勢。国内シェアサイクルは「乱立」から「インフラ化」の段階へ。"},{"cls":"na","flag":"🌎","en":"NORTH AMERICA","ja":"北米","stat":"Lime、ついに上場","text":"LimeがNASDAQ上場を果たし、シカゴは年間1,290万トリップの新記録。都市が事業者を選抜する時代になり、デンバーはVeo一本化へ。業界は「生き残り」から「成長」へ。"},{"cls":"eu","flag":"🇪🇺","en":"EUROPE","ja":"欧州","stat":"Voi・Dott揃って黒字","text":"VoiとDott（旧TIER統合）がそろって黒字化を達成し、新型車両を大量投入。パリVélib'は中国圏外で世界最多の利用数を誇り、ロンドンも長期契約を更新。"},{"cls":"as","flag":"🌏","en":"ASIA","ja":"アジア","stat":"中国3強が寡占","text":"中国はハローバイク・美団・青桔の3強体制が定着し、1回約30円の圧倒的低価格。Alipay経由で訪日・訪中旅行者の利用ハードルも低下中。世界最大の自転車シェア圏。"}],"ranking":[{"medal":"🥇","name":"Lime","meta":"米国 · 世界29カ国230都市","desc":"累計10億ライド超え。2026年7月にNASDAQ上場を果たし、シェアマイクロモビリティの「勝ち組」を象徴する存在に。","tags":["NASDAQ上場","eバイク＋キックボード","5大陸展開"],"score":96},{"medal":"🥈","name":"Vélib' Métropole","meta":"フランス · パリ","desc":"約18,000台・1,400ステーション。中国圏を除けば世界一使われている自転車シェア。市の政策と一体で「自転車のまちパリ」を牽引。","tags":["世界最多級の利用数","月€10で乗り放題級","ドック式"],"score":93},{"medal":"🥉","name":"Citi Bike","meta":"米国 · ニューヨーク","desc":"北米最大、約37,000台で年間4,400万ライド超。eバイク比率が急上昇し、Bike to Work Weekは通勤時間帯の利用が70%増。","tags":["北米最大","eバイク急成長","Lyft運営"],"score":91},{"medal":"#4","name":"ハローバイク（哈啰）","meta":"中国 · 全国展開","desc":"中国3強の一角で、旅行者にも一番使いやすいと評判。Alipayだけで審査なしに乗れる手軽さと1回約30円の価格が強み。","tags":["世界最大級フリート","超低価格","Alipay連携"],"score":88},{"medal":"#5","name":"Voi","meta":"スウェーデン · 欧州100+都市","desc":"2026年Q2は売上€68.8M（前年比+47%）で過去最高。累計5億ライドの知見を注いだ新型3車種を投入し、IPOも視野に。","tags":["黒字成長","新型Voiager 9","Net Zero 2035"],"score":86},{"medal":"#6","name":"HELLO CYCLING","meta":"日本 · OpenStreet","desc":"全国約5万台。地場企業90社と組む独自モデルで地方にも浸透し、日本のシェアサイクルの面的カバーではトップ級。","tags":["全国5万台","地域連携90社","電動アシスト"],"score":84},{"medal":"#7","name":"Dott（旧TIER統合）","meta":"オランダ · 欧州","desc":"2025年に統合後初の黒字化（売上€173M）。2026年春には新型45,000台をヘルシンキからリヨンまで一斉投入。","tags":["TIERと統合","初の黒字化","新車4.5万台"],"score":82},{"medal":"#8","name":"Luup","meta":"日本 · 電動キックボード＋自転車","desc":"国内最大の電動マイクロモビリティ。ポート1.2万カ所超・車両3万台超で、夜割・みまもりストップなど話題の施策を連発。","tags":["国内最大手","ポート1.2万+","安全機能強化"],"score":80}],"featured":{"date":"2026.07.01","title":"Lime、NASDAQ上場 — 「スクーター戦争」を生き延びた業界の勝者が示すマイクロモビリティの新章","text":"eバイク・電動キックボードシェア世界最大手のLimeが、ティッカー「LIME」でNASDAQに上場。売出価格は1株25ドルで、時価総額は約16.6億ドルに。初日は約9%上昇して始まった。2017年の乱立期から倒産・撤退が相次いだ業界で、累計10億ライド・29カ国230都市まで成長したLimeの上場は、シェアマイクロモビリティが「実験」から「都市交通の一部」へ移行したことを象徴する出来事だ。","url":"https://techcrunch.com/2026/07/01/lime-begins-life-as-a-public-company-after-years-of-uncertainty/"},"news":[{"region":"jp","date":"2026.08.13","title":"Luup「夜風割」開始 — 8/20から夜のライド料金が半額に","text":"夏の夜の移動需要を狙ったキャンペーン。エントリー制で、夜間のライドが半額になる。ハチ公をテーマにした渋谷「HACHI-8 PROJECT」への参画や、乗り放題パスのeギフト販売開始など、8月は話題が続く。","url":"https://luup.sc/news/2026-08-13-yokazewari/"},{"region":"eu","date":"2026.07.20","title":"Voi、四半期売上€68.8Mで過去最高 — 前年比47%増の急成長","text":"2026年Q2は調整後EBITDAがほぼ倍増の€19.7M。パリ・ロンドンなど主要市場での拡大と車両あたり収益の改善が牽引し、直近12カ月の売上は€210Mを突破。欧州勢の黒字成長が鮮明になっている。","url":"https://micromobility.substack.com/p/a-blockbuster-q2-for-voi-688m-revenue"},{"region":"as","date":"2026.07.25","title":"中国シェアサイクル3強レポート — 旅行者に一番やさしいのは青いハローバイク","text":"ハローバイク（青）・美団（黄）・青桔（緑）の3色が街に揃う中国。Alipayさえあれば審査なしで借りられるハローバイクが訪中旅行者に最も使いやすいと判明。1回約30円で2時間乗れる価格も驚異的だ。","url":"https://rocketnews24.com/2026/07/25/2783119/"},{"region":"jp","date":"2026.06.23","title":"Luup、自動で止まる「地域みまもりストップ機能」を導入","text":"京都府・京都府警と連携し、通行禁止の鴨川沿い河川敷で電動キックボードを音声案内とともに自動停止させる業界初の機能。GPSで歩行者空間をみまもり、テクノロジーで安全を担保するアプローチとして注目される。","url":"https://luup.sc/news/2026-6-23-safe-stop/"},{"region":"gl","date":"2026.06.15","title":"「ドック式」回帰の流れ — 欧州の都市が選ぶのは秩序あるステーション型","text":"放置問題に悩んだ都市が、駐輪場所が予測できるステーション型を再評価。スペインの利用補助、バルセロナBicingへの継続投資、ロンドンの長期契約更新など、公共交通と統合しやすいドック式が復権しつつある。","url":"https://futuretransport-news.com/why-station-based-bike-sharing-is-coming-back-research-and-real-life-examples-of-successful-businesses/"},{"region":"na","date":"2026.06.02","title":"Bike to Work Week、NYのCiti Bikeは通勤時間帯の利用が70%増","text":"5月の自転車通勤週間で主要都市の通勤時間帯ライドが平均45%増。NYで+70%、シカゴで+68%と、シェアサイクルが「イベント」ではなく通勤インフラとして定着していることを示した。","url":"https://lyfturbansolutions.com/blog/2026/06/commuter-rides-spike-across-cities-a-bike-to-work-week-recap"},{"region":"na","date":"2026.05.31","title":"デンバー、LimeとBirdに別れを告げVeo一本化へ — 「選抜」の時代に","text":"5年間続いたLime・Birdとの契約が満了し、市はVeoと3年契約を交渉。安全性・アクセシビリティ・低所得者向けプログラムを評価しての選定で、都市が事業者を厳選する流れを象徴する動きだ。","url":"https://denverite.com/2025/12/30/denver-ends-contracts-with-lime-bird-for-veo-scooters-bikes/"},{"region":"jp","date":"2026.05.11","title":"HELLO CYCLING、全国5万台へ — 地場90社と組む独自モデルで拡大","text":"OpenStreetが展開する電動アシスト自転車シェアが全国で利用者を伸ばす。異業種企業の資金やノウハウを取り込む事業モデルで、観光地から地方都市まで移動の選択肢を増やしている。","url":"https://www.nikkei.com/article/DGXZQOUC20AZY0Q6A220C2000000/"},{"region":"jp","date":"2026.05.01","title":"ドコモ・バイクシェアが「NOLL（ノル）」へ全面刷新 — 全国63エリアの名称を統一","text":"2011年から自治体連携で広がった赤いシェアサイクルがブランド一新。「ちよくる」など各地でバラバラだった名称を統一し、料金も10分ごと99円からに刷新。全国323都市に広がる移動インフラの覇権争いが加速する。","url":"https://news.yahoo.co.jp/articles/33594d4405850b0a32ae70d7e7a978d0b65c0d18"},{"region":"eu","date":"2026.04.01","title":"Dott、新型45,000台を欧州一斉投入 — バッテリー容量は2倍に","text":"ヘルシンキ、ハンブルク、ブリストル、ブリュッセル、ミラノ、リヨンなどでeバイク13,000台・eスクーター32,000台を展開。2025年に統合後初の黒字（売上€173M）を達成した勢いのままフリートを刷新する。","url":"https://futuretransport-news.com/dott-expands-european-fleet-with-45000-new-e-bikes-and-e-scooters/"},{"region":"jp","date":"2026.04.01","title":"大阪のシェアサイクル2ブランドが統合 — 「HUBchari」へ一本化","text":"相互乗り入れで連携してきた大阪の2ブランドが統合。ホームレス支援のNPO・Homedoorが運営する「ハブチャリ」に一本化され、社会課題解決型シェアサイクルの先進例として注目を集める。","url":"https://www.nikkei.com/compass/theme/14799"},{"region":"gl","date":"2026.03.28","title":"世界のバイクシェア市場、2026年は45.3億ドルへ — 2030年に約60億ドル予測","text":"市場規模は2025年の42.4億ドルから年率6.7%で成長中。都市の自転車インフラ拡充、脱炭素意識の高まり、短距離通勤ニーズが追い風で、ドックレス型とeバイクシェアの拡大が主要トレンドとなっている。","url":"https://www.gii.co.jp/report/tbrc1995977-bike-sharing-global-market-report.html"},{"region":"na","date":"2026.03.20","title":"Bird、アトランタの公営住宅と連携 — 住民のライドが54%増","text":"全米初の「マイクロモビリティ×住宅×雇用」の取り組み。公営住宅の住民に手頃な価格でeスクーター・eバイクを提供し、仕事や交通機関へのアクセスを改善。指定ゾーンでのライドは54%増加した。","url":"https://bird.co/"},{"region":"eu","date":"2026.03.02","title":"Voi、2026年の新型3車種を発表 — 累計5億ライドの知見を注いだ「Voiager 9」","text":"新型eスクーターVoiager 9と、バッテリー容量40%増の新型eバイク2種をストックホルムから順次投入。自社開発IoTで精密なジオフェンシングに対応し、都市の規制にも即応できる設計だ。","url":"https://micromobility.io/news/voi-introduces-three-new-vehicles-for-2026"},{"region":"na","date":"2026.01.15","title":"シカゴ、年間1,290万トリップで過去最高 — 市の補助でシェアバイクが爆発的成長","text":"Divvyバイクとスクーターの2025年利用が前年比約200万回増の新記録。市が300万ドル超を投じ、年会費の凍結・99ドルの割引メンバーシップ・eバイク料金の上限設定を実施した「公共投資」が実を結んだ形だ。","url":"https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2026/january/micromobility-record-year.html"},{"region":"eu","date":"2026.01.12","title":"ロンドン「サンタンデール・サイクルズ」長期契約を更新 — 充電ドック＋新アプリへ","text":"Boris Bikesの愛称で親しまれた公共シェアサイクルが次章へ。ドック内充電ステーション、新ライダーアプリ、キオスク刷新を計画。ビルバオやラ・コルーニャなど欧州各都市もステーション拡張を発表している。","url":"https://lyfturbansolutions.com/blog/2026/01/2025-in-motion-a-year-of-global-success-and-growth-in-shared-micromobility"}],"stats":[{"num":"45.3億","unit":"ドル","label":"2026年の世界バイクシェア市場規模（前年比+6.7%）","src":"出典: The Business Research Company"},{"num":"2.25億","unit":"回","label":"北米のシェアバイク・スクーター年間トリップ数（前年比+31%）","src":"出典: NABSA 北米シェアマイクロモビリティレポート"},{"num":"10億","unit":"ライド","label":"Limeの累計ライド数 — 5大陸・29カ国・約230都市で展開","src":"出典: Lime S-1（SEC提出書類）"},{"num":"18,200","unit":"台","label":"パリVélib'の車両数 — 中国圏外で世界最多の利用数を記録","src":"出典: Vélib' Métropole / Fluctuo"}],"archive":["2026.08","2026.07","2026.06","2026.05","2026.04","2026.03","2026.01"]};
+
+const REGION_LABEL = { jp: "日本", na: "北米", eu: "欧州", as: "アジア", gl: "世界" };
+
+function el(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text !== undefined) e.textContent = text;
+  return e;
+}
+
+function render(d) {
+  // date
+  document.getElementById("update-date").textContent = d.updated;
+  document.getElementById("footer-date").textContent = d.updated;
+
+  // ticker (2周分並べてループを滑らかに)
+  const track = document.getElementById("ticker-track");
+  track.textContent = "";
+  [...d.ticker, ...d.ticker].forEach(t => {
+    const s = el("span", null, t + " ");
+    const star = el("b", "star", "★");
+    s.appendChild(star);
+    track.appendChild(s);
+  });
+
+  // pulse
+  const pg = document.getElementById("pulse-grid");
+  pg.textContent = "";
+  d.pulse.forEach(p => {
+    const card = el("div", "pulse " + p.cls);
+    card.appendChild(el("div", "flag", p.flag));
+    const h = el("h3");
+    h.appendChild(el("small", null, p.en));
+    h.appendChild(document.createTextNode(p.ja));
+    card.appendChild(h);
+    card.appendChild(el("span", "stat", p.stat));
+    card.appendChild(el("p", null, p.text));
+    pg.appendChild(card);
+  });
+
+  // ranking
+  const rl = document.getElementById("rank-list");
+  rl.textContent = "";
+  d.ranking.forEach(r => {
+    const row = el("div", "rank");
+    const medal = el("div", "medal" + (r.medal.startsWith("#") ? " num" : ""), r.medal);
+    row.appendChild(medal);
+    const body = el("div");
+    const h = el("h3", null, r.name + " ");
+    h.appendChild(el("span", "meta", r.meta));
+    body.appendChild(h);
+    body.appendChild(el("div", "desc", r.desc));
+    const tags = el("div", "tags");
+    r.tags.forEach(t => tags.appendChild(el("span", "tag", t)));
+    body.appendChild(tags);
+    row.appendChild(body);
+    const sc = el("div", "score en", "SCORE");
+    sc.appendChild(el("b", null, String(r.score)));
+    row.appendChild(sc);
+    rl.appendChild(row);
+  });
+
+  // featured
+  document.getElementById("featured-date").textContent = d.featured.date;
+  document.getElementById("featured-title").textContent = d.featured.title;
+  document.getElementById("featured-text").textContent = d.featured.text;
+  document.getElementById("featured-link").href = d.featured.url;
+
+  // news
+  const ng = document.getElementById("news-grid");
+  ng.textContent = "";
+  d.news.forEach(n => {
+    const card = el("article", "news");
+    card.dataset.r = n.region;
+    const top = el("div", "top");
+    top.appendChild(el("span", "rtag " + n.region, REGION_LABEL[n.region] || n.region));
+    top.appendChild(el("span", "ndate mono", n.date));
+    card.appendChild(top);
+    card.appendChild(el("h3", null, n.title));
+    card.appendChild(el("p", null, n.text));
+    const a = el("a", "more", "READ MORE →");
+    a.href = n.url; a.target = "_blank"; a.rel = "noopener";
+    card.appendChild(a);
+    ng.appendChild(card);
+  });
+
+  // stats
+  const dg = document.getElementById("data-grid");
+  dg.textContent = "";
+  d.stats.forEach(s => {
+    const card = el("div", "datum");
+    const num = el("div", "num", s.num);
+    num.appendChild(el("span", null, s.unit));
+    card.appendChild(num);
+    card.appendChild(el("div", "lbl", s.label));
+    card.appendChild(el("div", "src", s.src));
+    dg.appendChild(card);
+  });
+
+  // archive
+  const al = document.getElementById("arch-list");
+  al.textContent = "";
+  d.archive.forEach(m => {
+    const a = el("a", null, m);
+    a.href = "#news";
+    al.appendChild(a);
+  });
+
+  // filters
+  const btns = document.querySelectorAll(".fbtn");
+  const cards = document.querySelectorAll(".news");
+  btns.forEach(b => b.onclick = () => {
+    btns.forEach(x => x.classList.remove("active"));
+    b.classList.add("active");
+    const f = b.dataset.f;
+    cards.forEach(c => c.classList.toggle("hidden", f !== "all" && c.dataset.r !== f));
+  });
+}
+
+fetch("data.json?t=" + Date.now())
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(render)
+  .catch(() => render(FALLBACK_DATA));
 </script>
 </body>
 </html>
