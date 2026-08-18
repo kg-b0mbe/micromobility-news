@@ -1,12 +1,12 @@
 {
   "updated": "2026.08.18",
   "ticker": [
-    "🇧🇪 ブリュッセル、Lime訴訟でBolt・Dott・Voi免許取消し — 9/1に全車両撤去令",
-    "🚲 Bay Wheels → 「Lyft Bike」に改名、新型1,000台を投入",
-    "🛴 Veo「Rover」北米初の共有電動トライク、デンバーで50台デビュー",
-    "⚠️ NOLLへの刷新前に大規模障害 — ドコモ・バイクシェアが8/4全国停止",
     "🛴 Luup「夜風割」8/20から夜のライド料金が半額に",
-    "💹 Lime、NASDAQ上場 — 時価総額は約16.6億ドル"
+    "💹 Lime、NASDAQ上場 — 時価総額は約16.6億ドル",
+    "🚲 ドコモ・バイクシェアが「NOLL」に全面刷新",
+    "🇪🇺 Voi、四半期売上€68.8Mの過去最高を記録",
+    "🏙️ シカゴDivvy、年間1,290万トリップで過去最高",
+    "🇫🇷 パリVélib'は中国圏外で世界一の利用数"
   ],
   "pulse": [
     {
@@ -15,23 +15,23 @@
       "en": "JAPAN",
       "ja": "日本",
       "stat": "全国323都市に拡大",
-      "text": "ドコモ系が「NOLL」へ9月刷新を前に全国規模のシステム障害が発生し注目を集めた。HELLO CYCLINGは全国5万台へ拡大。Luupは夜割やみまもり機能で攻勢。国内シェアサイクルは「乱立」から「インフラ化」の段階へ。"
+      "text": "ドコモ系が「NOLL」へブランド統合、HELLO CYCLINGは全国5万台へ。Luupは夜割やみまもり機能で攻勢。国内シェアサイクルは「乱立」から「インフラ化」の段階へ。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "Lime上場＆Lyft Bike誕生",
-      "text": "LimeのNASDAQ上場に続き、Bay WheelsがLyft Bikeに改名。デンバーではVeoが北米初の共有電動トライク「Rover」を投入。都市が事業者を厳選する時代が鮮明で、業界は「生き残り」から「成長」へ移行中。"
+      "stat": "Lime、ついに上場",
+      "text": "LimeがNASDAQ上場を果たし、シカゴは年間1,290万トリップの新記録。都市が事業者を選抜する時代になり、デンバーはVeo一本化へ。業界は「生き残り」から「成長」へ。"
     },
     {
       "cls": "eu",
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "ブリュッセル混乱、Voi・Dott黒字",
-      "text": "VoiとDottが揃って黒字化を達成する一方、ブリュッセルでは裁判所がBolt・Dott・Voiの免許を取消し9月1日に全撤去命令。2027年からeスクーター全面禁止も決定し、欧州規制の揺り戻しが加速。"
+      "stat": "Voi・Dott揃って黒字",
+      "text": "VoiとDott（旧TIER統合）がそろって黒字化を達成し、新型車両を大量投入。パリVélib'は中国圏外で世界最多の利用数を誇り、ロンドンも長期契約を更新。"
     },
     {
       "cls": "as",
@@ -47,13 +47,14 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "累計10億ライド超え。2026年7月にNASDAQ上場を果たし、Q2は純利益2億9,500万ドルを計上。ブリュッセルでは自社の法的異議申し立てが認められ免許取消しを勝ち取ったが、メキシコシティには60日間パイロットで再参入するなど攻勢が続く。",
+      "desc": "累計10億ライド超え。2026年7月にNASDAQ上場を果たし、シェアマイクロモビリティの「勝ち組」を象徴する存在に。",
       "tags": [
         "NASDAQ上場",
         "eバイク＋キックボード",
         "5大陸展開"
       ],
-      "score": 96
+      "score": 96,
+      "site": "https://www.li.me/"
     },
     {
       "medal": "🥈",
@@ -65,19 +66,21 @@
         "月€10で乗り放題級",
         "ドック式"
       ],
-      "score": 93
+      "score": 93,
+      "site": "https://www.velib-metropole.fr/"
     },
     {
       "medal": "🥉",
       "name": "Citi Bike",
       "meta": "米国 · ニューヨーク",
-      "desc": "北米最大、約37,000台で年間4,400万ライド超。eバイク比率が急上昇し、Bike to Work Weekは通勤時間帯の利用が70%増。Lyft Bikeへの改名推進でLyftブランドとの一体化が進む。",
+      "desc": "北米最大、約37,000台で年間4,400万ライド超。eバイク比率が急上昇し、Bike to Work Weekは通勤時間帯の利用が70%増。",
       "tags": [
         "北米最大",
         "eバイク急成長",
         "Lyft運営"
       ],
-      "score": 91
+      "score": 91,
+      "site": "https://citibikenyc.com/"
     },
     {
       "medal": "#4",
@@ -89,19 +92,21 @@
         "超低価格",
         "Alipay連携"
       ],
-      "score": 88
+      "score": 88,
+      "site": "https://www.hello-inc.com/"
     },
     {
       "medal": "#5",
       "name": "Voi",
       "meta": "スウェーデン · 欧州100+都市",
-      "desc": "2026年Q2は売上€68.8M（前年比+47%）で過去最高。累計5億ライドの知見を注いだ新型3車種を投入し、IPOも視野に。ブリュッセルでは免許取消しを受け9月1日までに撤退を迫られる試練も。",
+      "desc": "2026年Q2は売上€68.8M（前年比+47%）で過去最高。累計5億ライドの知見を注いだ新型3車種を投入し、IPOも視野に。",
       "tags": [
         "黒字成長",
         "新型Voiager 9",
         "Net Zero 2035"
       ],
-      "score": 86
+      "score": 86,
+      "site": "https://www.voi.com/"
     },
     {
       "medal": "#6",
@@ -113,19 +118,21 @@
         "地域連携90社",
         "電動アシスト"
       ],
-      "score": 84
+      "score": 84,
+      "site": "https://www.hellocycling.jp/"
     },
     {
       "medal": "#7",
       "name": "Dott（旧TIER統合）",
       "meta": "オランダ · 欧州",
-      "desc": "2025年に統合後初の黒字化（売上€173M）。2026年春には新型45,000台を一斉投入したが、ブリュッセルでは裁判所判決で免許取消しとなり9月までに撤退を余儀なくされる逆風も。",
+      "desc": "2025年に統合後初の黒字化（売上€173M）。2026年春には新型45,000台をヘルシンキからリヨンまで一斉投入。",
       "tags": [
         "TIERと統合",
         "初の黒字化",
         "新車4.5万台"
       ],
-      "score": 81
+      "score": 82,
+      "site": "https://ridedott.com/"
     },
     {
       "medal": "#8",
@@ -137,7 +144,8 @@
         "ポート1.2万+",
         "安全機能強化"
       ],
-      "score": 80
+      "score": 80,
+      "site": "https://luup.sc/"
     }
   ],
   "featured": {
@@ -149,38 +157,10 @@
   "news": [
     {
       "region": "jp",
-      "date": "2026.08.04",
-      "title": "ドコモ・バイクシェア、全国でサービス一時停止 — NOLL移行前のシステム障害",
-      "text": "8月1日のシステム仕様変更（ログイン方式・精算タイミング）を発端に断続的な不具合が発生し、8月4日14時30分から全国全エリアで一時停止。9月の「NOLL」ブランド本格移行に向けた先行作業が引き金となった。対象期間の利用料金は返金対応が発表されている。",
-      "url": "https://k-tai.watch.impress.co.jp/docs/news/2130442.html"
-    },
-    {
-      "region": "jp",
       "date": "2026.08.13",
       "title": "Luup「夜風割」開始 — 8/20から夜のライド料金が半額に",
       "text": "夏の夜の移動需要を狙ったキャンペーン。エントリー制で、夜間のライドが半額になる。ハチ公をテーマにした渋谷「HACHI-8 PROJECT」への参画や、乗り放題パスのeギフト販売開始など、8月は話題が続く。",
       "url": "https://luup.sc/news/2026-08-13-yokazewari/"
-    },
-    {
-      "region": "eu",
-      "date": "2026.07.29",
-      "title": "ブリュッセル混乱 — Lime訴訟勝訴でBolt・Dott・Voiの免許取消し、9/1に全車両撤去令",
-      "text": "ブリュッセル国家評議会が2023年の入札プロセスを違法と裁定。Limeの訴えが認められ、Bolt・Dott・Voiの共有eスクーター・eバイクの免許が取消しに。9月1日までに全車両を公道から撤去するよう命じられた。2025年は同市で1,450万トリップが記録されており、影響は甚大だ。",
-      "url": "https://zagdaily.com/micromobility/court-ruling-forces-dockless-bikes-and-scooters-out-of-brussels/"
-    },
-    {
-      "region": "na",
-      "date": "2026.07.29",
-      "title": "Bay Wheels、「Lyft Bike」に改名 — 新型1,000台を6都市に投入",
-      "text": "サンフランシスコ湾岸6都市で展開するBay Wheelsが7月29日に「Lyft Bike」へ全面改名。ペダルバイクとeバイク合わせて7,000台超・550ステーションを擁し、2026年だけで約300万ライドを記録。新型2モデルと1,000台の新車両が順次導入される。",
-      "url": "https://zagdaily.com/micromobility/bay-wheels-rebrands-to-lyft-bike-as-two-new-models-hit-the-streets/"
-    },
-    {
-      "region": "na",
-      "date": "2026.07.28",
-      "title": "Veo、北米初の共有電動トライク「Rover」をデンバーでデビュー",
-      "text": "障害者・高齢者・地域団体との共同開発で生まれた3輪eビークル「Rover」が50台限定でデンバー中心部に登場。最高速度16km/h・積載100ポンドのカーゴバスケット装備で、シェアモビリティの利用ハードルを下げる新カテゴリーとして注目を集める。",
-      "url": "https://www.veoride.com/veo-launches-shared-electric-trike-expanding-access-to-micromobility/"
     },
     {
       "region": "eu",
@@ -239,11 +219,53 @@
       "url": "https://news.yahoo.co.jp/articles/33594d4405850b0a32ae70d7e7a978d0b65c0d18"
     },
     {
+      "region": "eu",
+      "date": "2026.04.01",
+      "title": "Dott、新型45,000台を欧州一斉投入 — バッテリー容量は2倍に",
+      "text": "ヘルシンキ、ハンブルク、ブリストル、ブリュッセル、ミラノ、リヨンなどでeバイク13,000台・eスクーター32,000台を展開。2025年に統合後初の黒字（売上€173M）を達成した勢いのままフリートを刷新する。",
+      "url": "https://futuretransport-news.com/dott-expands-european-fleet-with-45000-new-e-bikes-and-e-scooters/"
+    },
+    {
+      "region": "jp",
+      "date": "2026.04.01",
+      "title": "大阪のシェアサイクル2ブランドが統合 — 「HUBchari」へ一本化",
+      "text": "相互乗り入れで連携してきた大阪の2ブランドが統合。ホームレス支援のNPO・Homedoorが運営する「ハブチャリ」に一本化され、社会課題解決型シェアサイクルの先進例として注目を集める。",
+      "url": "https://www.nikkei.com/compass/theme/14799"
+    },
+    {
       "region": "gl",
       "date": "2026.03.28",
       "title": "世界のバイクシェア市場、2026年は45.3億ドルへ — 2030年に約60億ドル予測",
       "text": "市場規模は2025年の42.4億ドルから年率6.7%で成長中。都市の自転車インフラ拡充、脱炭素意識の高まり、短距離通勤ニーズが追い風で、ドックレス型とeバイクシェアの拡大が主要トレンドとなっている。",
       "url": "https://www.gii.co.jp/report/tbrc1995977-bike-sharing-global-market-report.html"
+    },
+    {
+      "region": "na",
+      "date": "2026.03.20",
+      "title": "Bird、アトランタの公営住宅と連携 — 住民のライドが54%増",
+      "text": "全米初の「マイクロモビリティ×住宅×雇用」の取り組み。公営住宅の住民に手頃な価格でeスクーター・eバイクを提供し、仕事や交通機関へのアクセスを改善。指定ゾーンでのライドは54%増加した。",
+      "url": "https://bird.co/"
+    },
+    {
+      "region": "eu",
+      "date": "2026.03.02",
+      "title": "Voi、2026年の新型3車種を発表 — 累計5億ライドの知見を注いだ「Voiager 9」",
+      "text": "新型eスクーターVoiager 9と、バッテリー容量40%増の新型eバイク2種をストックホルムから順次投入。自社開発IoTで精密なジオフェンシングに対応し、都市の規制にも即応できる設計だ。",
+      "url": "https://micromobility.io/news/voi-introduces-three-new-vehicles-for-2026"
+    },
+    {
+      "region": "na",
+      "date": "2026.01.15",
+      "title": "シカゴ、年間1,290万トリップで過去最高 — 市の補助でシェアバイクが爆発的成長",
+      "text": "Divvyバイクとスクーターの2025年利用が前年比約200万回増の新記録。市が300万ドル超を投じ、年会費の凍結・99ドルの割引メンバーシップ・eバイク料金の上限設定を実施した「公共投資」が実を結んだ形だ。",
+      "url": "https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2026/january/micromobility-record-year.html"
+    },
+    {
+      "region": "eu",
+      "date": "2026.01.12",
+      "title": "ロンドン「サンタンデール・サイクルズ」長期契約を更新 — 充電ドック＋新アプリへ",
+      "text": "Boris Bikesの愛称で親しまれた公共シェアサイクルが次章へ。ドック内充電ステーション、新ライダーアプリ、キオスク刷新を計画。ビルバオやラ・コルーニャなど欧州各都市もステーション拡張を発表している。",
+      "url": "https://lyfturbansolutions.com/blog/2026/01/2025-in-motion-a-year-of-global-success-and-growth-in-shared-micromobility"
     }
   ],
   "stats": [
