@@ -1,0 +1,42 @@
+name: Daily News Update
+
+on:
+  schedule:
+    # 毎朝 6:00 JST (= 21:00 UTC 前日)
+    - cron: "0 21 * * *"
+  workflow_dispatch: {}  # 手動実行も可能
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install anthropic
+
+      - name: Update news data
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/update_news.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "ride-the-world-bot"
+          git config user.email "actions@github.com"
+          git add data.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "🚲 Daily news update ($(TZ=Asia/Tokyo date +%Y.%m.%d))"
+            git push
+          fi
