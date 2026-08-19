@@ -1,12 +1,12 @@
 {
-  "updated": "2026.08.19",
+  "updated": "2026.08.20",
   "ticker": [
+    "🇮🇹 伊当局、Lime・Bird・Dottにローマでのeスクーター不正で計€270万罰金",
+    "🛴 ミネアポリス「スクーター暴走」にLimeがBANとジオフェンスで応戦",
     "📈 Lime Q2決算：売上$304M・前年比+24%、通年$1.1B射程",
     "🇧🇪 ブリュッセル混乱：Dott・Voi・Bolt、9/1までに撤収命令",
     "🛺 Veo、北米初のシェア電動トライク「Rover」をデンバーで投入",
-    "🚲 北米シェアマイクロモビリティ、2025年は2.37億トリップで3年連続最高",
-    "🏷️ Lyft、ベイエリアのBay WheelsをLyft Bikeにリブランド",
-    "🇨🇦 Lime、Neuron Mobilityのカナダ事業を買収"
+    "🚲 北米シェアマイクロモビリティ、2025年は2.37億トリップで3年連続最高"
   ],
   "pulse": [
     {
@@ -15,7 +15,7 @@
       "en": "JAPAN",
       "ja": "日本",
       "stat": "全国323都市に拡大",
-      "text": "ドコモ系が「NOLL」へブランド統合、HELLO CYCLINGは全国5万台へ。Luupは夜割やみまもり機能で攻勢。国内シェアサイクルは「乱立」から「インフラ化」の段階へ。"
+      "text": "ドコモ系が「NOLL」へブランド統合、HELLO CYCLINGは全国5万台へ。Luupは法人向け「LUUP for Work」を開始し、夜割・みまもり機能でも攻勢。国内シェアサイクルは「乱立」から「インフラ化」の段階へ。"
     },
     {
       "cls": "na",
@@ -23,15 +23,15 @@
       "en": "NORTH AMERICA",
       "ja": "北米",
       "stat": "Lime Q2売上$304Mで通年$1.1B射程",
-      "text": "LimeがNASDAQ上場後初の決算で売上$304M（前年比+24%）を記録し、Neuron Mobilityカナダ事業も買収。VeoはデンバーでRover電動トライクを投入し多様化を加速。NABSAの報告書では2025年北米トリップが2.37億回で3年連続最高記録を更新した。"
+      "text": "LimeがNASDAQ上場後初の決算で売上$304M（前年比+24%）を記録し、Neuron Mobilityカナダ事業も買収。ミネアポリスでは集団スクーター暴走事件を受けてライダーBANとジオフェンスを実施。NABSAの報告書では2025年北米トリップが2.37億回で3年連続最高記録を更新した。"
     },
     {
       "cls": "eu",
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "ブリュッセル混乱・Voi黒字成長",
-      "text": "LimeのライセンスへのCourt of State異議申し立てが認められ、ブリュッセルはDott・Voi・Boltに9/1までの撤収を命令し、2027年からeスクーター全面禁止へ。一方でVoiとDottは黒字化を継続。パリVélib'は中国圏外で世界最多利用数を誇る。"
+      "stat": "ブリュッセル混乱・ローマ罰金・Voi黒字成長",
+      "text": "LimeのライセンスへのCourt of State異議申し立てが認められ、ブリュッセルはDott・Voi・Boltに9/1までの撤収を命令し、2027年からeスクーター全面禁止へ。イタリア当局はローマ運営のLime・Bird・Dottに計€270万の罰金。Voiは黒字成長を継続しIPOも視野。"
     },
     {
       "cls": "as",
@@ -47,7 +47,7 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "累計10億ライド超え。2026年7月NASDAQ上場後の初決算でQ2売上$304M（前年比+24%）・EBITDA$84Mを達成。Neuron Mobilityのカナダ事業を買収し、通年売上$1.04〜1.1Bを射程に。",
+      "desc": "累計10億ライド超え。2026年7月NASDAQ上場後の初決算でQ2売上$304M（前年比+24%）・EBITDA$84Mを達成。Neuron Mobilityのカナダ事業を買収し、通年売上$1.04〜1.1Bを射程に。ミネアポリスの集団暴走事件ではジオフェンスとBANで迅速対応。イタリアでは€1.4Mの罰金も。",
       "tags": [
         "NASDAQ上場",
         "Q2売上$304M",
@@ -125,26 +125,26 @@
       "medal": "#7",
       "name": "Dott（旧TIER統合）",
       "meta": "オランダ · 欧州",
-      "desc": "2025年に統合後初の黒字化（売上€173M）。2026年春には新型45,000台を欧州各地に一斉投入。ブリュッセルでは9/1撤収命令を受けるなど規制リスクも顕在化。",
+      "desc": "2025年に統合後初の黒字化（売上€173M）。2026年春には新型45,000台を欧州各地に一斉投入。ブリュッセルでは9/1撤収命令、ローマでは€525Kの罰金と規制リスクが相次いで顕在化。",
       "tags": [
         "TIERと統合",
         "初の黒字化",
-        "ブリュッセル撤収"
+        "規制リスク増大"
       ],
-      "score": 80,
+      "score": 79,
       "site": "https://ridedott.com/"
     },
     {
       "medal": "#8",
       "name": "Luup",
       "meta": "日本 · 電動キックボード＋自転車",
-      "desc": "国内最大の電動マイクロモビリティ。ポート1.2万カ所超・車両3万台超で、夜割・みまもりストップなど話題の施策を連発。",
+      "desc": "国内最大の電動マイクロモビリティ。ポート1.7万カ所超・車両3万台超で、法人向け「LUUP for Work」も開始。夜割・みまもりストップなど話題の施策を連発。",
       "tags": [
         "国内最大手",
-        "ポート1.2万+",
+        "LUUP for Work開始",
         "安全機能強化"
       ],
-      "score": 80,
+      "score": 81,
       "site": "https://luup.sc/"
     }
   ],
@@ -155,6 +155,20 @@
     "url": "https://investors.li.me/news-releases/news-release-details/lime-announces-second-quarter-2026-financial-results"
   },
   "news": [
+    {
+      "region": "na",
+      "date": "2026.08.14",
+      "title": "Limeミネアポリス「スクーター暴走」事件 — 高速道路侵入ライダーをBANしジオフェンス設定",
+      "text": "8月8日にTikTokで拡散した集団スクーターイベントで数百人がミネアポリス市内を走行、一部がI-35Wに侵入。Limeは高速道路を走行したライダーのアカウントを全員BANし、スロー・ノーライドゾーンをアプリ上に設定。ミシネソタ州警察は「極めて危険な状況」と警告し、市当局と共同調査を開始した。",
+      "url": "https://www.mprnews.org/story/2026/08/14/users-banned-routes-limited-after-lime-scooter-takeovers-in-minneapolis"
+    },
+    {
+      "region": "eu",
+      "date": "2026.08.06",
+      "title": "イタリア当局、Lime・Bird・Dottにローマeスクーター不正で計€270万罰金",
+      "text": "イタリア競争当局（AGCM）が、ローマの年間交通パス（Metrebus）保持者への無料ライド提供義務を怠ったとして、Lime（€140万）・Bird（€75万）・Dott（€52.5万）に計約€270万の罰金を科した。Birdにはアカウント不当停止の追加制裁も。欧州での規制リスクが改めて浮き彫りになった。",
+      "url": "https://www.euronews.com/next/2026/08/06/electric-scooters-lime-bird-and-dott-fined-26-million-in-rome"
+    },
     {
       "region": "eu",
       "date": "2026.08.13",
@@ -184,18 +198,18 @@
       "url": "https://www.veoride.com/veo-launches-shared-electric-trike-expanding-access-to-micromobility/"
     },
     {
+      "region": "jp",
+      "date": "2026.07.15",
+      "title": "Luup、法人向け「LUUP for Work」提供開始 — アプリ切り替えだけで会社負担ライドが可能に",
+      "text": "Luupが法人向けサービス「LUUP for Work」を開始。従業員がアプリで「法人モード」に切り替えるだけで電動キックボード・電動アシスト自転車の料金を会社負担にでき、月次一括請求で経費精算の手間も省ける。月10回・45分以内無料のBusinessプランは8月3日スタート。先行導入企業はすでに200社超。",
+      "url": "https://luup.sc/news/2026-07-15-luup-for-work/"
+    },
+    {
       "region": "na",
       "date": "2026.07.15",
       "title": "Lyft、ベイエリアのBay WheelsをLyft Bikeにリブランド — 新世代フリートへ投資継続",
       "text": "Lyftがサンフランシスコ湾岸エリアのシェアバイクサービス「Bay Wheels」を「Lyft Bike」に改称し、Lyftブランドに統合。次世代ペダルバイクとeバイクへのフリート刷新投資を継続する方針で、シェアモビリティとライドシェアを一体化したプラットフォーム戦略を加速させる。",
       "url": "https://micromobility.substack.com/p/more-chaos-for-shared-micromobility"
-    },
-    {
-      "region": "jp",
-      "date": "2026.08.13",
-      "title": "Luup「夜風割」開始 — 8/20から夜のライド料金が半額に",
-      "text": "夏の夜の移動需要を狙ったキャンペーン。エントリー制で、夜間のライドが半額になる。ハチ公をテーマにした渋谷「HACHI-8 PROJECT」への参画や、乗り放題パスのeギフト販売開始など、8月は話題が続く。",
-      "url": "https://luup.sc/news/2026-08-13-yokazewari/"
     },
     {
       "region": "eu",
@@ -213,10 +227,10 @@
     },
     {
       "region": "jp",
-      "date": "2026.06.23",
-      "title": "Luup、自動で止まる「地域みまもりストップ機能」を導入",
-      "text": "京都府・京都府警と連携し、通行禁止の鴨川沿い河川敷で電動キックボードを音声案内とともに自動停止させる業界初の機能。GPSで歩行者空間をみまもり、テクノロジーで安全を担保するアプローチとして注目される。",
-      "url": "https://luup.sc/news/2026-6-23-safe-stop/"
+      "date": "2026.08.13",
+      "title": "Luup「夜風割」開始 — 8/20から夜のライド料金が半額に",
+      "text": "夏の夜の移動需要を狙ったキャンペーン。エントリー制で、夜間のライドが半額になる。ハチ公をテーマにした渋谷「HACHI-8 PROJECT」への参画や、乗り放題パスのeギフト販売開始など、8月は話題が続く。",
+      "url": "https://luup.sc/news/2026-08-13-yokazewari/"
     },
     {
       "region": "gl",
@@ -226,18 +240,18 @@
       "url": "https://futuretransport-news.com/why-station-based-bike-sharing-is-coming-back-research-and-real-life-examples-of-successful-businesses/"
     },
     {
+      "region": "jp",
+      "date": "2026.06.23",
+      "title": "Luup、自動で止まる「地域みまもりストップ機能」を導入",
+      "text": "京都府・京都府警と連携し、通行禁止の鴨川沿い河川敷で電動キックボードを音声案内とともに自動停止させる業界初の機能。GPSで歩行者空間をみまもり、テクノロジーで安全を担保するアプローチとして注目される。",
+      "url": "https://luup.sc/news/2026-6-23-safe-stop/"
+    },
+    {
       "region": "na",
       "date": "2026.06.02",
       "title": "Bike to Work Week、NYのCiti Bikeは通勤時間帯の利用が70%増",
       "text": "5月の自転車通勤週間で主要都市の通勤時間帯ライドが平均45%増。NYで+70%、シカゴで+68%と、シェアサイクルが「イベント」ではなく通勤インフラとして定着していることを示した。",
       "url": "https://lyfturbansolutions.com/blog/2026/06/commuter-rides-spike-across-cities-a-bike-to-work-week-recap"
-    },
-    {
-      "region": "na",
-      "date": "2026.05.31",
-      "title": "デンバー、LimeとBirdに別れを告げVeo一本化へ — 「選抜」の時代に",
-      "text": "5年間続いたLime・Birdとの契約が満了し、市はVeoと3年契約を交渉。安全性・アクセシビリティ・低所得者向けプログラムを評価しての選定で、都市が事業者を厳選する流れを象徴する動きだ。",
-      "url": "https://denverite.com/2025/12/30/denver-ends-contracts-with-lime-bird-for-veo-scooters-bikes/"
     },
     {
       "region": "jp",
@@ -252,13 +266,6 @@
       "title": "ドコモ・バイクシェアが「NOLL（ノル）」へ全面刷新 — 全国63エリアの名称を統一",
       "text": "2011年から自治体連携で広がった赤いシェアサイクルがブランド一新。「ちよくる」など各地でバラバラだった名称を統一し、料金も10分ごと99円からに刷新。全国323都市に広がる移動インフラの覇権争いが加速する。",
       "url": "https://news.yahoo.co.jp/articles/33594d4405850b0a32ae70d7e7a978d0b65c0d18"
-    },
-    {
-      "region": "eu",
-      "date": "2026.04.01",
-      "title": "Dott、新型45,000台を欧州一斉投入 — バッテリー容量は2倍に",
-      "text": "ヘルシンキ、ハンブルク、ブリストル、ブリュッセル、ミラノ、リヨンなどでeバイク13,000台・eスクーター32,000台を展開。2025年に統合後初の黒字（売上€173M）を達成した勢いのままフリートを刷新する。",
-      "url": "https://futuretransport-news.com/dott-expands-european-fleet-with-45000-new-e-bikes-and-e-scooters/"
     }
   ],
   "stats": [
@@ -291,7 +298,6 @@
     "2026.08",
     "2026.07",
     "2026.06",
-    "2026.05",
-    "2026.04"
+    "2026.05"
   ]
 }
