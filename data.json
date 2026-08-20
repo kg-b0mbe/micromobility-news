@@ -1,11 +1,11 @@
 {
-  "updated": "2026.08.20",
+  "updated": "2026.08.21",
   "ticker": [
+    "🇯🇵 LUUPがNAVITIMEに対応、リアルタイム空き状況でルート検索が可能に",
+    "🇩🇪 ドイツ、Lime・Boltに事故責任を課すeスクーター事業者責任法案を提出",
     "🇮🇹 伊当局、Lime・Bird・Dottにローマでのeスクーター不正で計€270万罰金",
-    "🛴 ミネアポリス「スクーター暴走」にLimeがBANとジオフェンスで応戦",
     "📈 Lime Q2決算：売上$304M・前年比+24%、通年$1.1B射程",
     "🇧🇪 ブリュッセル混乱：Dott・Voi・Bolt、9/1までに撤収命令",
-    "🛺 Veo、北米初のシェア電動トライク「Rover」をデンバーで投入",
     "🚲 北米シェアマイクロモビリティ、2025年は2.37億トリップで3年連続最高"
   ],
   "pulse": [
@@ -15,7 +15,7 @@
       "en": "JAPAN",
       "ja": "日本",
       "stat": "全国323都市に拡大",
-      "text": "ドコモ系が「NOLL」へブランド統合、HELLO CYCLINGは全国5万台へ。Luupは法人向け「LUUP for Work」を開始し、夜割・みまもり機能でも攻勢。国内シェアサイクルは「乱立」から「インフラ化」の段階へ。"
+      "text": "ドコモ系が「NOLL」へブランド統合、HELLO CYCLINGは全国5万台へ。LuupはNAVITIME・自転車NAVITIMEとのリアルタイム空き状況連携を開始し、公共交通との組み合わせ利用がより便利に。法人向け「LUUP for Work」も拡大中で、国内シェアサイクルは「インフラ化」が加速。"
     },
     {
       "cls": "na",
@@ -30,8 +30,8 @@
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "ブリュッセル混乱・ローマ罰金・Voi黒字成長",
-      "text": "LimeのライセンスへのCourt of State異議申し立てが認められ、ブリュッセルはDott・Voi・Boltに9/1までの撤収を命令し、2027年からeスクーター全面禁止へ。イタリア当局はローマ運営のLime・Bird・Dottに計€270万の罰金。Voiは黒字成長を継続しIPOも視野。"
+      "stat": "規制包囲網が強まる — ブリュッセル撤収・ローマ罰金・独責任法案",
+      "text": "ブリュッセルはDott・Voi・Boltに9/1までの撤収を命令し2027年からeスクーター全面禁止へ。イタリア当局はローマ運営3社に計€270万罰金。ドイツではLime・Boltに事故責任を課す法案が提出され欧州全体で規制包囲網が強まる。Voiは黒字成長を継続しIPOも視野。"
     },
     {
       "cls": "as",
@@ -47,7 +47,7 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "累計10億ライド超え。2026年7月NASDAQ上場後の初決算でQ2売上$304M（前年比+24%）・EBITDA$84Mを達成。Neuron Mobilityのカナダ事業を買収し、通年売上$1.04〜1.1Bを射程に。ミネアポリスの集団暴走事件ではジオフェンスとBANで迅速対応。イタリアでは€1.4Mの罰金も。",
+      "desc": "累計10億ライド超え。2026年7月NASDAQ上場後の初決算でQ2売上$304M（前年比+24%）・EBITDA$84Mを達成。Neuron Mobilityのカナダ事業を買収し、通年売上$1.04〜1.1Bを射程に。ミネアポリスの集団暴走事件ではジオフェンスとBANで迅速対応。イタリアでは€140万の罰金、ドイツでも事業者責任法案の対象に。",
       "tags": [
         "NASDAQ上場",
         "Q2売上$304M",
@@ -125,7 +125,7 @@
       "medal": "#7",
       "name": "Dott（旧TIER統合）",
       "meta": "オランダ · 欧州",
-      "desc": "2025年に統合後初の黒字化（売上€173M）。2026年春には新型45,000台を欧州各地に一斉投入。ブリュッセルでは9/1撤収命令、ローマでは€525Kの罰金と規制リスクが相次いで顕在化。",
+      "desc": "2025年に統合後初の黒字化（売上€173M）。2026年春には新型45,000台を欧州各地に一斉投入。ブリュッセルでは9/1撤収命令、ローマでは€52.5万の罰金と規制リスクが相次いで顕在化。",
       "tags": [
         "TIERと統合",
         "初の黒字化",
@@ -138,11 +138,11 @@
       "medal": "#8",
       "name": "Luup",
       "meta": "日本 · 電動キックボード＋自転車",
-      "desc": "国内最大の電動マイクロモビリティ。ポート1.7万カ所超・車両3万台超で、法人向け「LUUP for Work」も開始。夜割・みまもりストップなど話題の施策を連発。",
+      "desc": "国内最大の電動マイクロモビリティ。ポート1.7万カ所超・車両3万台超。NAVITIMEとリアルタイム空き状況連携を開始し、公共交通との接続が強化。法人向け「LUUP for Work」・夜割・みまもり機能でも攻勢。",
       "tags": [
         "国内最大手",
-        "LUUP for Work開始",
-        "安全機能強化"
+        "NAVITIME連携開始",
+        "LUUP for Work"
       ],
       "score": 81,
       "site": "https://luup.sc/"
@@ -156,6 +156,27 @@
   },
   "news": [
     {
+      "region": "jp",
+      "date": "2026.08.20",
+      "title": "Luup、「NAVITIME」「自転車NAVITIME」のルート検索に対応 — リアルタイム空き状況で乗り継ぎをスムーズに",
+      "text": "LuupがナビタイムジャパンのNAVITIMEおよび自転車NAVITIMEのルート検索機能に対応（8月19日開始）。出発地・目的地付近のLUUPポートのリアルタイム空き状況を反映したルートを一括案内し、「ポートに車両がない」「満車で返せない」問題を解消。電車・バスの遅延時の代替移動手段としても活用できる。",
+      "url": "https://luup.sc/news/2026-08-20-navitime/"
+    },
+    {
+      "region": "eu",
+      "date": "2026.08.11",
+      "title": "ドイツのeスクーター、私有が8割超に — レンタル台数は減少、規制強化が背景",
+      "text": "ドイツ保険協会（GDV）の発表によると、2025年のドイツのeスクーターの80%超が私有。レンタル台数は前年比約10%減少し、私有台数は4年間でほぼ3倍に急増。都市部の禁止令や規制強化・コスト上昇がレンタル事業者に逆風となっており、Limeなどの共有事業者は厳しい事業環境に直面している。",
+      "url": "https://www.insurancejournal.com/news/international/2026/08/11/880920.htm"
+    },
+    {
+      "region": "eu",
+      "date": "2026.07.10",
+      "title": "ドイツ、Lime・Boltに事故責任を課すeスクーター事業者責任法案を提出 — 欧州規制圧力がさらに拡大",
+      "text": "ドイツ連邦政府がLime・Boltなどレンタルeスクーター事業者を事故の厳格責任者とする法案を提出。現行制度では被害者がライダーの過失を証明する必要があるが、新法ではライダーが無過失を証明する義務に転換。事業者が車両オーナーとして厳格責任を負う仕組みで、欧州での規制圧力が一段と強まっている。",
+      "url": "https://www.euronews.com/next/2026/07/10/germany-puts-the-squeeze-on-lime-and-bolt-with-tougher-e-scooter-liability-rules"
+    },
+    {
       "region": "na",
       "date": "2026.08.14",
       "title": "Limeミネアポリス「スクーター暴走」事件 — 高速道路侵入ライダーをBANしジオフェンス設定",
@@ -164,17 +185,17 @@
     },
     {
       "region": "eu",
-      "date": "2026.08.06",
-      "title": "イタリア当局、Lime・Bird・Dottにローマeスクーター不正で計€270万罰金",
-      "text": "イタリア競争当局（AGCM）が、ローマの年間交通パス（Metrebus）保持者への無料ライド提供義務を怠ったとして、Lime（€140万）・Bird（€75万）・Dott（€52.5万）に計約€270万の罰金を科した。Birdにはアカウント不当停止の追加制裁も。欧州での規制リスクが改めて浮き彫りになった。",
-      "url": "https://www.euronews.com/next/2026/08/06/electric-scooters-lime-bird-and-dott-fined-26-million-in-rome"
-    },
-    {
-      "region": "eu",
       "date": "2026.08.13",
       "title": "ブリュッセル、Court of StateがDott・Voi・Boltのライセンスを無効化 — 9/1までに車両撤収命令",
       "text": "Limeのライセンス審査への異議申し立てが認められ、ブリュッセル首都圏はDott・Voi・Boltのフリーフローティング自転車・eスクーターを9月1日までに撤収するよう命令。2025年に1,450万トリップを記録した市場が突如崩壊の危機に。2027年1月からのeスクーター全面禁止計画も同時進行し、欧州規制リスクが再び浮上している。",
       "url": "https://zagdaily.com/micromobility/court-ruling-forces-dockless-bikes-and-scooters-out-of-brussels/"
+    },
+    {
+      "region": "eu",
+      "date": "2026.08.06",
+      "title": "イタリア当局、Lime・Bird・Dottにローマeスクーター不正で計€270万罰金",
+      "text": "イタリア競争当局（AGCM）が、ローマの年間交通パス（Metrebus）保持者への無料ライド提供義務を怠ったとして、Lime（€140万）・Bird（€75万）・Dott（€52.5万）に計約€270万の罰金を科した。Birdにはアカウント不当停止の追加制裁も。欧州での規制リスクが改めて浮き彫りになった。",
+      "url": "https://www.euronews.com/next/2026/08/06/electric-scooters-lime-bird-and-dott-fined-26-million-in-rome"
     },
     {
       "region": "na",
@@ -198,6 +219,13 @@
       "url": "https://www.veoride.com/veo-launches-shared-electric-trike-expanding-access-to-micromobility/"
     },
     {
+      "region": "eu",
+      "date": "2026.07.20",
+      "title": "Voi、四半期売上€68.8Mで過去最高 — 前年比47%増の急成長",
+      "text": "2026年Q2は調整後EBITDAがほぼ倍増の€19.7M。パリ・ロンドンなど主要市場での拡大と車両あたり収益の改善が牽引し、直近12カ月の売上は€210Mを突破。欧州勢の黒字成長が鮮明になっている。",
+      "url": "https://micromobility.substack.com/p/a-blockbuster-q2-for-voi-688m-revenue"
+    },
+    {
       "region": "jp",
       "date": "2026.07.15",
       "title": "Luup、法人向け「LUUP for Work」提供開始 — アプリ切り替えだけで会社負担ライドが可能に",
@@ -210,13 +238,6 @@
       "title": "Lyft、ベイエリアのBay WheelsをLyft Bikeにリブランド — 新世代フリートへ投資継続",
       "text": "Lyftがサンフランシスコ湾岸エリアのシェアバイクサービス「Bay Wheels」を「Lyft Bike」に改称し、Lyftブランドに統合。次世代ペダルバイクとeバイクへのフリート刷新投資を継続する方針で、シェアモビリティとライドシェアを一体化したプラットフォーム戦略を加速させる。",
       "url": "https://micromobility.substack.com/p/more-chaos-for-shared-micromobility"
-    },
-    {
-      "region": "eu",
-      "date": "2026.07.20",
-      "title": "Voi、四半期売上€68.8Mで過去最高 — 前年比47%増の急成長",
-      "text": "2026年Q2は調整後EBITDAがほぼ倍増の€19.7M。パリ・ロンドンなど主要市場での拡大と車両あたり収益の改善が牽引し、直近12カ月の売上は€210Mを突破。欧州勢の黒字成長が鮮明になっている。",
-      "url": "https://micromobility.substack.com/p/a-blockbuster-q2-for-voi-688m-revenue"
     },
     {
       "region": "as",
@@ -238,34 +259,6 @@
       "title": "「ドック式」回帰の流れ — 欧州の都市が選ぶのは秩序あるステーション型",
       "text": "放置問題に悩んだ都市が、駐輪場所が予測できるステーション型を再評価。スペインの利用補助、バルセロナBicingへの継続投資、ロンドンの長期契約更新など、公共交通と統合しやすいドック式が復権しつつある。",
       "url": "https://futuretransport-news.com/why-station-based-bike-sharing-is-coming-back-research-and-real-life-examples-of-successful-businesses/"
-    },
-    {
-      "region": "jp",
-      "date": "2026.06.23",
-      "title": "Luup、自動で止まる「地域みまもりストップ機能」を導入",
-      "text": "京都府・京都府警と連携し、通行禁止の鴨川沿い河川敷で電動キックボードを音声案内とともに自動停止させる業界初の機能。GPSで歩行者空間をみまもり、テクノロジーで安全を担保するアプローチとして注目される。",
-      "url": "https://luup.sc/news/2026-6-23-safe-stop/"
-    },
-    {
-      "region": "na",
-      "date": "2026.06.02",
-      "title": "Bike to Work Week、NYのCiti Bikeは通勤時間帯の利用が70%増",
-      "text": "5月の自転車通勤週間で主要都市の通勤時間帯ライドが平均45%増。NYで+70%、シカゴで+68%と、シェアサイクルが「イベント」ではなく通勤インフラとして定着していることを示した。",
-      "url": "https://lyfturbansolutions.com/blog/2026/06/commuter-rides-spike-across-cities-a-bike-to-work-week-recap"
-    },
-    {
-      "region": "jp",
-      "date": "2026.05.11",
-      "title": "HELLO CYCLING、全国5万台へ — 地場90社と組む独自モデルで拡大",
-      "text": "OpenStreetが展開する電動アシスト自転車シェアが全国で利用者を伸ばす。異業種企業の資金やノウハウを取り込む事業モデルで、観光地から地方都市まで移動の選択肢を増やしている。",
-      "url": "https://www.nikkei.com/article/DGXZQOUC20AZY0Q6A220C2000000/"
-    },
-    {
-      "region": "jp",
-      "date": "2026.05.01",
-      "title": "ドコモ・バイクシェアが「NOLL（ノル）」へ全面刷新 — 全国63エリアの名称を統一",
-      "text": "2011年から自治体連携で広がった赤いシェアサイクルがブランド一新。「ちよくる」など各地でバラバラだった名称を統一し、料金も10分ごと99円からに刷新。全国323都市に広がる移動インフラの覇権争いが加速する。",
-      "url": "https://news.yahoo.co.jp/articles/33594d4405850b0a32ae70d7e7a978d0b65c0d18"
     }
   ],
   "stats": [
