@@ -1,11 +1,11 @@
 {
-  "updated": "2026.09.25",
+  "updated": "2026.09.26",
   "ticker": [
-    "🇺🇸 グランドラピッズ、LimeからVeoへ切り替え・10月一本化",
-    "🇺🇸 コビントン市長、スクールゾーン周辺のeモビリティ規制調査を指示",
+    "🇬🇧 ロンドンeスクーターPhase 3、Lime・Voi・Dottが9月下旬…",
+    "🇮🇹 イタリア、Bird・Dott・Limeにローマ無料ライド妨害で€2.7M…",
+    "🇯🇵 ドコモ・バイクシェア、9月1日にNOLLへ正式刷新・63地域名称統一",
+    "🇺🇸 Divvy、2026年に年間800万トリップ超えを見込む",
     "🌍 Donkey Republic、H1 2026に初のEBIT黒字",
-    "💹 Lime、上場後の時価総額が$2.6Bに拡大",
-    "🇧🇪 ベルギー、時速20km超eスクーターのヘルメット着用を義務化",
     "🇯🇵 HELLO CYCLING、会員600万人を突破"
   ],
   "pulse": [
@@ -14,8 +14,8 @@
       "flag": "🇯🇵",
       "en": "JAPAN",
       "ja": "日本",
-      "stat": "HELLO会員600万人",
-      "text": "HELLO CYCLINGが会員600万人を突破し月間約10万人ペースで増加中。Luupはさいたま市で電動アシスト自転車×電動シートボードを全国初同時展開。ドコモ・バイクシェアはシステム障害を受けNOLL刷新を3度目の延期。"
+      "stat": "NOLL始動・3社鼎立",
+      "text": "ドコモ・バイクシェアが9月1日にNOLLへ正式刷新し、baybike等63地域ブランドを統一。HELLO CYCLINGは会員600万人超・月10万人増のペース継続。Luupはさいたま市で電動アシスト自転車＋電動シートボードの全国初同時展開を開始。"
     },
     {
       "cls": "na",
@@ -23,15 +23,15 @@
       "en": "NORTH AMERICA",
       "ja": "北米",
       "stat": "Veo攻勢・各地で独占化",
-      "text": "北米2025年シェアトリップは過去最高の2.37億回。デンバーに続きグランドラピッズもVeoが9月から独占運営へ。コビントンはスクールゾーン周辺の規制強化を検討。LimeはIPO後も時価総額$2.6Bで攻勢継続。"
+      "text": "北米2025年シェアトリップは過去最高の2.37億回。Divvyは2025年に680万トリップ（過去最高）、2026年は800万超見込み。グランドラピッズはVeoへ一本化。コビントンはスクールゾーン周辺規制強化を検討中。"
     },
     {
       "cls": "eu",
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "ベルギーヘルメット義務化",
-      "text": "ベルギーが9月1日より時速20km超eスクーターのヘルメット着用を連邦法で義務化。ブリュッセルのシェアeスクーター禁止（2027年1月）は確定。ロンドンPhase 3はDott・Lime・Voiが落札し稼働準備中。"
+      "stat": "ロンドンPhase 3始動",
+      "text": "ロンドンeスクーター試験Phase 3が9月下旬に正式始動し、Lime・Voiが2028年5月まで運営。イタリア競争当局がBird・Dott・Limeにローマ無料ライド妨害で計€2.7Mの制裁。ベルギーは時速20km超eスクーターのヘルメット着用を義務化。"
     },
     {
       "cls": "as",
@@ -39,7 +39,7 @@
       "en": "ASIA",
       "ja": "アジア",
       "stat": "中国3強が寡占",
-      "text": "中国はハローバイク・美団・青桔の3強体制で1回約30円の低価格が定着。インドのYuluは$93Mを調達し電動二輪フリートを20万台規模へ拡大計画。9月にはSegwayが常州で新製品発表会を開催。"
+      "text": "中国はハローバイク・美団・青桔の3強体制で1回約30円の低価格が定着。インドのYuluは$93Mを調達し電動二輪フリートを20万台規模へ拡大計画。Segwayが常州で新製品発表会を9月開催。"
     }
   ],
   "ranking": [
@@ -47,7 +47,7 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "累計10億ライド超。7月NASDAQ上場後、Q2売上$304M（+24%）で時価総額$2.6Bに拡大。シアトルでAI安全技術「Lime Vision」を展開。ロンドンPhase 3・パリeバイク契約も獲得し成長継続。",
+      "desc": "累計10億ライド超。7月NASDAQ上場後、Q2売上$304M（+24%）、時価総額$2.6B。シアトルでAI安全技術「Lime Vision」を展開。ロンドンPhase 3参加・パリeバイク契約継続。イタリアでは€1.4Mの制裁も受けた。",
       "tags": [
         "時価総額$2.6B",
         "Q2売上$304M",
@@ -99,10 +99,10 @@
       "medal": "#5",
       "name": "Voi",
       "meta": "スウェーデン · 欧州100+都市",
-      "desc": "2026年Q2売上€68.8M（+47%）で過去最高。コペンハーゲン復帰・パリeバイク契約（同社史上最大）・ロンドンPhase 3を獲得し、新型Voiager 9など3車種も投入。IPOも視野に黒字成長を続ける。",
+      "desc": "2026年Q2売上€68.8M（+47%）で過去最高。ロンドンPhase 3でLimeと共同運営（2028年5月まで）。パリeバイク契約（同社史上最大）も継続し、新型Voiager 9など3車種を投入。IPOも視野に黒字成長を続ける。",
       "tags": [
         "Q2売上€68.8M",
-        "パリ史上最大契約",
+        "ロンドンPhase 3",
         "IPO視野"
       ],
       "score": 86,
@@ -138,23 +138,58 @@
       "medal": "#8",
       "name": "Dott（旧TIER統合）",
       "meta": "オランダ · 欧州",
-      "desc": "2025年に統合後初の黒字化（売上€173M）。新型4.5万台を欧州に投入し、パリのeバイク契約とロンドンPhase 3を獲得。ブリュッセルでは2026年末でeスクーター撤退へ。",
+      "desc": "2025年に統合後初の黒字化（売上€173M）。ロンドンPhase 3に参加、パリeバイク契約も継続。イタリアではBird・Limeと共にローマ無料ライド妨害として制裁を受けた。ブリュッセルは2026年末でeスクーター撤退予定。",
       "tags": [
         "初の黒字化",
-        "新車4.5万台",
-        "ロンドンPhase 3"
+        "ロンドンPhase 3",
+        "ブリュッセル撤退"
       ],
       "score": 78,
       "site": "https://ridedott.com/"
     }
   ],
   "featured": {
-    "date": "2026.09.16",
-    "title": "Divvy（シカゴ）、2026年夏に過去最高3.5M超トリップ — 7月・8月が初の月間100万超、前年夏比10%増",
-    "text": "シカゴのバイクシェア「Divvy」が2026年夏（6月以降）に過去最高となる3.5百万超トリップを記録。7月・8月がそれぞれ100万超と初の月間100万超を達成し、前年夏比10%超の増加。市内124の新駅設置・51カ所の充電ステーション整備など都市インフラ拡充が需要を後押しした。",
-    "url": "https://chicagocitywire.com/divvy-reports-busiest-summer-ever-as-biking-increases-in-chicago"
+    "date": "2026.09.26",
+    "title": "ロンドンeスクーター試験Phase 3が正式始動 — Lime・Voi・Dottが9月下旬から運営開始、2028年5月まで",
+    "text": "TfL（ロンドン交通局）とロンドン各区が、eスクーター試験のPhase 3を9月下旬に正式始動。Lime・Voi・Dottが落札し、Phase 2で達成した600万トリップを踏まえ、歩道走行検知など新技術の実証も実施。初期2年間（2028年5月まで）、最大延長4年の枠組みで運営される。",
+    "url": "https://zagdaily.com/micromobility/londons-e-scooter-trial-progresses-as-uk-legislation-remains-pending/"
   },
   "news": [
+    {
+      "region": "eu",
+      "date": "2026.09.25",
+      "title": "ロンドンeスクーター試験Phase 3が正式始動 — Lime・Voiが主軸、2028年5月まで運営",
+      "text": "TfLとロンドン各区が、Lime・Voiと共にeスクーター試験Phase 3を9月下旬に正式スタート。Phase 2で600万トリップ超を達成し、歩道走行検知や駐車精度向上など新車載技術の試験も継続。初期2年間、最大延長4年の枠組みで運営される。",
+      "url": "https://zagdaily.com/micromobility/londons-e-scooter-trial-progresses-as-uk-legislation-remains-pending/"
+    },
+    {
+      "region": "eu",
+      "date": "2026.09.25",
+      "title": "ロンドンeスクーター試験Phase 3、TfLがLime・Voi・Dottに正式発注 — 9月下旬始動",
+      "text": "TfLがDott・Lime・Voiに対し、ロンドンeスクーター試験Phase 3の契約を正式発注。9月下旬に稼働開始し、歩道走行検知・タンデム乗車検知など新技術の試験も実施。初期24カ月・最大2032年9月まで延長可能な枠組みで運営される。",
+      "url": "https://micromobilitybiz.com/tfl-and-london-councils-launch-third-phase-of-londons-rental-e-scooter-trial/"
+    },
+    {
+      "region": "eu",
+      "date": "2026.09.23",
+      "title": "イタリア競争当局、Bird・Dott・Limeにローマeスクーター無料ライド妨害で計€2.7M制裁",
+      "text": "イタリア競争当局（AGCM）がBird・Dott・Limeに対し、ローマ年間公共交通パス保持者への無料ライド付与を困難にした不公正商慣行として計€2.7Mの制裁金を科した。Limeへの制裁額は€1.4Mと最大で、2023〜2026年のローマ営業許可期間中の行為が対象。",
+      "url": "https://www.wantedinrome.com/news/italy-fines-e-scooter-firms-bird-dott-and-lime-26-million-over-blocked-free-rides-in-rome.html"
+    },
+    {
+      "region": "jp",
+      "date": "2026.09.23",
+      "title": "ドコモ・バイクシェア、9月1日にNOLL（ノル）へ正式刷新 — baybike等63地域ブランドを統一",
+      "text": "ドコモ・バイクシェアが9月1日、サービスブランドを「NOLL（ノル）」へ全面刷新。「baybike」「ちよくる」など63地域名称をNOLLに統一し、新型車両（ノーパンクタイヤ・大容量バッテリー）と10分単位の新料金体系を導入。仙台エリアも新たにサービス対象へ追加。",
+      "url": "https://entla.co.jp/docomo-bikeshare-noll-guide/"
+    },
+    {
+      "region": "na",
+      "date": "2026.09.23",
+      "title": "Divvy（シカゴ）、2025年に680万トリップ過去最高 — 2026年は800万超見込み・200駅新設へ",
+      "text": "シカゴのDivvyが2025年に680万トリップ（過去最高）を達成。Limeスクーターと合算すると2025年シカゴ全体のシェアマイクロモビリティは約1,300万トリップに達した。2026年はCDOTとLyftが200駅超を新設し、800万トリップ超えを目指す。",
+      "url": "https://www.govtech.com/transportation/e-bikes-e-scooters-reshape-major-cities-mobility-landscape"
+    },
     {
       "region": "na",
       "date": "2026.09.24",
@@ -191,20 +226,6 @@
       "url": "https://www.ctvnews.ca/edmonton/article/government-considering-potential-alberta-wide-framework-for-personal-e-scooter-use/"
     },
     {
-      "region": "na",
-      "date": "2026.09.19",
-      "title": "アルバータ州、eスクーター規制法案を検討 — 交通安全法改正で自治体管理を可能に",
-      "text": "カナダ・アルバータ州政府が、eスクーターなどの個人用マイクロモビリティ機器を自治体が独自に管理できるよう交通安全法改正の検討を開始。負傷増加を受けた対応で、Alberta Municipalitiesは2026年秋の議会提出を予測している。",
-      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-government-e-scooters-legislation-9.7351119"
-    },
-    {
-      "region": "na",
-      "date": "2026.09.18",
-      "title": "NY州、高速「e-moto」販売禁止法案S.10700を上院委員会に付託 — eバイクと誤表示した高速電動車両の販売を規制",
-      "text": "ニューヨーク州議会に提出された法案S.10700が9月14日に上院規則委員会へ付託。時速20マイル超の高速電動車両（e-moto）をeバイク・eスクーターとして販売・広告することを禁止し、違反には警告表示義務と販売禁止措置を設ける内容。",
-      "url": "https://www.fingerlakes1.com/2026/09/18/new-york-bill-would-ban-sales-of-high-speed-e-motos-marketed-as-e-bikes/"
-    },
-    {
       "region": "gl",
       "date": "2026.09.21",
       "title": "Donkey Republic、H1 2026に初のEBIT黒字 — 売上€11.6M・前年比+15.8%",
@@ -234,24 +255,10 @@
     },
     {
       "region": "na",
-      "date": "2026.09.16",
-      "title": "Divvy（シカゴ）、2026年夏に過去最高 — 6月以降3.5M超トリップ・7月&8月が初の月間100万超",
-      "text": "シカゴのDivvyが2026年夏（6月1日以降）に過去最高となる350万超トリップを記録。7月・8月がそれぞれ100万超と初の月間100万超を達成し、前年夏比10%超の増加。2026年の新設駅数は124、充電ステーションは計51カ所に拡大。9月中旬までに前年同期比67万トリップ超増を記録した。",
-      "url": "https://chicagocitywire.com/divvy-reports-busiest-summer-ever-as-biking-increases-in-chicago"
-    },
-    {
-      "region": "na",
       "date": "2026.09.15",
       "title": "Lime、シアトルでAI安全技術「Lime Vision」を展開 — 歩道走行をリアルタイム検知・警告、7,000台に順次搭載",
       "text": "LimeがシアトルのeスクーターにAIカメラ「Lime Vision」を搭載し、歩道走行をリアルタイムで検知して音声アラートとアプリ通知で警告する業界初システムを先行展開。7,000台のスクーターに順次搭載し、シアトルが北米初の導入都市となった。今後eバイクフリートへの拡張も予定。",
       "url": "https://www.geekwire.com/2026/sidewalk-scooter-riders-beware-ai-powered-lime-vision-will-soon-call-you-out/"
-    },
-    {
-      "region": "na",
-      "date": "2026.09.14",
-      "title": "シアトルの2025年シェアモビリティが1,050万トリップ — 前年比60%増で過去最高、市が安全課題を踏まえ市民アンケートを実施",
-      "text": "シアトルのシェアバイク・スクーター利用が2025年に1,050万トリップを記録し、2024年の630万トリップから60%増・過去最高を更新。一方で事故や法的コストも増加しており、シアトル交通局（SDOT）は課題把握のため9月27日まで2026年版市民アンケートを実施中。",
-      "url": "https://www.capitolhillseattle.com/2026/09/as-micromobility-rides-and-crashes-soar-seattle-survey-asks-whats-working-and-why-nobody-wears-a-helmet/"
     },
     {
       "region": "jp",
@@ -259,13 +266,6 @@
       "title": "Luup、さいたま市サービス開始初日に連携協定式・安全講習会を実施 — 電動アシスト自転車＋電動シートボードは全国初の組み合わせ",
       "text": "Luupが9月10日よりさいたま市でサービスを開始し、初日にLuup・さいたま市・つなぐの三者連携協定締結式と東京海上日動火災保険と連携した安全講習会を実施。電動アシスト自転車・電動シートボードの同時展開は全国初。料金は基本料金50円＋1分15円で、9月16日まで30分乗り放題キャンペーンを実施した。",
       "url": "https://luup.sc/news/2026-09-11-saitama/"
-    },
-    {
-      "region": "jp",
-      "date": "2026.09.10",
-      "title": "HELLO CYCLING、会員数600万人を突破 — 500万人から約11カ月で100万人増",
-      "text": "OpenStreetが運営する「HELLO CYCLING」の会員数が2026年9月に600万人を突破。500万人（2025年10月）から約11カ月で到達し、毎月約10万人ペースの増加が継続。北海道から沖縄まで100社超のパートナー企業・自治体が参加するプラットフォームモデルで国内最大規模の展開を維持している。",
-      "url": "https://prtimes.jp/main/html/rd/p/000000278.000113324.html"
     }
   ],
   "stats": [
