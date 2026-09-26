@@ -1,12 +1,12 @@
 {
-  "updated": "2026.09.26",
+  "updated": "2026.09.27",
   "ticker": [
-    "🇬🇧 ロンドンeスクーターPhase 3、Lime・Voi・Dottが9月下旬…",
-    "🇮🇹 イタリア、Bird・Dott・Limeにローマ無料ライド妨害で€2.7M…",
-    "🇯🇵 ドコモ・バイクシェア、9月1日にNOLLへ正式刷新・63地域名称統一",
-    "🇺🇸 Divvy、2026年に年間800万トリップ超えを見込む",
-    "🌍 Donkey Republic、H1 2026に初のEBIT黒字",
-    "🇯🇵 HELLO CYCLING、会員600万人を突破"
+    "🇺🇸 Lime、Q2売上$304M・通年ガイダンスを$1.1Bへ上方修正",
+    "🇺🇸 Lime、Neuron Mobilityのカナダ事業を買収・北米拡大",
+    "🇬🇧 ロンドンeスクーターPhase 3、Lime・Voi・Dottが始動",
+    "🇯🇵 NOLL（旧ドコモ・バイクシェア）、特定小型原付を年内商用化",
+    "🇮🇹 イタリア、Bird・Dott・Limeにローマ妨害で€2.7M制裁",
+    "🌍 Donkey Republic、H1 2026に初のEBIT黒字達成"
   ],
   "pulse": [
     {
@@ -14,16 +14,16 @@
       "flag": "🇯🇵",
       "en": "JAPAN",
       "ja": "日本",
-      "stat": "NOLL始動・3社鼎立",
-      "text": "ドコモ・バイクシェアが9月1日にNOLLへ正式刷新し、baybike等63地域ブランドを統一。HELLO CYCLINGは会員600万人超・月10万人増のペース継続。Luupはさいたま市で電動アシスト自転車＋電動シートボードの全国初同時展開を開始。"
+      "stat": "NOLL始動・特定小型原付へ",
+      "text": "ドコモ・バイクシェアが9月1日にNOLLへ刷新し63地域ブランドを統一。特定小型原付モデルを2026年内に商用化予定。HELLO CYCLINGは会員600万人超。Luupはさいたま市で電動アシスト自転車＋電動シートボードを全国初同時展開。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "Veo攻勢・各地で独占化",
-      "text": "北米2025年シェアトリップは過去最高の2.37億回。Divvyは2025年に680万トリップ（過去最高）、2026年は800万超見込み。グランドラピッズはVeoへ一本化。コビントンはスクールゾーン周辺規制強化を検討中。"
+      "stat": "Lime快走・Neuron買収も",
+      "text": "LimeがQ2売上$304M（+24%）・通年ガイダンスを$1.1Bに上方修正し、Neuron Mobilityのカナダ事業を買収。Divvyは2026年に800万トリップ超を見込む。北米2025年シェアトリップは過去最高の2.37億回。"
     },
     {
       "cls": "eu",
@@ -31,7 +31,7 @@
       "en": "EUROPE",
       "ja": "欧州",
       "stat": "ロンドンPhase 3始動",
-      "text": "ロンドンeスクーター試験Phase 3が9月下旬に正式始動し、Lime・Voiが2028年5月まで運営。イタリア競争当局がBird・Dott・Limeにローマ無料ライド妨害で計€2.7Mの制裁。ベルギーは時速20km超eスクーターのヘルメット着用を義務化。"
+      "text": "ロンドンeスクーター試験Phase 3が9月下旬に正式始動し、Lime・Voi・Dottが2028年5月まで運営。イタリア競争当局がBird・Dott・Limeに計€2.7Mの制裁。ベルギーは時速20km超eスクーターのヘルメット着用を義務化。"
     },
     {
       "cls": "as",
@@ -47,13 +47,13 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "累計10億ライド超。7月NASDAQ上場後、Q2売上$304M（+24%）、時価総額$2.6B。シアトルでAI安全技術「Lime Vision」を展開。ロンドンPhase 3参加・パリeバイク契約継続。イタリアでは€1.4Mの制裁も受けた。",
+      "desc": "累計10億ライド超。Q2売上$304M（+24%）・EBITDA$84M、通年ガイダンス$1.04〜1.10B。IPO後に長期債務を全額返済し、Neuron Mobilityのカナダ事業を買収。",
       "tags": [
         "時価総額$2.6B",
-        "Q2売上$304M",
-        "Lime Vision"
+        "通年$1.1B目標",
+        "Neuron買収"
       ],
-      "score": 97,
+      "score": 98,
       "site": "https://www.li.me/"
     },
     {
@@ -156,6 +156,13 @@
   },
   "news": [
     {
+      "region": "na",
+      "date": "2026.09.26",
+      "title": "Lime、Q2 2026売上$304M・通年$1.04〜1.10Bに上方修正 — Neuron Mobilityのカナダ事業も買収",
+      "text": "Lime（Nasdaq: LIME）がQ2 2026決算を発表。売上$304M（前年比+24%）、調整後EBITDA$84M（マージン28%）、運用フリート40.8万台（+22%）。通年売上ガイダンスを$1.04〜1.10Bに上方修正。IPO後に長期債務を全額返済し、Q2末後にNeuron Mobilityのカナダ事業を買収して北米展開を加速。",
+      "url": "https://investors.li.me/news-releases/news-release-details/lime-announces-second-quarter-2026-financial-results"
+    },
+    {
       "region": "eu",
       "date": "2026.09.25",
       "title": "ロンドンeスクーター試験Phase 3が正式始動 — Lime・Voiが主軸、2028年5月まで運営",
@@ -179,8 +186,8 @@
     {
       "region": "jp",
       "date": "2026.09.23",
-      "title": "ドコモ・バイクシェア、9月1日にNOLL（ノル）へ正式刷新 — baybike等63地域ブランドを統一",
-      "text": "ドコモ・バイクシェアが9月1日、サービスブランドを「NOLL（ノル）」へ全面刷新。「baybike」「ちよくる」など63地域名称をNOLLに統一し、新型車両（ノーパンクタイヤ・大容量バッテリー）と10分単位の新料金体系を導入。仙台エリアも新たにサービス対象へ追加。",
+      "title": "ドコモ・バイクシェア、9月1日にNOLL（ノル）へ正式刷新 — 特定小型原付も2026年内商用化へ",
+      "text": "ドコモ・バイクシェアが9月1日、サービスブランドを「NOLL（ノル）」へ全面刷新。「baybike」「ちよくる」など63地域名称をNOLLに統一し、新型車両と10分単位の新料金体系を導入。仙台エリアも新たに追加。特定小型原動機付自転車モデルの商用化も2026年内に予定している。",
       "url": "https://entla.co.jp/docomo-bikeshare-noll-guide/"
     },
     {
@@ -252,20 +259,6 @@
       "title": "Segway Commercial、常州で初のシェアモビリティ新製品発表会 — 世界オペレーターが集結し新車両ラインを公開",
       "text": "Segway Commercialが9月14日、中国・常州の自社工場拠点で初となるシェアマイクロモビリティ製品発表会を開催。Dott・Voi・Bird・Ryde・Whooshなど世界各国のオペレーターが集結し、3つの新製品ラインとフリート運営課題の解決を軸とした新戦略を披露した。",
       "url": "https://zagdaily.com/featured/segway-unveils-fresh-shared-micromobility-vehicle-lineup-at-changzhou-summit/"
-    },
-    {
-      "region": "na",
-      "date": "2026.09.15",
-      "title": "Lime、シアトルでAI安全技術「Lime Vision」を展開 — 歩道走行をリアルタイム検知・警告、7,000台に順次搭載",
-      "text": "LimeがシアトルのeスクーターにAIカメラ「Lime Vision」を搭載し、歩道走行をリアルタイムで検知して音声アラートとアプリ通知で警告する業界初システムを先行展開。7,000台のスクーターに順次搭載し、シアトルが北米初の導入都市となった。今後eバイクフリートへの拡張も予定。",
-      "url": "https://www.geekwire.com/2026/sidewalk-scooter-riders-beware-ai-powered-lime-vision-will-soon-call-you-out/"
-    },
-    {
-      "region": "jp",
-      "date": "2026.09.11",
-      "title": "Luup、さいたま市サービス開始初日に連携協定式・安全講習会を実施 — 電動アシスト自転車＋電動シートボードは全国初の組み合わせ",
-      "text": "Luupが9月10日よりさいたま市でサービスを開始し、初日にLuup・さいたま市・つなぐの三者連携協定締結式と東京海上日動火災保険と連携した安全講習会を実施。電動アシスト自転車・電動シートボードの同時展開は全国初。料金は基本料金50円＋1分15円で、9月16日まで30分乗り放題キャンペーンを実施した。",
-      "url": "https://luup.sc/news/2026-09-11-saitama/"
     }
   ],
   "stats": [
