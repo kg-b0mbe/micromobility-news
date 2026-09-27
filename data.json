@@ -1,11 +1,11 @@
 {
-  "updated": "2026.09.27",
+  "updated": "2026.09.28",
   "ticker": [
-    "🇺🇸 Lime、Q2売上$304M・通年ガイダンスを$1.1Bへ上方修正",
-    "🇺🇸 Lime、Neuron Mobilityのカナダ事業を買収・北米拡大",
+    "🇺🇸 Lime、AI歩道検知「Lime Vision」をシアトル全fleet展開",
+    "🇸🇪 Voi、Q2売上€68.8M（+47%）・IPOは「計画なし」",
     "🇬🇧 ロンドンeスクーターPhase 3、Lime・Voi・Dottが始動",
     "🇯🇵 NOLL（旧ドコモ・バイクシェア）、特定小型原付を年内商用化",
-    "🇮🇹 イタリア、Bird・Dott・Limeにローマ妨害で€2.7M制裁",
+    "🇩🇪 ベルリン高裁、Nextbikeに自転車6,500台の撤去命令",
     "🌍 Donkey Republic、H1 2026に初のEBIT黒字達成"
   ],
   "pulse": [
@@ -14,24 +14,24 @@
       "flag": "🇯🇵",
       "en": "JAPAN",
       "ja": "日本",
-      "stat": "NOLL始動・特定小型原付へ",
-      "text": "ドコモ・バイクシェアが9月1日にNOLLへ刷新し63地域ブランドを統一。特定小型原付モデルを2026年内に商用化予定。HELLO CYCLINGは会員600万人超。Luupはさいたま市で電動アシスト自転車＋電動シートボードを全国初同時展開。"
+      "stat": "NOLL始動・Lime eバイクも参戦",
+      "text": "ドコモ・バイクシェアが9月1日にNOLLへ刷新し63地域ブランドを統一、特定小型原付を年内商用化予定。LimeはLimeBikeを東京16区へ導入しHELLO CYCLINGとポート共有も開始。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "Lime快走・Neuron買収も",
-      "text": "LimeがQ2売上$304M（+24%）・通年ガイダンスを$1.1Bに上方修正し、Neuron Mobilityのカナダ事業を買収。Divvyは2026年に800万トリップ超を見込む。北米2025年シェアトリップは過去最高の2.37億回。"
+      "stat": "Lime快走・AI安全技術も注目",
+      "text": "LimeがQ2売上$304M（+24%）・通年$1.1Bへ上方修正し時価総額$2.6Bに拡大。AI歩道検知「Lime Vision」をシアトルで展開中。北米2025年シェアトリップは過去最高2.37億回。"
     },
     {
       "cls": "eu",
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "ロンドンPhase 3始動",
-      "text": "ロンドンeスクーター試験Phase 3が9月下旬に正式始動し、Lime・Voi・Dottが2028年5月まで運営。イタリア競争当局がBird・Dott・Limeに計€2.7Mの制裁。ベルギーは時速20km超eスクーターのヘルメット着用を義務化。"
+      "stat": "Voi好業績・ベルリン激変",
+      "text": "VoiがQ2売上€68.8M（+47%）・12カ月累計€210Mを初突破しIPOは「計画なし」と表明。ロンドンPhase 3はLime・Voi・Dottが運営中。ベルリン高裁がNextbikeに6,500台の撤去命令。"
     },
     {
       "cls": "as",
@@ -47,10 +47,10 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "累計10億ライド超。Q2売上$304M（+24%）・EBITDA$84M、通年ガイダンス$1.04〜1.10B。IPO後に長期債務を全額返済し、Neuron Mobilityのカナダ事業を買収。",
+      "desc": "累計10億ライド超。Q2売上$304M（+24%）・EBITDA$84M、通年$1.1B目標。時価総額$2.6B（IPO比+58%）。Neuronカナダ事業を買収、AI歩道検知「Lime Vision」をシアトルで展開。",
       "tags": [
         "時価総額$2.6B",
-        "通年$1.1B目標",
+        "Lime Vision展開",
         "Neuron買収"
       ],
       "score": 98,
@@ -98,14 +98,14 @@
     {
       "medal": "#5",
       "name": "Voi",
-      "meta": "スウェーデン · 欧州100+都市",
-      "desc": "2026年Q2売上€68.8M（+47%）で過去最高。ロンドンPhase 3でLimeと共同運営（2028年5月まで）。パリeバイク契約（同社史上最大）も継続し、新型Voiager 9など3車種を投入。IPOも視野に黒字成長を続ける。",
+      "meta": "スウェーデン · 欧州130都市超",
+      "desc": "Q2売上€68.8M（+47%）・12カ月累計€210Mを初突破。EBITDA€19.7M（マージン28.6%）と収益性が急改善。ロンドンPhase 3・パリ増枠。IPOは「具体的計画なし」と明言。",
       "tags": [
         "Q2売上€68.8M",
-        "ロンドンPhase 3",
-        "IPO視野"
+        "累計€210M突破",
+        "IPO未定"
       ],
-      "score": 86,
+      "score": 87,
       "site": "https://www.voi.com/"
     },
     {
@@ -138,7 +138,7 @@
       "medal": "#8",
       "name": "Dott（旧TIER統合）",
       "meta": "オランダ · 欧州",
-      "desc": "2025年に統合後初の黒字化（売上€173M）。ロンドンPhase 3に参加、パリeバイク契約も継続。イタリアではBird・Limeと共にローマ無料ライド妨害として制裁を受けた。ブリュッセルは2026年末でeスクーター撤退予定。",
+      "desc": "2025年に統合後初の黒字化（売上€173M）。ロンドンPhase 3に参加、パリeバイク契約も継続。イタリアではBird・Limeと共にローマ無料ライド妨害として€525Kの制裁。ブリュッセルは2026年末でeスクーター撤退予定。",
       "tags": [
         "初の黒字化",
         "ロンドンPhase 3",
@@ -191,6 +191,13 @@
       "url": "https://entla.co.jp/docomo-bikeshare-noll-guide/"
     },
     {
+      "region": "eu",
+      "date": "2026.09.23",
+      "title": "Voi、Q2 2026売上€68.8M（+47%）・12カ月累計€210Mを初突破 — IPOは「具体的計画なし」",
+      "text": "VoiがQ2 2026に売上€68.8M（前年比+47%）・Adjusted EBIT€11.6M・EBITDA€19.7M（マージン28.6%）を達成。12カ月累計売上€210.3Mと初めて€200M超え。CFOはIPOを「長期的選択肢だが具体的な計画もタイムラインもない」と明言。パリでは好利用率を評価され市から増枠を取得した。",
+      "url": "https://zagdaily.com/micromobility/voi-reveals-no-concrete-plans-for-ipo-after-strong-q2-results/"
+    },
+    {
       "region": "na",
       "date": "2026.09.23",
       "title": "Divvy（シカゴ）、2025年に680万トリップ過去最高 — 2026年は800万超見込み・200駅新設へ",
@@ -203,13 +210,6 @@
       "title": "ケンタッキー州コビントン、スクールゾーン周辺のeバイク・スクーター規制強化を検討",
       "text": "コビントン市のワシントン市長が市スタッフに対し、学校周辺でのeバイク・eスクーター利用に関する安全規制追加の調査を指示。市教育委員会メンバーからの提案を受けた対応で、スクールゾーン周辺のマイクロモビリティ安全管理が課題として浮上している。",
       "url": "https://linknky.com/news/2026/09/24/covington-to-investigate-additional-regulations-safety-protocols-around-e-bikes-scooters-around-schools/"
-    },
-    {
-      "region": "na",
-      "date": "2026.09.03",
-      "title": "グランドラピッズ（ミシガン）、LimeからVeoへ切り替え — 9月1日サービス開始、10月に一本化",
-      "text": "ミシガン州グランドラピッズがLimeとの3年契約を終え、Veoを新たな独占マイクロモビリティベンダーに選定。9月1日よりサービス開始し、9月中は移行期間として両者が並行稼働、10月にVeo一本化。料金は1ドルアンロック＋33セント/分と従来より低廉で、Veo Accessプログラムで低所得者支援も強化。",
-      "url": "https://spectrumlocalnews.com/mi/michigan/news/2026/09/03/veo--micro-mobility-scooters"
     },
     {
       "region": "eu",
