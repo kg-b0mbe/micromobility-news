@@ -1,12 +1,12 @@
 {
-  "updated": "2026.09.29",
+  "updated": "2026.09.30",
   "ticker": [
     "🇯🇵 HELLO CYCLING、2026年9月に会員数600万人突破",
     "🇯🇵 Luup、さいたま市で電動シートボード＋eバイク全国初展開",
-    "🇺🇸 Lime、AI歩道検知「Lime Vision」をシアトル全fleet展開",
+    "🇺🇸 Lime、ワシントンDCに$1,700万投資・8,000台フリート刷新",
+    "🇺🇸 NYC市議会、eバイク・スクーター安全規制20本超を審議",
     "🇸🇪 Voi、Q2売上€68.8M（+47%）・新型Voiager 9も発表",
-    "🇬🇧 ロンドンeスクーターPhase 3、Lime・Voi・Dottが始動",
-    "🌍 Donkey Republic、H1 2026に初のEBIT黒字達成"
+    "🇬🇧 ロンドンeスクーターPhase 3、Lime・Voi・Dottが始動"
   ],
   "pulse": [
     {
@@ -14,16 +14,16 @@
       "flag": "🇯🇵",
       "en": "JAPAN",
       "ja": "日本",
-      "stat": "HELLO CYCLING 600万人…",
-      "text": "HELLO CYCLINGが9月に会員600万人を突破、全国30都道府県・約1.5万ステーション展開。Luupは9月10日にさいたま市へ進出し、電動アシスト自転車と電動シートボードを全国初の組み合わせで実証展開。NOLLは特定小型原付の年内商用化を準備中。"
+      "stat": "HELLO CYCLING 600万人",
+      "text": "HELLO CYCLINGが9月に会員600万人を突破、全国30都道府県・約1.5万ステーション展開。Luupはさいたま市で電動アシスト自転車と電動シートボードを全国初同時展開。ドコモ・バイクシェアはNOLLへ刷新し特定小型原付の商用化を年内に予定。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "Lime快走・AI安全技術も注目",
-      "text": "LimeがQ2売上$304M（+24%）・通年$1.1Bへ上方修正し時価総額$2.6Bに拡大。AI歩道検知「Lime Vision」をシアトル全フリートに展開中。北米2025年シェアトリップは過去最高2.37億回。"
+      "stat": "Lime快走・NYC規制論議も過熱",
+      "text": "LimeがQ2売上$304M（+24%）で通年$1.1Bへ上方修正、DCに$1,700万投資しフリート8,000台を刷新。NYC市議会はeバイク・スクーター安全規制20本超を審議、Class 3禁止も議題に。北米2025年トリップは過去最高2.37億回。"
     },
     {
       "cls": "eu",
@@ -31,7 +31,7 @@
       "en": "EUROPE",
       "ja": "欧州",
       "stat": "Voi好業績・ロンドン新章",
-      "text": "VoiがQ2売上€68.8M（+47%）を達成し新型Voiager 9も発表。ロンドンPhase 3はLime・Voi・Dottが9月下旬に始動。ベルリン高裁はNextbikeに6,500台撤去命令、ベルギーでは速度20km超eスクーターにヘルメット義務化。"
+      "text": "VoiがQ2売上€68.8M（+47%）を達成し新型Voiager 9を発表。ロンドンPhase 3はLime・Voi・Dottが9月下旬に始動。ベルリン高裁はNextbikeに6,500台撤去命令、ブリュッセルでは2027年1月のeスクーター全面禁止が確定。"
     },
     {
       "cls": "as",
@@ -47,10 +47,10 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "累計10億ライド超。Q2売上$304M（+24%）・EBITDA$84M、通年$1.1B目標。時価総額$2.6B（IPO比+58%）。Neuronカナダ事業を買収、AI歩道検知「Lime Vision」をシアトル全フリートに展開。",
+      "desc": "累計10億ライド超。Q2売上$304M（+24%）・EBITDA$84M、通年$1.1B目標。時価総額$2.6B。DCに$1,700万投資し8,000台を刷新、AI歩道検知など安全技術も導入。Neuronカナダ事業も買収。",
       "tags": [
+        "DC $1,700万投資",
         "時価総額$2.6B",
-        "Lime Vision展開",
         "Neuron買収"
       ],
       "score": 98,
@@ -73,7 +73,7 @@
       "medal": "🥉",
       "name": "Citi Bike",
       "meta": "米国 · ニューヨーク",
-      "desc": "北米最大。2026年6月に月間549万ライドで過去最高、eバイク比率は70%超。Lyftの運営利益は2023年比13倍超に伸びる一方、料金高騰への批判も強まっている。",
+      "desc": "北米最大。2026年6月に月間549万ライドで過去最高、eバイク比率は70%超。NYC市議会がClass 3 eバイク禁止を含む規制パッケージを審議中で競争環境の変化も注目される。",
       "tags": [
         "北米最大",
         "月間549万ライド",
@@ -155,6 +155,20 @@
     "url": "https://zagdaily.com/micromobility/londons-e-scooter-trial-progresses-as-uk-legislation-remains-pending/"
   },
   "news": [
+    {
+      "region": "na",
+      "date": "2026.09.30",
+      "title": "NYC市議会、eバイク・スクーター安全規制20本超を審議 — Class 3禁止・配達アプリ規制も議題に",
+      "text": "NYC市議会交通インフラ委員会が9月30日、eバイク・スクーター安全に関する20本超の法案を審議。Class 3 eバイクの販売・走行禁止、デリバリーアプリへのデータ提出義務、違法車両取り締まり強化などが俎上に。市内のeバイク労働者は約8万人と推計される。",
+      "url": "https://gothamist.com/news/nyc-council-considers-new-rules-for-e-bikes-scooters-and-mopeds"
+    },
+    {
+      "region": "na",
+      "date": "2026.09.24",
+      "title": "Lime、ワシントンDCに$1,700万投資 — 8,000台フリート刷新・AI安全技術とフットパトロール200%増",
+      "text": "LimeがワシントンDC向けに2026年$1,700万の投資を発表。新型LimeBike導入によるフリート8,000台刷新に加え、AIによる年齢確認・駐車確認・歩道走行検知技術を導入。フットパトロールスタッフも200%増強し、運営品質と安全性を強化する。",
+      "url": "https://micromobility.substack.com/p/segway-launches-four-new-vehicles"
+    },
     {
       "region": "jp",
       "date": "2026.09.29",
@@ -252,13 +266,6 @@
       "title": "ブリュッセル、Lime提訴でBolt・Dott・Voiのライセンス取消 — eスクーターは2026年末まで継続・2027年1月全面禁止確定",
       "text": "Limeによる2023年入札プロセスへの法的異議申し立てを受け、ベルギー評議会がBolt・Dott・Voiの免許を取り消し。9月1日撤去令が出たものの、ブリュッセル当局が2026年末まで継続を認め、2027年1月の全面禁止方針は維持。新入札は2028年5月頃を予定（eスクーター最大4,800台×2ライセンス）。",
       "url": "https://micromobility.substack.com/p/limes-marketcap-is-at-26b-stock-up"
-    },
-    {
-      "region": "gl",
-      "date": "2026.09.17",
-      "title": "Segway Commercial、常州で初のシェアモビリティ新製品発表会 — 世界オペレーターが集結し新車両ラインを公開",
-      "text": "Segway Commercialが9月14日、中国・常州の自社工場拠点で初となるシェアマイクロモビリティ製品発表会を開催。Dott・Voi・Bird・Ryde・Whooshなど世界各国のオペレーターが集結し、3つの新製品ラインとフリート運営課題の解決を軸とした新戦略を披露した。",
-      "url": "https://zagdaily.com/featured/segway-unveils-fresh-shared-micromobility-vehicle-lineup-at-changzhou-summit/"
     }
   ],
   "stats": [
