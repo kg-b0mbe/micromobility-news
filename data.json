@@ -1,11 +1,11 @@
 {
-  "updated": "2026.10.01",
+  "updated": "2026.10.02",
   "ticker": [
+    "🇯🇵 京急×HELLO CYCLING「京急ちゃりんポ」10月1日始動",
     "🇯🇵 HELLO CYCLING、横浜で小型EV「スロモビ」シェア10月5日開始",
-    "🇯🇵 HELLO CYCLING、2026年9月に会員数600万人突破",
-    "🇯🇵 Luup、さいたま市で電動シートボード＋eバイク全国初展開",
-    "🇺🇸 Lime、ワシントンDCに$1,700万投資・8,000台フリート刷新",
-    "🇺🇸 LAメトロバイクシェア、60新駅・600台eバイク追加承認",
+    "🇺🇸 NYC市議会、Class 3 eバイク禁止含む法案23本を審議",
+    "🇺🇸 Lime、カナダ・ウォータールーでNeuron引き継ぎ展開開始",
+    "🇺🇸 Veo、デンバーで5月より単独マイクロモビリティ運営に移行",
     "🇸🇪 Voi、Q2売上€68.8M（+47%）・新型Voiager 9も発表"
   ],
   "pulse": [
@@ -14,16 +14,16 @@
       "flag": "🇯🇵",
       "en": "JAPAN",
       "ja": "日本",
-      "stat": "スロモビ上陸・600万人突破",
-      "text": "OpenStreetが10月5日より横浜市でHELLO CYCLINGアプリ経由の低速小型EV「スロモビ」シェアを開始。HELLO CYCLING会員は9月に600万人を突破。Luupはさいたま市で電動アシスト自転車と電動シートボードを全国初同時展開中。"
+      "stat": "京急連携・スロモビ上陸",
+      "text": "京急電鉄とOpenStreetが「京急ちゃりんポ」を10月1日始動。鉄道事業者とシェアモビリティの横断連携は業界初。HELLO CYCLINGは横浜でスロモビ（10月5日）も展開し、Luupはさいたま市で全国初の複合展開中。会員は9月に600万人突破。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "Lime快走・LA拡張・NYC規制",
-      "text": "LimeがQ2売上$304M（+24%）で通年$1.1Bへ上方修正、DCに$1,700万投資しフリート8,000台を刷新。LAメトロが60新駅・600台eバイク追加を承認し約30%拡充へ。NYC市議会はeバイク・スクーター安全規制20本超を審議中。"
+      "stat": "NYC規制・Veo台頭・Lime快走",
+      "text": "NYC市議会がClass 3 eバイク禁止含む法案23本を審議、配達業界に波紋。デンバーはVeoが5月に単独運営開始しLime・Birdを置き換え。LimeはQ2売上$304M（+24%）・通年$1.1B目標で北米展開を加速中。"
     },
     {
       "cls": "eu",
@@ -31,7 +31,7 @@
       "en": "EUROPE",
       "ja": "欧州",
       "stat": "Voi好業績・ロンドン新章",
-      "text": "VoiがQ2売上€68.8M（+47%）を達成し新型Voiager 9を発表。ロンドンPhase 3はLime・Voi・Dottが9月下旬に始動。ベルリン高裁はNextbikeに撤去命令、ブリュッセルでは2027年1月のeスクーター全面禁止が確定。"
+      "text": "VoiがQ2売上€68.8M（+47%）を達成し新型Voiager 9を発表。ロンドンPhase 3はLime・Voi・Dottが9月下旬に始動。ブリュッセルは2027年1月のeスクーター全面禁止が確定。"
     },
     {
       "cls": "as",
@@ -39,7 +39,7 @@
       "en": "ASIA",
       "ja": "アジア",
       "stat": "中国3強が寡占",
-      "text": "中国はハローバイク・美団・青桔の3強体制で1回約30円の低価格が定着。インドのYuluは$93Mを調達し電動二輪フリートを20万台規模へ拡大計画。Segwayが常州で新製品発表会を9月開催、世界オペレーターが集結。"
+      "text": "中国はハローバイク・美団・青桔の3強体制で1回約30円の低価格が定着。インドのYuluは$93Mを調達し電動二輪フリートを20万台規模へ拡大計画。Segwayが常州で新製品発表会を9月開催。"
     }
   ],
   "ranking": [
@@ -47,11 +47,11 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "累計10億ライド超。Q2売上$304M（+24%）・EBITDA$84M、通年$1.1B目標。時価総額$2.6B。DCに$1,700万投資し8,000台刷新。日本ではHELLO CYCLINGとポート連携を拡大中。",
+      "desc": "累計10億ライド超。Q2売上$304M（+24%）・通年$1.1B目標。DCに$1,700万投資し8,000台刷新。Neuron Mobilityのカナダ事業を買収し北米拡大。LimeGliderを各都市へ展開中。",
       "tags": [
-        "DC $1,700万投資",
-        "時価総額$2.6B",
-        "日本ポート連携"
+        "通年$1.1B目標",
+        "カナダ事業買収",
+        "LimeGlider展開"
       ],
       "score": 98,
       "site": "https://www.li.me/"
@@ -73,7 +73,7 @@
       "medal": "🥉",
       "name": "Citi Bike",
       "meta": "米国 · ニューヨーク",
-      "desc": "北米最大。2026年6月に月間549万ライドで過去最高、eバイク比率は70%超。NYC市議会がClass 3 eバイク禁止を含む規制パッケージを審議中で競争環境の変化も注目される。",
+      "desc": "北米最大。2026年6月に月間549万ライドで過去最高、eバイク比率は70%超。NYC市議会がClass 3 eバイク禁止含む法案23本を審議中で規制強化の動向が注目される。",
       "tags": [
         "北米最大",
         "月間549万ライド",
@@ -112,10 +112,10 @@
       "medal": "#6",
       "name": "HELLO CYCLING",
       "meta": "日本 · OpenStreet",
-      "desc": "2026年9月に会員600万人突破。ステーション約1.5万カ所・車両6.2万台超。Limeとのポート連携を都心部で拡大中。10月5日には横浜市で低速小型EV「スロモビ」のシェアも開始。",
+      "desc": "2026年9月に会員600万人突破。ステーション約1.5万カ所・車両6.2万台超。京急電鉄と「京急ちゃりんポ」を10月始動（鉄道×シェアモビ連携は業界初）。横浜でスロモビ展開も10月5日スタート。",
       "tags": [
         "会員600万人突破",
-        "Limeポート連携",
+        "京急ちゃりんポ始動",
         "スロモビ展開"
       ],
       "score": 86,
@@ -149,25 +149,39 @@
     }
   ],
   "featured": {
-    "date": "2026.09.26",
-    "title": "ロンドンeスクーター試験Phase 3が正式始動 — Lime・Voi・Dottが9月下旬から運営開始、2028年5月まで",
-    "text": "TfL（ロンドン交通局）とロンドン各区が、eスクーター試験のPhase 3を9月下旬に正式始動。Lime・Voi・Dottが落札し、Phase 2で達成した600万トリップを踏まえ、歩道走行検知など新技術の実証も実施。初期2年間（2028年5月まで）、最大延長4年の枠組みで運営される。",
-    "url": "https://zagdaily.com/micromobility/londons-e-scooter-trial-progresses-as-uk-legislation-remains-pending/"
+    "date": "2026.09.30",
+    "title": "NYC市議会、eバイク・スクーター規制法案23本を一括審議 — Class 3禁止・配達アプリ規制・下取りプログラムも",
+    "text": "NYC市議会交通インフラ・消費者労働者保護・公共安全の3委員会が9月30日、eバイク・スクーター規制に関する過去最多の23本の法案を合同審議。Class 3 eバイクの販売・使用禁止、配達アプリへの保険義務・データ提出義務、下取りプログラム創設などが俎上に。市内eバイク労働者は約8万人と推計され、規制の行方が注目される。",
+    "url": "https://www.bicycleretailer.com/industry-news/2026/10/01/banning-class-3-e-bikes-among-series-bills-introduced-nyc-curb-crashes"
   },
   "news": [
+    {
+      "region": "jp",
+      "date": "2026.10.01",
+      "title": "京急×OpenStreet「京急ちゃりんポ」始動 — 鉄道×シェアモビ横断連携は業界初、10〜11月キャンペーン",
+      "text": "京浜急行電鉄とOpenStreetが10月1日、連携事業「京急ちゃりんポ」を始動。京急プレミアポイントとHELLO CYCLINGを連携させ、京急沿線約50か所のステーション利用でポイント付与やクーポン進呈を実施。様々なシェアモビリティサービスと共通名称で横断的に連携する取り組みは鉄道業界初。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000289.000113324.html"
+    },
+    {
+      "region": "na",
+      "date": "2026.10.01",
+      "title": "NYC市議会、Class 3 eバイク禁止含む法案23本を一括審議 — 販売・使用禁止・配達アプリ規制も",
+      "text": "NYC市議会が10月1日、eバイク・スクーター規制に関する過去最多23本の法案を審議。Class 3 eバイク（最大25mph）の販売・賃貸・使用禁止、配達アプリへの保険・データ提出義務、下取りプログラム創設などが議題に。市内eバイク労働者は約8万人と推計され、配達業界への影響が懸念される。",
+      "url": "https://www.bicycleretailer.com/industry-news/2026/10/01/banning-class-3-e-bikes-among-series-bills-introduced-nyc-curb-crashes"
+    },
+    {
+      "region": "na",
+      "date": "2026.10.01",
+      "title": "Lime、カナダ・ウォータールー地域でNeuronを引き継ぎ展開開始 — 10月31日シーズン末まで",
+      "text": "LimeがカナダのウォータールーリージョンでNeuron Mobilityからeバイク・eスクーター事業を引き継ぎ、新フリートの展開を開始。LimeはNeuron Mobilityのカナダ事業をQ2末後に買収しており、北米拡大の一環。サービスは通常シーズン終了の10月31日まで提供される。",
+      "url": "https://www.cbc.ca/news/canada/kitchener-waterloo/waterloo-region-lime-micromobility-e-scooters-e-bikes-9.7365742"
+    },
     {
       "region": "jp",
       "date": "2026.10.01",
       "title": "HELLO CYCLING、横浜市で低速小型EV「スロモビ」シェア開始 — 桜木町など3駅、10月5日始動",
       "text": "OpenStreetが10月5日より横浜市でHELLO CYCLINGアプリを通じた移動用小型車「スロモビ」のシェアサービスを開始。桜木町駅・関内駅・日本大通り地下駐車場の3カ所にステーションを設置。最高時速6kmで免許不要、最大12時間無料で利用できる。2027年3月末まで実施予定。",
       "url": "https://www.openstreet.co.jp/news/slomobi2026"
-    },
-    {
-      "region": "na",
-      "date": "2026.09.24",
-      "title": "LAメトロ、バイクシェアを約30%拡充承認 — 60新駅・600台eバイク追加、南LA・ミッドシティへ",
-      "text": "LAメトロ理事会が9月24日、Metro Bike Shareの補助金活用拡充計画を承認。新たに60のドッキングステーション（820ドック）と600台のeバイクを追加し、南LA・ミッドシティ・西LAの各地区へ展開する。K・E・Dラインとの乗り継ぎ強化も図る。",
-      "url": "https://la.streetsblog.org/2026/09/24/metro-board-september-2026-update-electric-buses-open-streets-bike-share-and-more"
     },
     {
       "region": "na",
@@ -178,17 +192,38 @@
     },
     {
       "region": "na",
+      "date": "2026.09.26",
+      "title": "Lime、Q2 2026売上$304M・通年$1.04〜1.10Bに上方修正 — Neuron Mobilityのカナダ事業も買収",
+      "text": "Lime（Nasdaq: LIME）がQ2 2026決算を発表。売上$304M（前年比+24%）、調整後EBITDA$84M（マージン28%）、運用フリート40.8万台（+22%）。通年売上ガイダンスを$1.04〜1.10Bに上方修正。IPO後に長期債務を全額返済し、Q2末後にNeuron Mobilityのカナダ事業を買収して北米展開を加速。",
+      "url": "https://investors.li.me/news-releases/news-release-details/lime-announces-second-quarter-2026-financial-results"
+    },
+    {
+      "region": "eu",
+      "date": "2026.09.25",
+      "title": "ロンドンeスクーター試験Phase 3、TfLがLime・Voi・Dottに正式発注 — 9月下旬始動",
+      "text": "TfLがDott・Lime・Voiに対し、ロンドンeスクーター試験Phase 3の契約を正式発注。9月下旬に稼働開始し、歩道走行検知・タンデム乗車検知など新技術の試験も実施。初期24カ月・最大2032年9月まで延長可能な枠組みで運営される。",
+      "url": "https://micromobilitybiz.com/tfl-and-london-councils-launch-third-phase-of-londons-rental-e-scooter-trial/"
+    },
+    {
+      "region": "na",
+      "date": "2026.09.24",
+      "title": "LAメトロ、バイクシェアを約30%拡充承認 — 60新駅・600台eバイク追加、南LA・ミッドシティへ",
+      "text": "LAメトロ理事会が9月24日、Metro Bike Shareの補助金活用拡充計画を承認。新たに60のドッキングステーション（820ドック）と600台のeバイクを追加し、南LA・ミッドシティ・西LAの各地区へ展開する。K・E・Dラインとの乗り継ぎ強化も図る。",
+      "url": "https://la.streetsblog.org/2026/09/24/metro-board-september-2026-update-electric-buses-open-streets-bike-share-and-more"
+    },
+    {
+      "region": "na",
       "date": "2026.09.24",
       "title": "Lime、ワシントンDCに$1,700万投資 — 8,000台フリート刷新・AI安全技術とフットパトロール200%増",
       "text": "LimeがワシントンDC向けに2026年$1,700万の投資を発表。新型LimeBike導入によるフリート8,000台刷新に加え、AIによる年齢確認・駐車確認・歩道走行検知技術を導入。フットパトロールスタッフも200%増強し、運営品質と安全性を強化する。",
       "url": "https://micromobility.substack.com/p/segway-launches-four-new-vehicles"
     },
     {
-      "region": "jp",
-      "date": "2026.09.29",
-      "title": "HELLO CYCLING、群馬・安中市に電動アシスト自転車200台 — 美輪興産と提携し地域交通課題を解決",
-      "text": "OpenStreetと群馬県安中市の美輪興産が業務提携し、HELLO CYCLINGに電動アシスト自転車200台を導入。サービスは2026年9月開始。OpenStreetは現在30都道府県・約1.5万ステーション・6.2万台超・会員約600万人のプラットフォームを運営する。",
-      "url": "https://prtimes.jp/main/html/rd/p/000000286.000113324.html"
+      "region": "eu",
+      "date": "2026.09.23",
+      "title": "Voi、Q2 2026売上€68.8M（+47%）・12カ月累計€210Mを初突破 — IPOは「具体的計画なし」",
+      "text": "VoiがQ2 2026に売上€68.8M（前年比+47%）・Adjusted EBIT€11.6M・EBITDA€19.7M（マージン28.6%）を達成。12カ月累計売上€210.3Mと初めて€200M超え。CFOはIPOを「長期的選択肢だが具体的な計画もタイムラインもない」と明言。パリでは好利用率を評価され市から増枠を取得した。",
+      "url": "https://zagdaily.com/micromobility/voi-reveals-no-concrete-plans-for-ipo-after-strong-q2-results/"
     },
     {
       "region": "jp",
@@ -205,27 +240,6 @@
       "url": "https://luup.sc/news/2026-09-11-saitama/"
     },
     {
-      "region": "na",
-      "date": "2026.09.26",
-      "title": "Lime、Q2 2026売上$304M・通年$1.04〜1.10Bに上方修正 — Neuron Mobilityのカナダ事業も買収",
-      "text": "Lime（Nasdaq: LIME）がQ2 2026決算を発表。売上$304M（前年比+24%）、調整後EBITDA$84M（マージン28%）、運用フリート40.8万台（+22%）。通年売上ガイダンスを$1.04〜1.10Bに上方修正。IPO後に長期債務を全額返済し、Q2末後にNeuron Mobilityのカナダ事業を買収して北米展開を加速。",
-      "url": "https://investors.li.me/news-releases/news-release-details/lime-announces-second-quarter-2026-financial-results"
-    },
-    {
-      "region": "eu",
-      "date": "2026.09.25",
-      "title": "ロンドンeスクーター試験Phase 3が正式始動 — Lime・Voiが主軸、2028年5月まで運営",
-      "text": "TfLとロンドン各区が、Lime・Voiと共にeスクーター試験Phase 3を9月下旬に正式スタート。Phase 2で600万トリップ超を達成し、歩道走行検知や駐車精度向上など新車載技術の試験も継続。初期2年間、最大延長4年の枠組みで運営される。",
-      "url": "https://zagdaily.com/micromobility/londons-e-scooter-trial-progresses-as-uk-legislation-remains-pending/"
-    },
-    {
-      "region": "eu",
-      "date": "2026.09.25",
-      "title": "ロンドンeスクーター試験Phase 3、TfLがLime・Voi・Dottに正式発注 — 9月下旬始動",
-      "text": "TfLがDott・Lime・Voiに対し、ロンドンeスクーター試験Phase 3の契約を正式発注。9月下旬に稼働開始し、歩道走行検知・タンデム乗車検知など新技術の試験も実施。初期24カ月・最大2032年9月まで延長可能な枠組みで運営される。",
-      "url": "https://micromobilitybiz.com/tfl-and-london-councils-launch-third-phase-of-londons-rental-e-scooter-trial/"
-    },
-    {
       "region": "eu",
       "date": "2026.09.23",
       "title": "イタリア競争当局、Bird・Dott・Limeにローマeスクーター無料ライド妨害で計€2.7M制裁",
@@ -238,20 +252,6 @@
       "title": "ドコモ・バイクシェア、9月1日にNOLL（ノル）へ正式刷新 — 特定小型原付も2026年内商用化へ",
       "text": "ドコモ・バイクシェアが9月1日、サービスブランドを「NOLL（ノル）」へ全面刷新。「baybike」「ちよくる」など63地域名称をNOLLに統一し、新型車両と10分単位の新料金体系を導入。仙台エリアも新たに追加。特定小型原動機付自転車モデルの商用化も2026年内に予定している。",
       "url": "https://entla.co.jp/docomo-bikeshare-noll-guide/"
-    },
-    {
-      "region": "eu",
-      "date": "2026.09.23",
-      "title": "Voi、Q2 2026売上€68.8M（+47%）・12カ月累計€210Mを初突破 — IPOは「具体的計画なし」",
-      "text": "VoiがQ2 2026に売上€68.8M（前年比+47%）・Adjusted EBIT€11.6M・EBITDA€19.7M（マージン28.6%）を達成。12カ月累計売上€210.3Mと初めて€200M超え。CFOはIPOを「長期的選択肢だが具体的な計画もタイムラインもない」と明言。パリでは好利用率を評価され市から増枠を取得した。",
-      "url": "https://zagdaily.com/micromobility/voi-reveals-no-concrete-plans-for-ipo-after-strong-q2-results/"
-    },
-    {
-      "region": "na",
-      "date": "2026.09.23",
-      "title": "Divvy（シカゴ）、2025年に680万トリップ過去最高 — 2026年は800万超見込み・200駅新設へ",
-      "text": "シカゴのDivvyが2025年に680万トリップ（過去最高）を達成。Limeスクーターと合算すると2025年シカゴ全体のシェアマイクロモビリティは約1,300万トリップに達した。2026年はCDOTとLyftが200駅超を新設し、800万トリップ超えを目指す。",
-      "url": "https://www.govtech.com/transportation/e-bikes-e-scooters-reshape-major-cities-mobility-landscape"
     },
     {
       "region": "eu",
