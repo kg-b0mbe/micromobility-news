@@ -214,6 +214,14 @@ section{padding:56px 0 8px}
 }
 .fbtn:hover{transform:translateY(-2px)}
 .fbtn.active{background:var(--asphalt);color:#fff}
+.fbtn:focus-visible,.arch button:focus-visible,#month-filter:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
+.filter-tools{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.filter-tools label{font-size:13.5px;font-weight:800}
+#month-filter{font:inherit;color:inherit;background:var(--paper);border:2.5px solid var(--ink);border-radius:12px;padding:7px 12px;max-width:100%}
+.filter-note,.news-summary{font-size:12.5px;color:var(--ink-soft);font-weight:700;margin-bottom:16px}
+.news-empty{background:var(--paper);border:var(--border);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow)}
+.news-empty p{margin-top:6px;color:var(--ink-soft);font-size:13.5px}
+[hidden]{display:none!important}
 .news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
 .news{
   background:var(--paper);border:var(--border);border-radius:var(--radius);
@@ -243,12 +251,15 @@ section{padding:56px 0 8px}
 
 /* ---------- archive ---------- */
 .arch{display:flex;gap:12px;flex-wrap:wrap}
-.arch a{
+.arch button{
+  font-family:inherit;cursor:pointer;color:inherit;
   text-decoration:none;background:var(--paper);border:2.5px solid var(--ink);border-radius:14px;
   padding:10px 20px;font-weight:800;font-size:14px;box-shadow:3px 3px 0 rgba(29,39,51,.14);
   transition:transform .12s ease;
 }
-.arch a:hover{transform:translateY(-3px);background:#FFF3D6}
+.arch button:hover{transform:translateY(-3px);background:#FFF3D6}
+
+.arch button.active{background:var(--asphalt);color:#fff}
 
 /* ---------- footer ---------- */
 footer{margin-top:70px;background:var(--asphalt);color:#C9D6E2;padding:34px 0 40px;border-top:var(--border)}
@@ -356,17 +367,28 @@ footer .flane{height:6px;margin-top:22px;border-radius:4px;
 <!-- latest news -->
 <section id="news">
   <div class="container">
-    <div class="sec-head"><h2><span class="en">LATEST NEWS</span> 最新ニュース</h2><span class="sub">地域で絞り込み</span></div>
+    <div class="sec-head"><h2><span class="en">LATEST NEWS</span> 最新ニュース</h2><span class="sub">地域・年月で絞り込み ／ 新しい順</span></div>
     <div class="lane-divider b"></div>
-    <div class="filters" role="tablist" aria-label="地域フィルタ">
-      <button class="fbtn active" data-f="all">ALL</button>
-      <button class="fbtn" data-f="jp">🇯🇵 日本</button>
-      <button class="fbtn" data-f="na">🌎 北米</button>
-      <button class="fbtn" data-f="eu">🇪🇺 欧州</button>
-      <button class="fbtn" data-f="as">🌏 アジア</button>
-      <button class="fbtn" data-f="gl">🌐 世界</button>
+    <div class="filter-tools">
+      <label for="month-filter">記事の年月</label>
+      <select id="month-filter" aria-controls="news-grid"><option value="all">すべての年月</option></select>
+      <button type="button" class="fbtn" id="reset-filters" aria-controls="news-grid">全件表示に戻る</button>
     </div>
+    <p class="filter-note">現在掲載中の記事から絞り込みます。地域の件数は選択した年月内の件数です。</p>
+    <div class="filters" role="group" aria-label="地域フィルタ">
+      <button type="button" class="fbtn active" data-f="all" aria-pressed="true" aria-controls="news-grid">ALL</button>
+      <button type="button" class="fbtn" data-f="jp" aria-pressed="false" aria-controls="news-grid">🇯🇵 日本</button>
+      <button type="button" class="fbtn" data-f="na" aria-pressed="false" aria-controls="news-grid">🌎 北米</button>
+      <button type="button" class="fbtn" data-f="eu" aria-pressed="false" aria-controls="news-grid">🇪🇺 欧州</button>
+      <button type="button" class="fbtn" data-f="as" aria-pressed="false" aria-controls="news-grid">🌏 アジア</button>
+      <button type="button" class="fbtn" data-f="gl" aria-pressed="false" aria-controls="news-grid">🌐 世界</button>
+    </div>
+    <p class="news-summary" id="news-summary" role="status" aria-live="polite" aria-atomic="true"></p>
     <div class="news-grid" id="news-grid"></div>
+    <div class="news-empty" id="news-empty" hidden>
+      <strong>該当する記事はありません</strong>
+      <p>地域や年月を変更するか、「全件表示に戻る」で現在掲載中のすべての記事を表示できます。</p>
+    </div>
   </div>
 </section>
 
@@ -382,9 +404,9 @@ footer .flane{height:6px;margin-top:22px;border-radius:4px;
 <!-- archive -->
 <section id="archive">
   <div class="container">
-    <div class="sec-head"><h2><span class="en">ARCHIVE</span> アーカイブ</h2><span class="sub">過去のニュースを年月で振り返る</span></div>
+    <div class="sec-head"><h2><span class="en">BY MONTH</span> 年月から探す</h2><span class="sub">現在掲載中の記事のみ（過去記事の保存ではありません）</span></div>
     <div class="lane-divider"></div>
-    <div class="arch" id="arch-list"></div>
+    <div class="arch" id="arch-list" role="group" aria-label="記事の年月フィルタ"></div>
   </div>
 </section>
 
@@ -412,6 +434,32 @@ function el(tag, cls, text) {
   if (cls) e.className = cls;
   if (text !== undefined) e.textContent = text;
   return e;
+}
+
+// Compare calendar dates without browser-dependent date-string parsing.
+function newsDateKey(date) {
+  const match = /^(\d{4})\.(\d{2})\.(\d{2})$/.exec(date || "");
+  if (!match) return "";
+  const [, year, month, day] = match;
+  const parsed = new Date(`${year}-${month}-${day}T00:00:00Z`);
+  return !Number.isNaN(parsed.getTime()) && parsed.toISOString().slice(0, 10) === `${year}-${month}-${day}`
+    ? `${year}.${month}.${day}` : "";
+}
+
+function sortNews(news) {
+  return [...news].sort((a, b) => newsDateKey(b.date).localeCompare(newsDateKey(a.date)));
+}
+
+function newsMonth(article) {
+  return newsDateKey(article.date).slice(0, 7);
+}
+
+function availableMonths(news) {
+  return [...new Set(news.map(newsMonth).filter(Boolean))].sort().reverse();
+}
+
+function matchesNews(article, region, month) {
+  return (region === "all" || article.region === region) && (month === "all" || newsMonth(article) === month);
 }
 
 function render(d) {
@@ -480,9 +528,11 @@ function render(d) {
   // news
   const ng = document.getElementById("news-grid");
   ng.textContent = "";
-  d.news.forEach(n => {
+  const news = sortNews(d.news);
+  news.forEach(n => {
     const card = el("article", "news");
     card.dataset.r = n.region;
+    card.dataset.month = newsMonth(n);
     const top = el("div", "top");
     top.appendChild(el("span", "rtag " + n.region, REGION_LABEL[n.region] || n.region));
     top.appendChild(el("span", "ndate mono", n.date));
@@ -508,24 +558,75 @@ function render(d) {
     dg.appendChild(card);
   });
 
-  // archive
+  // Both month controls use only the articles in this data snapshot.
+  const months = availableMonths(news);
+  const monthSelect = document.getElementById("month-filter");
   const al = document.getElementById("arch-list");
+  monthSelect.textContent = "";
   al.textContent = "";
-  d.archive.forEach(m => {
-    const a = el("a", null, m);
-    a.href = "#news";
-    al.appendChild(a);
+  const monthButtons = [];
+  ["all", ...months].forEach(month => {
+    const label = month === "all" ? "すべての年月" : month;
+    const option = el("option", null, label);
+    option.value = month;
+    monthSelect.appendChild(option);
+    const button = el("button", null, label);
+    button.type = "button";
+    button.setAttribute("aria-controls", "news-grid");
+    button.dataset.month = month;
+    al.appendChild(button);
+    monthButtons.push(button);
   });
 
-  // filters
-  const btns = document.querySelectorAll(".fbtn");
-  const cards = document.querySelectorAll(".news");
-  btns.forEach(b => b.onclick = () => {
-    btns.forEach(x => x.classList.remove("active"));
-    b.classList.add("active");
-    const f = b.dataset.f;
-    cards.forEach(c => c.classList.toggle("hidden", f !== "all" && c.dataset.r !== f));
+  let region = "all";
+  let month = "all";
+  const btns = document.querySelectorAll(".filters [data-f]");
+  const cards = Array.from(ng.children);
+  const regionNames = { all: "ALL", jp: "🇯🇵 日本", na: "🌎 北米", eu: "🇪🇺 欧州", as: "🌏 アジア", gl: "🌐 世界" };
+  function applyFilters() {
+    let visible = 0;
+    cards.forEach((card, index) => {
+      card.hidden = !matchesNews(news[index], region, month);
+      if (!card.hidden) visible++;
+    });
+    btns.forEach(button => {
+      const selected = button.dataset.f === region;
+      const count = news.filter(article => matchesNews(article, button.dataset.f, month)).length;
+      button.textContent = `${regionNames[button.dataset.f]} (${count})`;
+      button.classList.toggle("active", selected);
+      button.setAttribute("aria-pressed", String(selected));
+    });
+    monthSelect.value = month;
+    monthButtons.forEach(button => {
+      const selected = button.dataset.month === month;
+      button.classList.toggle("active", selected);
+      button.setAttribute("aria-pressed", String(selected));
+    });
+    const regionLabel = region === "all" ? "すべての地域" : REGION_LABEL[region];
+    const monthLabel = month === "all" ? "すべての年月" : month;
+    document.getElementById("news-summary").textContent = `${regionLabel} · ${monthLabel}：${visible}件 ／ 新しい順`;
+    document.getElementById("news-empty").hidden = visible !== 0;
+  }
+  btns.forEach(button => button.onclick = () => {
+    region = button.dataset.f;
+    applyFilters();
   });
+  monthSelect.onchange = () => {
+    month = monthSelect.value;
+    applyFilters();
+  };
+  monthButtons.forEach(button => button.onclick = () => {
+    month = button.dataset.month;
+    applyFilters();
+    monthSelect.focus({ preventScroll: true });
+    document.getElementById("news").scrollIntoView({ block: "start" });
+  });
+  document.getElementById("reset-filters").onclick = () => {
+    region = "all";
+    month = "all";
+    applyFilters();
+  };
+  applyFilters();
 }
 
 fetch("data.json?t=" + Date.now())
