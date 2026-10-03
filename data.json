@@ -1,11 +1,11 @@
 {
-  "updated": "2026.10.02",
+  "updated": "2026.10.03",
   "ticker": [
+    "🇯🇵 三井のリパーク、4社シェアモビを1拠点に集約・業界初",
     "🇯🇵 京急×HELLO CYCLING「京急ちゃりんポ」10月1日始動",
-    "🇯🇵 HELLO CYCLING、横浜で小型EV「スロモビ」シェア10月5日開始",
+    "🇯🇵 HELLO CYCLING、横浜でスロモビシェア10月5日開始",
     "🇺🇸 NYC市議会、Class 3 eバイク禁止含む法案23本を審議",
-    "🇺🇸 Lime、カナダ・ウォータールーでNeuron引き継ぎ展開開始",
-    "🇺🇸 Veo、デンバーで5月より単独マイクロモビリティ運営に移行",
+    "🇺🇸 米「Shared Micromobility Investment Ac…",
     "🇸🇪 Voi、Q2売上€68.8M（+47%）・新型Voiager 9も発表"
   ],
   "pulse": [
@@ -14,16 +14,16 @@
       "flag": "🇯🇵",
       "en": "JAPAN",
       "ja": "日本",
-      "stat": "京急連携・スロモビ上陸",
-      "text": "京急電鉄とOpenStreetが「京急ちゃりんポ」を10月1日始動。鉄道事業者とシェアモビリティの横断連携は業界初。HELLO CYCLINGは横浜でスロモビ（10月5日）も展開し、Luupはさいたま市で全国初の複合展開中。会員は9月に600万人突破。"
+      "stat": "拠点集約・連携加速",
+      "text": "三井のリパークがNOLL・HELLO CYCLING・Luup・Limeの4社を同一拠点に集約（9/4、業界初）。京急×HELLO CYCLINGの「京急ちゃりんポ」が10/1始動。横浜でスロモビシェアも10/5スタート。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "NYC規制・Veo台頭・Lime快走",
-      "text": "NYC市議会がClass 3 eバイク禁止含む法案23本を審議、配達業界に波紋。デンバーはVeoが5月に単独運営開始しLime・Birdを置き換え。LimeはQ2売上$304M（+24%）・通年$1.1B目標で北米展開を加速中。"
+      "stat": "規制・法整備が焦点",
+      "text": "NYC市議会がClass 3 eバイク禁止含む法案23本を審議し配達業界に波紋。米連邦でShared Micromobility Investment Actが下院に提出。LimeはQ2売上$304M（+24%）・通年$1.1B目標で拡大中。"
     },
     {
       "cls": "eu",
@@ -31,7 +31,7 @@
       "en": "EUROPE",
       "ja": "欧州",
       "stat": "Voi好業績・ロンドン新章",
-      "text": "VoiがQ2売上€68.8M（+47%）を達成し新型Voiager 9を発表。ロンドンPhase 3はLime・Voi・Dottが9月下旬に始動。ブリュッセルは2027年1月のeスクーター全面禁止が確定。"
+      "text": "VoiがQ2売上€68.8M（+47%）・12カ月累計€210M超を達成し新型Voiager 9を発表。ロンドンPhase 3はLime・Voi・Dottが9月下旬に始動。ブリュッセルは2027年1月のeスクーター全面禁止が確定。"
     },
     {
       "cls": "as",
@@ -47,7 +47,7 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "累計10億ライド超。Q2売上$304M（+24%）・通年$1.1B目標。DCに$1,700万投資し8,000台刷新。Neuron Mobilityのカナダ事業を買収し北米拡大。LimeGliderを各都市へ展開中。",
+      "desc": "累計10億ライド超。Q2売上$304M（+24%）・通年$1.1B目標。DCに$1,700万投資し8,000台刷新。Neuron Mobilityのカナダ事業を買収しウォータールーにも展開。LimeGliderをダラスなど各都市へ展開中。",
       "tags": [
         "通年$1.1B目標",
         "カナダ事業買収",
@@ -112,7 +112,7 @@
       "medal": "#6",
       "name": "HELLO CYCLING",
       "meta": "日本 · OpenStreet",
-      "desc": "2026年9月に会員600万人突破。ステーション約1.5万カ所・車両6.2万台超。京急電鉄と「京急ちゃりんポ」を10月始動（鉄道×シェアモビ連携は業界初）。横浜でスロモビ展開も10月5日スタート。",
+      "desc": "2026年9月に会員600万人突破。ステーション約1.5万カ所・車両6.2万台超。京急電鉄と「京急ちゃりんポ」を10月始動。横浜でスロモビ展開も10月5日スタート。三井のリパークを通じた他社との拠点集約にも参画。",
       "tags": [
         "会員600万人突破",
         "京急ちゃりんポ始動",
@@ -125,11 +125,11 @@
       "medal": "#7",
       "name": "Luup",
       "meta": "日本 · 電動キックボード＋自転車",
-      "desc": "国内最大の電動マイクロモビリティ。ポート1.7万カ所超。さいたま市で電動アシスト自転車と電動シートボードを全国初の組み合わせで実証展開中（2027年10月末まで）。東京では料金改定とチャージパスも導入済み。",
+      "desc": "国内最大の電動マイクロモビリティ。ポート1.7万カ所超。さいたま市で電動アシスト自転車と電動シートボードを全国初の組み合わせで実証展開中。三井のリパーク練馬拠点で他社と共存する拠点集約モデルにも参加。",
       "tags": [
         "ポート1.7万+",
         "さいたま実証開始",
-        "全国初の組み合わせ"
+        "拠点集約参画"
       ],
       "score": 83,
       "site": "https://luup.sc/"
@@ -173,7 +173,7 @@
       "region": "na",
       "date": "2026.10.01",
       "title": "Lime、カナダ・ウォータールー地域でNeuronを引き継ぎ展開開始 — 10月31日シーズン末まで",
-      "text": "LimeがカナダのウォータールーリージョンでNeuron Mobilityからeバイク・eスクーター事業を引き継ぎ、新フリートの展開を開始。LimeはNeuron Mobilityのカナダ事業をQ2末後に買収しており、北米拡大の一環。サービスは通常シーズン終了の10月31日まで提供される。",
+      "text": "LimeがカナダのウォータールーリージョンでNeuron Mobilityからeバイク・eスクーター事業を引き継ぎ、Gen 4.1スクーターとGen 4 eバイクの新フリートを展開開始。Limeは7月にNeuron Mobilityのカナダ事業を買収しており、北米拡大の一環。サービスは通常シーズン終了の10月31日まで提供される。",
       "url": "https://www.cbc.ca/news/canada/kitchener-waterloo/waterloo-region-lime-micromobility-e-scooters-e-bikes-9.7365742"
     },
     {
@@ -191,6 +191,13 @@
       "url": "https://gothamist.com/news/nyc-council-considers-new-rules-for-e-bikes-scooters-and-mopeds"
     },
     {
+      "region": "jp",
+      "date": "2026.09.29",
+      "title": "HELLO CYCLING、2026年9月に会員600万人突破 — 500万人から約11カ月で100万人増",
+      "text": "OpenStreetが運営するHELLO CYCLINGの会員登録者数が2026年9月に600万人を突破。2025年10月の500万人突破から約11カ月で100万人増加し、毎月約10万人ずつ成長中。現在100社超のパートナーが全国30都道府県で展開。",
+      "url": "https://www.openstreet.co.jp/news/600muser"
+    },
+    {
       "region": "na",
       "date": "2026.09.26",
       "title": "Lime、Q2 2026売上$304M・通年$1.04〜1.10Bに上方修正 — Neuron Mobilityのカナダ事業も買収",
@@ -203,6 +210,13 @@
       "title": "ロンドンeスクーター試験Phase 3、TfLがLime・Voi・Dottに正式発注 — 9月下旬始動",
       "text": "TfLがDott・Lime・Voiに対し、ロンドンeスクーター試験Phase 3の契約を正式発注。9月下旬に稼働開始し、歩道走行検知・タンデム乗車検知など新技術の試験も実施。初期24カ月・最大2032年9月まで延長可能な枠組みで運営される。",
       "url": "https://micromobilitybiz.com/tfl-and-london-councils-launch-third-phase-of-londons-rental-e-scooter-trial/"
+    },
+    {
+      "region": "eu",
+      "date": "2026.09.23",
+      "title": "Voi、Q2 2026売上€68.8M（+47%）・12カ月累計€210Mを初突破 — IPOは「具体的計画なし」",
+      "text": "VoiがQ2 2026に売上€68.8M（前年比+47%）・Adjusted EBIT€11.6M・EBITDA€19.7M（マージン28.6%）を達成。12カ月累計売上€210.3Mと初めて€200M超え。CFOはIPOを「長期的選択肢だが具体的な計画もタイムラインもない」と明言。パリでは好利用率を評価され市から増枠を取得。",
+      "url": "https://zagdaily.com/micromobility/voi-reveals-no-concrete-plans-for-ipo-after-strong-q2-results/"
     },
     {
       "region": "na",
@@ -219,18 +233,11 @@
       "url": "https://micromobility.substack.com/p/segway-launches-four-new-vehicles"
     },
     {
-      "region": "eu",
-      "date": "2026.09.23",
-      "title": "Voi、Q2 2026売上€68.8M（+47%）・12カ月累計€210Mを初突破 — IPOは「具体的計画なし」",
-      "text": "VoiがQ2 2026に売上€68.8M（前年比+47%）・Adjusted EBIT€11.6M・EBITDA€19.7M（マージン28.6%）を達成。12カ月累計売上€210.3Mと初めて€200M超え。CFOはIPOを「長期的選択肢だが具体的な計画もタイムラインもない」と明言。パリでは好利用率を評価され市から増枠を取得した。",
-      "url": "https://zagdaily.com/micromobility/voi-reveals-no-concrete-plans-for-ipo-after-strong-q2-results/"
-    },
-    {
       "region": "jp",
-      "date": "2026.09.29",
-      "title": "HELLO CYCLING、2026年9月に会員600万人突破 — 500万人から約11カ月で100万人増",
-      "text": "OpenStreetが運営するHELLO CYCLINGの会員登録者数が2026年9月に600万人を突破。2025年10月の500万人突破から約11カ月で100万人増加し、毎月約10万人ずつ成長中。現在100社超のパートナーが全国30都道府県で展開。",
-      "url": "https://www.openstreet.co.jp/news/600muser"
+      "date": "2026.09.08",
+      "title": "三井のリパーク、NOLL・HELLO CYCLING・Luup・Lime 4社を1拠点に集約 — 業界初、年度内全国500拠点へ",
+      "text": "三井不動産リアルティが東京・練馬区「三井のリパーク大泉学園町6丁目」に、NOLL・HELLO CYCLING・Luup・Limeの4社のシェアモビリティを同一拠点で利用できる施設を9月4日開設。駐車場事業者として業界初の取り組みで、2026年度中に全国500箇所・5,000台規模への拡大を目指す。",
+      "url": "https://response.jp/article/2026/09/08/416293.html"
     },
     {
       "region": "jp",
@@ -241,10 +248,10 @@
     },
     {
       "region": "eu",
-      "date": "2026.09.23",
-      "title": "イタリア競争当局、Bird・Dott・Limeにローマeスクーター無料ライド妨害で計€2.7M制裁",
-      "text": "イタリア競争当局（AGCM）がBird・Dott・Limeに対し、ローマ年間公共交通パス保持者への無料ライド付与を困難にした不公正商慣行として計€2.7Mの制裁金を科した。Limeへの制裁額は€1.4Mと最大で、2023〜2026年のローマ営業許可期間中の行為が対象。",
-      "url": "https://www.wantedinrome.com/news/italy-fines-e-scooter-firms-bird-dott-and-lime-26-million-over-blocked-free-rides-in-rome.html"
+      "date": "2026.09.19",
+      "title": "ブリュッセル、Lime提訴でBolt・Dott・Voiのライセンス取消 — eスクーターは2026年末まで継続・2027年1月全面禁止確定",
+      "text": "Limeによる2023年入札プロセスへの法的異議申し立てを受け、ベルギー評議会がBolt・Dott・Voiの免許を取り消し。9月1日撤去令が出たものの、ブリュッセル当局が2026年末まで継続を認め、2027年1月の全面禁止方針は維持。新入札は2028年5月頃を予定（eスクーター最大4,800台×2ライセンス）。",
+      "url": "https://micromobility.substack.com/p/limes-marketcap-is-at-26b-stock-up"
     },
     {
       "region": "jp",
@@ -252,13 +259,6 @@
       "title": "ドコモ・バイクシェア、9月1日にNOLL（ノル）へ正式刷新 — 特定小型原付も2026年内商用化へ",
       "text": "ドコモ・バイクシェアが9月1日、サービスブランドを「NOLL（ノル）」へ全面刷新。「baybike」「ちよくる」など63地域名称をNOLLに統一し、新型車両と10分単位の新料金体系を導入。仙台エリアも新たに追加。特定小型原動機付自転車モデルの商用化も2026年内に予定している。",
       "url": "https://entla.co.jp/docomo-bikeshare-noll-guide/"
-    },
-    {
-      "region": "eu",
-      "date": "2026.09.19",
-      "title": "ブリュッセル、Lime提訴でBolt・Dott・Voiのライセンス取消 — eスクーターは2026年末まで継続・2027年1月全面禁止確定",
-      "text": "Limeによる2023年入札プロセスへの法的異議申し立てを受け、ベルギー評議会がBolt・Dott・Voiの免許を取り消し。9月1日撤去令が出たものの、ブリュッセル当局が2026年末まで継続を認め、2027年1月の全面禁止方針は維持。新入札は2028年5月頃を予定（eスクーター最大4,800台×2ライセンス）。",
-      "url": "https://micromobility.substack.com/p/limes-marketcap-is-at-26b-stock-up"
     }
   ],
   "stats": [
