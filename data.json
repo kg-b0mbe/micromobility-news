@@ -1,12 +1,12 @@
 {
-  "updated": "2026.10.03",
+  "updated": "2026.10.04",
   "ticker": [
-    "🇯🇵 三井のリパーク、4社シェアモビを1拠点に集約・業界初",
+    "🇸🇪 Voi、€150M回転信用枠を確保・10月19日に既存債券を償還へ",
+    "🇺🇸 カリフォルニア州SB 1167成立・eモト≠eバイクを法律で明確化",
     "🇯🇵 京急×HELLO CYCLING「京急ちゃりんポ」10月1日始動",
     "🇯🇵 HELLO CYCLING、横浜でスロモビシェア10月5日開始",
     "🇺🇸 NYC市議会、Class 3 eバイク禁止含む法案23本を審議",
-    "🇺🇸 米「Shared Micromobility Investment Ac…",
-    "🇸🇪 Voi、Q2売上€68.8M（+47%）・新型Voiager 9も発表"
+    "🇯🇵 三井のリパーク、4社シェアモビを1拠点に集約・業界初"
   ],
   "pulse": [
     {
@@ -14,24 +14,24 @@
       "flag": "🇯🇵",
       "en": "JAPAN",
       "ja": "日本",
-      "stat": "拠点集約・連携加速",
-      "text": "三井のリパークがNOLL・HELLO CYCLING・Luup・Limeの4社を同一拠点に集約（9/4、業界初）。京急×HELLO CYCLINGの「京急ちゃりんポ」が10/1始動。横浜でスロモビシェアも10/5スタート。"
+      "stat": "拠点集約・新サービス始動",
+      "text": "京急×HELLO CYCLINGの「京急ちゃりんポ」が10/1始動。横浜でスロモビシェアも10/5スタート。三井のリパークがNOLL・HELLO CYCLING・Luup・Limeの4社を同一拠点に集約する業界初モデルが全国展開へ加速。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "規制・法整備が焦点",
-      "text": "NYC市議会がClass 3 eバイク禁止含む法案23本を審議し配達業界に波紋。米連邦でShared Micromobility Investment Actが下院に提出。LimeはQ2売上$304M（+24%）・通年$1.1B目標で拡大中。"
+      "stat": "規制整備・業績拡大が同時進行",
+      "text": "NYC市議会がClass 3 eバイク禁止含む法案23本を審議。カリフォルニア州はSB 1167でeモト≠eバイクを法律で明確化（2027年1月施行）。LimeはQ2売上$304M（+24%）で拡大中。"
     },
     {
       "cls": "eu",
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "Voi好業績・ロンドン新章",
-      "text": "VoiがQ2売上€68.8M（+47%）・12カ月累計€210M超を達成し新型Voiager 9を発表。ロンドンPhase 3はLime・Voi・Dottが9月下旬に始動。ブリュッセルは2027年1月のeスクーター全面禁止が確定。"
+      "stat": "Voi財務基盤を強化",
+      "text": "VoiがNordic3行から€150M回転信用枠を確保し、既存債券を10月19日に償還予定。Q2売上€68.8M（+47%）・新型Voiager 9発表と合わせ攻勢。ロンドンPhase 3はLime・Voi・Dottが稼働中。"
     },
     {
       "cls": "as",
@@ -47,11 +47,11 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "累計10億ライド超。Q2売上$304M（+24%）・通年$1.1B目標。DCに$1,700万投資し8,000台刷新。Neuron Mobilityのカナダ事業を買収しウォータールーにも展開。LimeGliderをダラスなど各都市へ展開中。",
+      "desc": "累計10億ライド超。Q2売上$304M（+24%）・通年$1.1B目標。DCに$1,700万投資し8,000台刷新。カナダ・ウォータールーでNeuron事業を引き継ぎ展開。カリフォルニアSB 1167を支持し規制整備にも積極関与。",
       "tags": [
         "通年$1.1B目標",
-        "カナダ事業買収",
-        "LimeGlider展開"
+        "カナダ事業引継ぎ",
+        "SB 1167支持"
       ],
       "score": 98,
       "site": "https://www.li.me/"
@@ -73,10 +73,10 @@
       "medal": "🥉",
       "name": "Citi Bike",
       "meta": "米国 · ニューヨーク",
-      "desc": "北米最大。2026年6月に月間549万ライドで過去最高、eバイク比率は70%超。NYC市議会がClass 3 eバイク禁止含む法案23本を審議中で規制強化の動向が注目される。",
+      "desc": "北米最大。2026年6月に月間549万ライドで過去最高、eバイク比率は70%超。Lyft Urban Solutionsのバイクシェア部門がQ2過去最高ライド数を記録。NYC市議会のClass 3 eバイク禁止法案の行方が注目される。",
       "tags": [
         "北米最大",
-        "月間549万ライド",
+        "Q2過去最高ライド",
         "eバイク比率70%"
       ],
       "score": 91,
@@ -99,20 +99,20 @@
       "medal": "#5",
       "name": "Voi",
       "meta": "スウェーデン · 欧州130都市超",
-      "desc": "Q2売上€68.8M（+47%）・12カ月累計€210M初突破、EBITDA€19.7M（マージン28.6%）。新型Voiager 9は車両寿命10年以上を実現。ロンドンPhase 3・パリ増枠でも存在感。IPOは「具体的計画なし」。",
+      "desc": "Q2売上€68.8M（+47%）・12カ月累計€210M超。Danske Bank等3行から€150M回転信用枠を確保し、10/19に既存債券を償還予定。新型Voiager 9・ロンドンPhase 3・パリ増枠で事業も拡大中。",
       "tags": [
-        "Q2売上€68.8M",
+        "€150M信用枠確保",
         "Voiager 9発表",
-        "IPO未定"
+        "債券償還へ"
       ],
-      "score": 87,
+      "score": 88,
       "site": "https://www.voi.com/"
     },
     {
       "medal": "#6",
       "name": "HELLO CYCLING",
       "meta": "日本 · OpenStreet",
-      "desc": "2026年9月に会員600万人突破。ステーション約1.5万カ所・車両6.2万台超。京急電鉄と「京急ちゃりんポ」を10月始動。横浜でスロモビ展開も10月5日スタート。三井のリパークを通じた他社との拠点集約にも参画。",
+      "desc": "会員600万人突破（2026年9月）。ステーション約1.5万カ所・車両6.2万台超。京急電鉄と「京急ちゃりんポ」を10月始動、横浜でスロモビ展開も10月5日スタート。三井のリパーク拠点集約にも参画。",
       "tags": [
         "会員600万人突破",
         "京急ちゃりんポ始動",
@@ -150,17 +150,24 @@
   ],
   "featured": {
     "date": "2026.09.30",
-    "title": "NYC市議会、eバイク・スクーター規制法案23本を一括審議 — Class 3禁止・配達アプリ規制・下取りプログラムも",
-    "text": "NYC市議会交通インフラ・消費者労働者保護・公共安全の3委員会が9月30日、eバイク・スクーター規制に関する過去最多の23本の法案を合同審議。Class 3 eバイクの販売・使用禁止、配達アプリへの保険義務・データ提出義務、下取りプログラム創設などが俎上に。市内eバイク労働者は約8万人と推計され、規制の行方が注目される。",
-    "url": "https://www.bicycleretailer.com/industry-news/2026/10/01/banning-class-3-e-bikes-among-series-bills-introduced-nyc-curb-crashes"
+    "title": "Voi、€150Mの回転信用枠を確保 — Nordic3行と契約、既存債券を10月19日に償還しフリート拡大へ",
+    "text": "VoiがDanske Bank・Swedbank・DNB Swedenの3行から€150Mの回転信用枠（RCF）を締結。Q2売上€68.8M（+47%）・12カ月累計€210M超の好業績を背景に、資金調達をノルディック債券市場から銀行融資へ移行する「新たな段階」と位置づけ。既存債券は10月19日に103.375%で償還・Nasdaq Stockholmから上場廃止予定。調達資金でフリート拡大も加速する。",
+    "url": "https://www.eu-startups.com/2026/09/swedish-micromobility-company-voi-secures-e150-million-rcf-to-redeem-outstanding-bonds-and-scale-its-fleet"
   },
   "news": [
     {
-      "region": "jp",
+      "region": "eu",
+      "date": "2026.09.30",
+      "title": "Voi、€150M回転信用枠を確保 — Nordic3行と契約、10月19日に既存債券を償還",
+      "text": "VoiがDanske Bank・Swedbank・DNB Swedenの3行から€150Mの回転信用枠（RCF）を締結。Q2売上€68.8M（+47%）の好業績を背景に、資金調達をノルディック債券市場から銀行融資へ移行。既存債券は10月19日に103.375%で償還し、Nasdaq Stockholmから上場廃止予定。調達資金でフリート拡大も加速する。",
+      "url": "https://www.eu-startups.com/2026/09/swedish-micromobility-company-voi-secures-e150-million-rcf-to-redeem-outstanding-bonds-and-scale-its-fleet"
+    },
+    {
+      "region": "na",
       "date": "2026.10.01",
-      "title": "京急×OpenStreet「京急ちゃりんポ」始動 — 鉄道×シェアモビ横断連携は業界初、10〜11月キャンペーン",
-      "text": "京浜急行電鉄とOpenStreetが10月1日、連携事業「京急ちゃりんポ」を始動。京急プレミアポイントとHELLO CYCLINGを連携させ、京急沿線約50か所のステーション利用でポイント付与やクーポン進呈を実施。様々なシェアモビリティサービスと共通名称で横断的に連携する取り組みは鉄道業界初。",
-      "url": "https://prtimes.jp/main/html/rd/p/000000289.000113324.html"
+      "title": "カリフォルニア州SB 1167成立 — eモトとeバイクを法律で明確区分、2027年1月施行",
+      "text": "ニューサム知事が10月1日にSB 1167に署名し成立。750W超・時速20マイル超の車両をeバイクと称する販売・広告を禁止し、eモトとして車両登録・免許・保険を義務化。2027年1月1日から施行。Limeなどシェア事業者も支持し、eバイク市場の健全化に期待が高まる。",
+      "url": "https://www.bicycleretailer.com/industry-news/2026/10/01/california-signs-law-legislation-differentiate-e-motos-e-bikes"
     },
     {
       "region": "na",
@@ -168,6 +175,13 @@
       "title": "NYC市議会、Class 3 eバイク禁止含む法案23本を一括審議 — 販売・使用禁止・配達アプリ規制も",
       "text": "NYC市議会が10月1日、eバイク・スクーター規制に関する過去最多23本の法案を審議。Class 3 eバイク（最大25mph）の販売・賃貸・使用禁止、配達アプリへの保険・データ提出義務、下取りプログラム創設などが議題に。市内eバイク労働者は約8万人と推計され、配達業界への影響が懸念される。",
       "url": "https://www.bicycleretailer.com/industry-news/2026/10/01/banning-class-3-e-bikes-among-series-bills-introduced-nyc-curb-crashes"
+    },
+    {
+      "region": "jp",
+      "date": "2026.10.01",
+      "title": "京急×OpenStreet「京急ちゃりんポ」始動 — 鉄道×シェアモビ横断連携は業界初、10〜11月キャンペーン",
+      "text": "京浜急行電鉄とOpenStreetが10月1日、連携事業「京急ちゃりんポ」を始動。京急プレミアポイントとHELLO CYCLINGを連携させ、京急沿線約50か所のステーション利用でポイント付与やクーポン進呈を実施。様々なシェアモビリティサービスと共通名称で横断的に連携する取り組みは鉄道業界初。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000289.000113324.html"
     },
     {
       "region": "na",
@@ -238,13 +252,6 @@
       "title": "三井のリパーク、NOLL・HELLO CYCLING・Luup・Lime 4社を1拠点に集約 — 業界初、年度内全国500拠点へ",
       "text": "三井不動産リアルティが東京・練馬区「三井のリパーク大泉学園町6丁目」に、NOLL・HELLO CYCLING・Luup・Limeの4社のシェアモビリティを同一拠点で利用できる施設を9月4日開設。駐車場事業者として業界初の取り組みで、2026年度中に全国500箇所・5,000台規模への拡大を目指す。",
       "url": "https://response.jp/article/2026/09/08/416293.html"
-    },
-    {
-      "region": "jp",
-      "date": "2026.09.12",
-      "title": "Luup、さいたま市で電動アシスト自転車＋電動シートボードを全国初同時展開 — 9月10日始動",
-      "text": "Luupが9月10日よりさいたま市でサービスを開始。電動アシスト自転車と電動シートボードの同時展開は全国初。13ポート・30台でスタートし、さいたま市・つなぐとの三者連携協定を締結。2027年10月末までの実証実験として展開する。",
-      "url": "https://luup.sc/news/2026-09-11-saitama/"
     },
     {
       "region": "eu",
