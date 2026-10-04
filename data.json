@@ -1,12 +1,12 @@
 {
-  "updated": "2026.10.04",
+  "updated": "2026.10.05",
   "ticker": [
+    "🇺🇸 Consumer Reports、13モデル試験でeスクーター推奨を全廃止",
     "🇸🇪 Voi、€150M回転信用枠を確保・10月19日に既存債券を償還へ",
     "🇺🇸 カリフォルニア州SB 1167成立・eモト≠eバイクを法律で明確化",
     "🇯🇵 京急×HELLO CYCLING「京急ちゃりんポ」10月1日始動",
     "🇯🇵 HELLO CYCLING、横浜でスロモビシェア10月5日開始",
-    "🇺🇸 NYC市議会、Class 3 eバイク禁止含む法案23本を審議",
-    "🇯🇵 三井のリパーク、4社シェアモビを1拠点に集約・業界初"
+    "🇺🇸 NYC市議会、Class 3 eバイク禁止含む法案23本を審議"
   ],
   "pulse": [
     {
@@ -14,24 +14,24 @@
       "flag": "🇯🇵",
       "en": "JAPAN",
       "ja": "日本",
-      "stat": "拠点集約・新サービス始動",
-      "text": "京急×HELLO CYCLINGの「京急ちゃりんポ」が10/1始動。横浜でスロモビシェアも10/5スタート。三井のリパークがNOLL・HELLO CYCLING・Luup・Limeの4社を同一拠点に集約する業界初モデルが全国展開へ加速。"
+      "stat": "新サービス続々・拠点集約加速",
+      "text": "京急×HELLO CYCLINGの「京急ちゃりんポ」が10/1始動。横浜でスロモビシェアも10/5スタート。三井のリパークが4社シェアモビを同一拠点に集約する業界初モデルを全国500拠点へ展開中。Luup札幌は冬季営業を11/15まで延長。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "規制整備・業績拡大が同時進行",
-      "text": "NYC市議会がClass 3 eバイク禁止含む法案23本を審議。カリフォルニア州はSB 1167でeモト≠eバイクを法律で明確化（2027年1月施行）。LimeはQ2売上$304M（+24%）で拡大中。"
+      "stat": "規制・安全論争が同時進行",
+      "text": "Consumer Reportsがeスクーター推奨を全廃止。NYCは法案23本でClass 3 eバイク禁止を審議中。カリフォルニアSB 1167はeモト≠eバイクを明確化（2027年1月施行）。LimeはQ2売上$304M（+24%）で拡大継続。"
     },
     {
       "cls": "eu",
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "Voi財務基盤を強化",
-      "text": "VoiがNordic3行から€150M回転信用枠を確保し、既存債券を10月19日に償還予定。Q2売上€68.8M（+47%）・新型Voiager 9発表と合わせ攻勢。ロンドンPhase 3はLime・Voi・Dottが稼働中。"
+      "stat": "Voi財務強化・ローマで制裁",
+      "text": "VoiがNordic3行から€150M回転信用枠を確保し10/19に債券償還予定。Q2売上€68.8M（+47%）で好調。イタリア競争当局がローマのBird・Dott・Limeに計€2.675Mの制裁金。ロンドンPhase 3は3社が稼働中。"
     },
     {
       "cls": "as",
@@ -47,11 +47,11 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "累計10億ライド超。Q2売上$304M（+24%）・通年$1.1B目標。DCに$1,700万投資し8,000台刷新。カナダ・ウォータールーでNeuron事業を引き継ぎ展開。カリフォルニアSB 1167を支持し規制整備にも積極関与。",
+      "desc": "累計10億ライド超。Q2売上$304M（+24%）・通年$1.1B目標。DCに$1,700万投資し8,000台刷新。カナダ・ウォータールーでNeuron事業を引き継ぎ展開。ローマでAGCMから€1.4M制裁金を受けるも、事業拡大は継続。",
       "tags": [
         "通年$1.1B目標",
         "カナダ事業引継ぎ",
-        "SB 1167支持"
+        "ローマ制裁金"
       ],
       "score": 98,
       "site": "https://www.li.me/"
@@ -125,11 +125,11 @@
       "medal": "#7",
       "name": "Luup",
       "meta": "日本 · 電動キックボード＋自転車",
-      "desc": "国内最大の電動マイクロモビリティ。ポート1.7万カ所超。さいたま市で電動アシスト自転車と電動シートボードを全国初の組み合わせで実証展開中。三井のリパーク練馬拠点で他社と共存する拠点集約モデルにも参加。",
+      "desc": "国内最大の電動マイクロモビリティ。ポート1.7万カ所超。さいたま市で電動アシスト自転車と電動シートボードを全国初の組み合わせで展開。札幌は冬季営業を11/15まで延長。三井リパーク拠点集約にも参加。",
       "tags": [
         "ポート1.7万+",
-        "さいたま実証開始",
-        "拠点集約参画"
+        "さいたま実証展開",
+        "札幌営業延長"
       ],
       "score": 83,
       "site": "https://luup.sc/"
@@ -138,11 +138,11 @@
       "medal": "#8",
       "name": "Dott（旧TIER統合）",
       "meta": "オランダ · 欧州",
-      "desc": "2025年に統合後初の黒字化（売上€173M）。ロンドンPhase 3に参加、パリeバイク契約も継続し新型Segway Urban B200を投入。イタリアでのAGCM制裁（€525K）やブリュッセル2026年末撤退が課題。",
+      "desc": "2025年に統合後初の黒字化（売上€173M）。ロンドンPhase 3に参加、パリeバイク契約も継続。イタリア・ローマでAGCMから€525K制裁金（Bird・Limeと合計€2.675M）。ブリュッセルは2026年末撤退予定。",
       "tags": [
         "初の黒字化",
         "ロンドンPhase 3",
-        "ブリュッセル撤退"
+        "ローマ制裁金"
       ],
       "score": 78,
       "site": "https://ridedott.com/"
@@ -155,6 +155,13 @@
     "url": "https://www.eu-startups.com/2026/09/swedish-micromobility-company-voi-secures-e150-million-rcf-to-redeem-outstanding-bonds-and-scale-its-fleet"
   },
   "news": [
+    {
+      "region": "na",
+      "date": "2026.10.04",
+      "title": "Consumer Reports、eスクーター推奨を全廃止 — 13モデル試験、速度上昇と負傷増加が理由",
+      "text": "Consumer Reportsが13のeスクーターモデルを試験し、推奨できるものは1台もないと発表。2022年時点の最高速度15.5mphが現在は20mph超が一般的となり、1台は28mphに達した。2017年から2024年でeスクーター負傷者は約10,500件から約80,000件へ急増。メーカーへの安全基準策定を求めた。",
+      "url": "https://hoodline.com/2026/10/consumer-reports-drops-e-scooters-as-philly-crashes-jump-40-percent"
+    },
     {
       "region": "eu",
       "date": "2026.09.30",
@@ -186,8 +193,8 @@
     {
       "region": "na",
       "date": "2026.10.01",
-      "title": "Lime、カナダ・ウォータールー地域でNeuronを引き継ぎ展開開始 — 10月31日シーズン末まで",
-      "text": "LimeがカナダのウォータールーリージョンでNeuron Mobilityからeバイク・eスクーター事業を引き継ぎ、Gen 4.1スクーターとGen 4 eバイクの新フリートを展開開始。Limeは7月にNeuron Mobilityのカナダ事業を買収しており、北米拡大の一環。サービスは通常シーズン終了の10月31日まで提供される。",
+      "title": "Lime、カナダ・ウォータールー地域でNeuronを引き継ぎ展開開始 — 最大500台・10月31日シーズン末まで",
+      "text": "LimeがカナダのウォータールーリージョンでNeuron Mobilityからeバイク・eスクーター事業を引き継ぎ、Gen 4.1スクーターとGen 4 eバイクの新フリートを展開開始。Cambridge・Kitchener・Waterlooに最大500台を配備。サービスは通常シーズン終了の10月31日まで提供される。",
       "url": "https://www.cbc.ca/news/canada/kitchener-waterloo/waterloo-region-lime-micromobility-e-scooters-e-bikes-9.7365742"
     },
     {
@@ -196,6 +203,20 @@
       "title": "HELLO CYCLING、横浜市で低速小型EV「スロモビ」シェア開始 — 桜木町など3駅、10月5日始動",
       "text": "OpenStreetが10月5日より横浜市でHELLO CYCLINGアプリを通じた移動用小型車「スロモビ」のシェアサービスを開始。桜木町駅・関内駅・日本大通り地下駐車場の3カ所にステーションを設置。最高時速6kmで免許不要、最大12時間無料で利用できる。2027年3月末まで実施予定。",
       "url": "https://www.openstreet.co.jp/news/slomobi2026"
+    },
+    {
+      "region": "jp",
+      "date": "2026.10.02",
+      "title": "Luup札幌、冬季営業最終日を11月15日に延長 — 当初予定の10月31日から変更",
+      "text": "Luupは北海道札幌市における2026年シーズンの営業最終日を、当初予定の10月31日から11月15日（日）へ延長すると発表。今シーズンはポート数を昨年の67カ所から85カ所に増設して再開しており、ラストワンマイルの移動手段としての利用拡大を図る。",
+      "url": "https://luup.sc/news/2026-03-30-sapporo/"
+    },
+    {
+      "region": "eu",
+      "date": "2026.09.30",
+      "title": "イタリア競争当局、ローマのBird・Dott・Limeに計€2.675M制裁 — 無料乗車付与を妨害",
+      "text": "イタリア競争当局（AGCM）が、ローマ公共交通定期券保有者への無料乗車提供を不当に妨害したとして、Bird・Dott・Limeに合計€2.675Mの制裁金を科した。Limeが€1.4M（最大）、Dottが€525K、Birdが€300K。3社は申請処理体制の不備で無料パック付与を遅延・不履行していた。",
+      "url": "https://www.wantedinrome.com/news/italy-fines-e-scooter-firms-bird-dott-and-lime-26-million-over-blocked-free-rides-in-rome.html"
     },
     {
       "region": "na",
@@ -231,34 +252,6 @@
       "title": "Voi、Q2 2026売上€68.8M（+47%）・12カ月累計€210Mを初突破 — IPOは「具体的計画なし」",
       "text": "VoiがQ2 2026に売上€68.8M（前年比+47%）・Adjusted EBIT€11.6M・EBITDA€19.7M（マージン28.6%）を達成。12カ月累計売上€210.3Mと初めて€200M超え。CFOはIPOを「長期的選択肢だが具体的な計画もタイムラインもない」と明言。パリでは好利用率を評価され市から増枠を取得。",
       "url": "https://zagdaily.com/micromobility/voi-reveals-no-concrete-plans-for-ipo-after-strong-q2-results/"
-    },
-    {
-      "region": "na",
-      "date": "2026.09.24",
-      "title": "LAメトロ、バイクシェアを約30%拡充承認 — 60新駅・600台eバイク追加、南LA・ミッドシティへ",
-      "text": "LAメトロ理事会が9月24日、Metro Bike Shareの補助金活用拡充計画を承認。新たに60のドッキングステーション（820ドック）と600台のeバイクを追加し、南LA・ミッドシティ・西LAの各地区へ展開する。K・E・Dラインとの乗り継ぎ強化も図る。",
-      "url": "https://la.streetsblog.org/2026/09/24/metro-board-september-2026-update-electric-buses-open-streets-bike-share-and-more"
-    },
-    {
-      "region": "na",
-      "date": "2026.09.24",
-      "title": "Lime、ワシントンDCに$1,700万投資 — 8,000台フリート刷新・AI安全技術とフットパトロール200%増",
-      "text": "LimeがワシントンDC向けに2026年$1,700万の投資を発表。新型LimeBike導入によるフリート8,000台刷新に加え、AIによる年齢確認・駐車確認・歩道走行検知技術を導入。フットパトロールスタッフも200%増強し、運営品質と安全性を強化する。",
-      "url": "https://micromobility.substack.com/p/segway-launches-four-new-vehicles"
-    },
-    {
-      "region": "jp",
-      "date": "2026.09.08",
-      "title": "三井のリパーク、NOLL・HELLO CYCLING・Luup・Lime 4社を1拠点に集約 — 業界初、年度内全国500拠点へ",
-      "text": "三井不動産リアルティが東京・練馬区「三井のリパーク大泉学園町6丁目」に、NOLL・HELLO CYCLING・Luup・Limeの4社のシェアモビリティを同一拠点で利用できる施設を9月4日開設。駐車場事業者として業界初の取り組みで、2026年度中に全国500箇所・5,000台規模への拡大を目指す。",
-      "url": "https://response.jp/article/2026/09/08/416293.html"
-    },
-    {
-      "region": "eu",
-      "date": "2026.09.19",
-      "title": "ブリュッセル、Lime提訴でBolt・Dott・Voiのライセンス取消 — eスクーターは2026年末まで継続・2027年1月全面禁止確定",
-      "text": "Limeによる2023年入札プロセスへの法的異議申し立てを受け、ベルギー評議会がBolt・Dott・Voiの免許を取り消し。9月1日撤去令が出たものの、ブリュッセル当局が2026年末まで継続を認め、2027年1月の全面禁止方針は維持。新入札は2028年5月頃を予定（eスクーター最大4,800台×2ライセンス）。",
-      "url": "https://micromobility.substack.com/p/limes-marketcap-is-at-26b-stock-up"
     },
     {
       "region": "jp",
