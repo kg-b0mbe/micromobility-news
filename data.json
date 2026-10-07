@@ -1,12 +1,12 @@
 {
-  "updated": "2026.10.06",
+  "updated": "2026.10.07",
   "ticker": [
+    "🇨🇦 Bird Canada、エドモントンに次世代Explorerを投入",
+    "🇺🇸 シアトルのシェアライド、2025年記録を3カ月早く突破へ",
+    "🇫🇮 ヘルシンキ、2026年ライセンス制開始・eスクーター利用は減少",
     "🇺🇸 Consumer Reports、13モデル試験でeスクーター推奨を全廃止",
     "🇸🇪 Voi、€150M回転信用枠を確保・10月19日に既存債券を償還へ",
-    "🇧🇪 ブリュッセル、Bolt・Dott・Voiに全車両撤去命令",
-    "🇺🇸 NYC市議会、Class 3 eバイク禁止含む法案23本を審議",
-    "🇯🇵 京急×HELLO CYCLING「京急ちゃりんポ」10月1日始動",
-    "🇺🇸 ポートランドBIKETOWN、ノースイースト地区に3新駅を追加"
+    "🇧🇪 ブリュッセル、Bolt・Dott・Voiに全車両撤去命令"
   ],
   "pulse": [
     {
@@ -15,23 +15,23 @@
       "en": "JAPAN",
       "ja": "日本",
       "stat": "連携・新サービスが加速",
-      "text": "京急×HELLO CYCLINGの「京急ちゃりんポ」が10/1始動。横浜でスロモビシェアも10/5スタート。HELLO CYCLINGとLimeのポート連携は都心部から数千規模へ拡大中。Luup札幌は冬季営業を11/15まで延長。"
+      "text": "京急×HELLO CYCLINGの「京急ちゃりんポ」が10/1始動。横浜でスロモビシェアも10/5スタート。広島廿日市市と広島電鉄がHELLO CYCLINGとシェアサイクル連携協定を締結。Luup札幌は冬季営業を11/15まで延長。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "規制・安全・連邦支援が焦点",
-      "text": "Consumer ReportsがeスクーターのNot Recommendedを全廃。NYCはClass 3 eバイク禁止法案23本を審議中。カリフォルニアSB 1167でeモト≠eバイクを明確化。"
+      "stat": "規制・安全・利用急増が焦点",
+      "text": "Consumer ReportsがeスクーターのNot Recommendedを全廃。NYCはClass 3 eバイク禁止法案23本を審議中。シアトルのシェアライドは2025年記録を3カ月以上早く突破する勢い。"
     },
     {
       "cls": "eu",
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "Voi好調・ブリュッセル混乱",
-      "text": "VoiがNordic3行から€150M回転信用枠を確保し10/19に債券償還予定。Q2売上€68.8M（+47%）。ブリュッセルは評議会がライセンスを取り消し、Bolt・Dott・Voiに全車両撤去命令。ロンドンPhase 3は3社稼働中。"
+      "stat": "Voi好調・規制強化が進む",
+      "text": "VoiがNordic3行から€150M回転信用枠を確保し10/19に債券償還予定。ブリュッセルはBolt・Dott・Voiに全車両撤去命令。ヘルシンキでは2026年ライセンス制度が施行されeスクーター利用は減少傾向。"
     },
     {
       "cls": "as",
@@ -47,7 +47,7 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "累計10億ライド超。Q2売上$304M（+24%）・通年$1.1B目標。日本でLimeBikeを展開しHELLO CYCLINGとポート連携を都心から数千規模へ拡大中。カナダではNeuron事業を引継ぎ。",
+      "desc": "累計10億ライド超。Q2売上$304M（+24%）・通年$1.1B目標。シアトルで記録更新ペース継続。日本でHELLO CYCLINGとポート連携を数千規模へ拡大中。カナダではNeuron事業を引継ぎ展開。",
       "tags": [
         "通年$1.1B目標",
         "LimeBike日本展開",
@@ -99,7 +99,7 @@
       "medal": "#5",
       "name": "Voi",
       "meta": "スウェーデン · 欧州130都市超",
-      "desc": "Q2売上€68.8M（+47%）・12カ月累計€210M超。Danske Bank等3行から€150M回転信用枠を確保し10/19に既存債券を償還予定。ロンドンPhase 3稼働中。ブリュッセルはライセンス取り消しで撤退命令。",
+      "desc": "Q2売上€68.8M（+47%）・12カ月累計€210M超。Nordic3行から€150M回転信用枠を確保し10/19に債券償還予定。ロンドンPhase 3稼働中。ブリュッセル撤退・リバプールでもBoltに交代。",
       "tags": [
         "€150M信用枠確保",
         "Voiager 9発表",
@@ -112,7 +112,7 @@
       "medal": "#6",
       "name": "HELLO CYCLING",
       "meta": "日本 · OpenStreet",
-      "desc": "会員600万人突破（2026年9月）。ステーション約1.5万カ所・車両6.2万台超。Limeとのポート連携を都心部から数千規模へ拡大中。京急ちゃりんポ始動・横浜スロモビ展開も10/5スタート。",
+      "desc": "会員600万人突破（2026年9月）。ステーション約1.5万カ所・車両6.2万台超。Limeとのポート連携を都心部から数千規模へ拡大中。京急ちゃりんポ始動・横浜スロモビ展開・広島廿日市市との連携協定も締結。",
       "tags": [
         "会員600万人突破",
         "Limeとポート連携",
@@ -138,7 +138,7 @@
       "medal": "#8",
       "name": "Dott（旧TIER統合）",
       "meta": "オランダ · 欧州",
-      "desc": "2025年統合後初の黒字化（売上€173M）。ロンドンPhase 3参加・パリeバイク継続。ブリュッセルはライセンス取り消しで全車両撤去命令を受け事実上撤退。ローマでAGCMから€525K制裁金。",
+      "desc": "2025年統合後初の黒字化（売上€173M）。ロンドンPhase 3参加・ヘルシンキでライセンス制のもと稼働中。ブリュッセルはライセンス取り消しで事実上撤退。ローマでAGCMから€525K制裁金。",
       "tags": [
         "初の黒字化",
         "ブリュッセル撤退",
@@ -158,6 +158,20 @@
     {
       "region": "na",
       "date": "2026.10.06",
+      "title": "Bird Canada、エドモントンに次世代「Explorer」eバイク — 2027年本格展開・州規制強化にも対応",
+      "text": "Bird Canadaがエドモントンに最新モデル「Bird Explorer」のeバイクを発表。既存より軽量・小型フレームで技術的には高速対応だが速度は市規制に準拠。カルガリー・ハリファックスでも先行展開中で、全面ロールアウトは2027年予定。アルバータ州の私的eバイク規制強化論議にも対応姿勢を示した。",
+      "url": "https://www.ctvnews.ca/edmonton/article/edmonton-to-get-new-fleet-of-e-bikes-amid-potential-private-micromobility-crackdowns/"
+    },
+    {
+      "region": "na",
+      "date": "2026.10.06",
+      "title": "シアトルのシェアライド、2025年記録を3カ月早く突破へ — 年間1,300万回ペースで推移",
+      "text": "シアトルのシェアサイクル・スクーターライドが9月末時点で1,000万回を突破し、2025年記録（1,050万回）を年内早期に上回るペース。2024〜2025年で68%増の急成長を記録。市内ではスクーター1万台超・eバイク3,500台が稼働しており、年間1,300万回に到達する見通し。",
+      "url": "https://publicola.com/2026/10/06/greater-seattle-bike-and-scooter-share-could-soon-lap-2025s-record-setting-numbers/"
+    },
+    {
+      "region": "na",
+      "date": "2026.10.06",
       "title": "BIKETOWN、ノースイースト・ポートランドに3駅新設 — 東側への拡張が加速",
       "text": "ポートランドのシェアサイクルシステムBIKETOWNがノースイースト地区に3カ所のステーションを新設。市内では現在約3,000台のシェアバイク・スクーターが利用可能で、eバイクシェアとeスクーターシェアの将来像も市が検討中。東側への段階的な拡張戦略が続く。",
       "url": "https://hoodline.com/2026/10/biketown-rolls-out-three-new-stations-across-northeast-portland"
@@ -171,8 +185,22 @@
     },
     {
       "region": "eu",
+      "date": "2026.10.06",
+      "title": "ヘルシンキ、eスクーター利用が減少 — 2026年ライセンス制度施行でDott・Voi・Rydeの3社体制に",
+      "text": "ヘルシンキ市が2026年シーズンのeスクーター利用状況を発表。年初から義務化したライセンス制度の影響で事業者が4社から3社（Dott・Voi・Ryde）に減少し、利用台数と利用数も減少傾向。駐車ルールの順守は改善されており、2027年ライセンス条件は年内に決定予定。",
+      "url": "https://www.hel.fi/en/news/electric-scooter-use-has-decreased-in-helsinki"
+    },
+    {
+      "region": "jp",
+      "date": "2026.10.01",
+      "title": "HELLO CYCLING、広島廿日市市・広島電鉄とシェアサイクル連携協定を締結",
+      "text": "OpenStreetが広島県廿日市市および広島電鉄と「シェアサイクルの社会実験に関する協定」を締結。路面電車やバスと連携しラストワンマイルの交通利便性と観光回遊性の向上を目指す。HELLO CYCLINGの地方・公共交通連携がさらに拡大した。",
+      "url": "https://hellocycling.jp/info/news/2023/10/24/1590"
+    },
+    {
+      "region": "eu",
       "date": "2026.09.30",
-      "title": "ブリュッセル、Bolt・Dott・Voiに全車両撤去命令 — 評議会がライセンス取り消し、事実上の撤退へ",
+      "title": "ブリュッセル、Bolt・Dott・Voiに全車両撤去命令 — 評議会がライセンスを取り消し、事実上の撤退へ",
       "text": "ベルギー評議会がブリュッセルのシェアモビリティライセンスを取り消し、Bolt・Dott・Voiに対し全フリーフローティング車両の撤去を命令。ドック式のVillo!は2028年まで継続。Limeの法的異議申立てが端緒となった判断で、3社は事実上の市場撤退を余儀なくされた。",
       "url": "https://micromobility.io/news/more-chaos-for-shared-micromobility-in-brussels"
     },
@@ -231,34 +259,6 @@
       "title": "イタリア競争当局、ローマのBird・Dott・Limeに計€2.675M制裁 — 無料乗車付与を妨害",
       "text": "イタリア競争当局（AGCM）が、ローマ公共交通定期券保有者への無料乗車提供を不当に妨害したとして、Bird・Dott・Limeに合計€2.675Mの制裁金を科した。Limeが€1.4M（最大）、Dottが€525K、Birdが€300K。3社は申請処理体制の不備で無料パック付与を遅延・不履行していた。",
       "url": "https://www.wantedinrome.com/news/italy-fines-e-scooter-firms-bird-dott-and-lime-26-million-over-blocked-free-rides-in-rome.html"
-    },
-    {
-      "region": "jp",
-      "date": "2026.09.29",
-      "title": "HELLO CYCLING、2026年9月に会員600万人突破 — 500万人から約11カ月で100万人増",
-      "text": "OpenStreetが運営するHELLO CYCLINGの会員登録者数が2026年9月に600万人を突破。2025年10月の500万人突破から約11カ月で100万人増加し、毎月約10万人ずつ成長中。現在100社超のパートナーが全国30都道府県で展開。",
-      "url": "https://www.openstreet.co.jp/news/600muser"
-    },
-    {
-      "region": "na",
-      "date": "2026.09.26",
-      "title": "Lime、Q2 2026売上$304M・通年$1.04〜1.10Bに上方修正 — Neuron Mobilityのカナダ事業も買収",
-      "text": "Lime（Nasdaq: LIME）がQ2 2026決算を発表。売上$304M（前年比+24%）、調整後EBITDA$84M（マージン28%）、運用フリート40.8万台（+22%）。通年売上ガイダンスを$1.04〜1.10Bに上方修正。IPO後に長期債務を全額返済し、Q2末後にNeuron Mobilityのカナダ事業を買収して北米展開を加速。",
-      "url": "https://investors.li.me/news-releases/news-release-details/lime-announces-second-quarter-2026-financial-results"
-    },
-    {
-      "region": "eu",
-      "date": "2026.09.25",
-      "title": "ロンドンeスクーター試験Phase 3、TfLがLime・Voi・Dottに正式発注 — 9月下旬始動",
-      "text": "TfLがDott・Lime・Voiに対し、ロンドンeスクーター試験Phase 3の契約を正式発注。9月下旬に稼働開始し、歩道走行検知・タンデム乗車検知など新技術の試験も実施。初期24カ月・最大2032年9月まで延長可能な枠組みで運営される。",
-      "url": "https://micromobilitybiz.com/tfl-and-london-councils-launch-third-phase-of-londons-rental-e-scooter-trial/"
-    },
-    {
-      "region": "eu",
-      "date": "2026.09.23",
-      "title": "Voi、Q2 2026売上€68.8M（+47%）・12カ月累計€210Mを初突破 — IPOは「具体的計画なし」",
-      "text": "VoiがQ2 2026に売上€68.8M（前年比+47%）・Adjusted EBIT€11.6M・EBITDA€19.7M（マージン28.6%）を達成。12カ月累計売上€210.3Mと初めて€200M超え。CFOはIPOを「長期的選択肢だが具体的な計画もタイムラインもない」と明言。パリでは好利用率を評価され市から増枠を取得。",
-      "url": "https://zagdaily.com/micromobility/voi-reveals-no-concrete-plans-for-ipo-after-strong-q2-results/"
     }
   ],
   "stats": [
