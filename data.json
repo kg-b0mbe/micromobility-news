@@ -1,12 +1,12 @@
 {
-  "updated": "2026.10.07",
+  "updated": "2026.10.08",
   "ticker": [
-    "🇨🇦 Bird Canada、エドモントンに次世代Explorerを投入",
+    "🇬🇧 ロンドン市長カーン、TfL主導のeバイク一元規制を発表",
+    "🇺🇸 オハイオ州、eバイク・スクーター規制強化法案を提出",
+    "🇯🇵 沖縄・南城市でHELLO CYCLINGの「Hi!cycling」実証開始",
     "🇺🇸 シアトルのシェアライド、2025年記録を3カ月早く突破へ",
-    "🇫🇮 ヘルシンキ、2026年ライセンス制開始・eスクーター利用は減少",
     "🇺🇸 Consumer Reports、13モデル試験でeスクーター推奨を全廃止",
-    "🇸🇪 Voi、€150M回転信用枠を確保・10月19日に既存債券を償還へ",
-    "🇧🇪 ブリュッセル、Bolt・Dott・Voiに全車両撤去命令"
+    "🇸🇪 Voi、€150M回転信用枠を確保・10月19日に既存債券を償還へ"
   ],
   "pulse": [
     {
@@ -14,24 +14,24 @@
       "flag": "🇯🇵",
       "en": "JAPAN",
       "ja": "日本",
-      "stat": "連携・新サービスが加速",
-      "text": "京急×HELLO CYCLINGの「京急ちゃりんポ」が10/1始動。横浜でスロモビシェアも10/5スタート。広島廿日市市と広島電鉄がHELLO CYCLINGとシェアサイクル連携協定を締結。Luup札幌は冬季営業を11/15まで延長。"
+      "stat": "沖縄・埼玉へ拡大加速",
+      "text": "HELLO CYCLINGが沖縄南城市で「Hi!cycling」実証開始（10/7）。ブラン社が電動アシスト自転車200台を導入。京急ちゃりんポ稼働・横浜スロモビも始動。Luup札幌は冬季営業を11/15まで延長。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "規制・安全・利用急増が焦点",
-      "text": "Consumer ReportsがeスクーターのNot Recommendedを全廃。NYCはClass 3 eバイク禁止法案23本を審議中。シアトルのシェアライドは2025年記録を3カ月以上早く突破する勢い。"
+      "stat": "規制ラッシュが加速",
+      "text": "オハイオ州がeバイク・スクーター登録義務・速度制限法案を提出（10/7）。Consumer ReportsがeスクーターのNot Recommendedを全廃。NYCはClass 3 eバイク禁止法案23本を審議中。"
     },
     {
       "cls": "eu",
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "Voi好調・規制強化が進む",
-      "text": "VoiがNordic3行から€150M回転信用枠を確保し10/19に債券償還予定。ブリュッセルはBolt・Dott・Voiに全車両撤去命令。ヘルシンキでは2026年ライセンス制度が施行されeスクーター利用は減少傾向。"
+      "stat": "ロンドン規制・Voi好調",
+      "text": "ロンドン市長カーンがTfL主導の全市統一ドックレスeバイクライセンス枠組みを発表（9/29）。VoiはNordic3行から€150M信用枠を確保し10/19に債券償還予定。ブリュッセルはBolt・Dott・Voiに全車両撤去命令。"
     },
     {
       "cls": "as",
@@ -112,11 +112,11 @@
       "medal": "#6",
       "name": "HELLO CYCLING",
       "meta": "日本 · OpenStreet",
-      "desc": "会員600万人突破（2026年9月）。ステーション約1.5万カ所・車両6.2万台超。Limeとのポート連携を都心部から数千規模へ拡大中。京急ちゃりんポ始動・横浜スロモビ展開・広島廿日市市との連携協定も締結。",
+      "desc": "会員600万人突破（2026年9月）。ステーション約1.5万カ所・車両6.2万台超。沖縄南城市で「Hi!cycling」実証を10月開始。京急ちゃりんポ始動・横浜スロモビ展開・Limeとのポート連携も拡大中。",
       "tags": [
         "会員600万人突破",
         "Limeとポート連携",
-        "スロモビ展開"
+        "沖縄実証開始"
       ],
       "score": 86,
       "site": "https://www.hellocycling.jp/"
@@ -149,18 +149,46 @@
     }
   ],
   "featured": {
-    "date": "2026.09.30",
-    "title": "Voi、€150Mの回転信用枠を確保 — Nordic3行と契約、既存債券を10月19日に償還しフリート拡大へ",
-    "text": "VoiがDanske Bank・Swedbank・DNB Swedenの3行から€150Mの回転信用枠（RCF）を締結。Q2売上€68.8M（+47%）・12カ月累計€210M超の好業績を背景に、資金調達をノルディック債券市場から銀行融資へ移行する「新たな段階」と位置づけ。既存債券は10月19日に103.375%で償還・Nasdaq Stockholmから上場廃止予定。調達資金でフリート拡大も加速する。",
-    "url": "https://www.eu-startups.com/2026/09/swedish-micromobility-company-voi-secures-e150-million-rcf-to-redeem-outstanding-bonds-and-scale-its-fleet"
+    "date": "2026.09.29",
+    "title": "ロンドン市長カーン、TfL主導の全市統一ドックレスeバイク規制を発表 — 33区バラバラ体制に終止符、二次立法を国に要請",
+    "text": "ロンドン市長サディク・カーンが、TfLを全市のドックレスeバイクライセンス当局とする一元的規制枠組みを発表。2026年英地方分権法によりTransport Secretaryが権限付与できる法的根拠が成立。現在Bolt・Forest・Lime・Voiの4社が稼働。「ワイルドウェスト状態は終わらせる」と明言し、駐車・安全・データ共有の統一基準策定を急ぐ。",
+    "url": "https://zagdaily.com/micromobility/london-mayor-sets-out-plan-for-city-wide-dockless-e-bike-framework/"
   },
   "news": [
+    {
+      "region": "na",
+      "date": "2026.10.07",
+      "title": "オハイオ州、eバイク・スクーター規制強化法案を提出 — 登録義務・最低利用年齢18歳・速度制限も",
+      "text": "オハイオ州議会がeバイク・スクーターを対象とした規制法案を提出。州登録義務・ヘルメット着用・レンタル利用の最低年齢18歳・歩道5mph／共用路10mphの速度制限などを盛り込む。負傷者急増を背景に、州全体の統一ルール整備を目指す。",
+      "url": "https://abc6onyourside.com/news/local/ohio-lawmakers-push-new-e-bike-scooter-regulations-as-injuries-rise-class-3-rules-electric-bicycles-state-senator-bill-demora-akron-childrens-hospital-short-north-columbus-state-representative-eric-synenberg-democrat-beachwood"
+    },
+    {
+      "region": "jp",
+      "date": "2026.10.07",
+      "title": "沖縄県南城市でHELLO CYCLINGの「Hi!cycling」実証事業を開始",
+      "text": "OpenStreetとスカイツアーズが沖縄県南城市と業務委託契約を締結し、HELLO CYCLINGプラットフォームを活用した「Hi!cycling」のシェアサイクル実証事業を10月7日に開始。HELLO CYCLINGの沖縄展開が本格化し、観光・生活移動の両面での活用が期待される。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000292.000113324.html"
+    },
+    {
+      "region": "eu",
+      "date": "2026.09.29",
+      "title": "ロンドン市長カーン、TfL主導の全市統一eバイクライセンス枠組みを発表",
+      "text": "ロンドン市長サディク・カーンが、33区バラバラの規制をTfL一元管理に統合する全市ドックレスeバイクライセンス計画を発表。2026年英地方分権法が法的根拠となるが実施には二次立法が必要。現在Bolt・Forest・Lime・Voiの4社が稼働中。ロンドン議会交通委員会が10/8に審議予定。",
+      "url": "https://zagdaily.com/micromobility/london-mayor-sets-out-plan-for-city-wide-dockless-e-bike-framework/"
+    },
+    {
+      "region": "jp",
+      "date": "2026.10.05",
+      "title": "株式会社ブランがHELLO CYCLINGに電動アシスト自転車200台を導入 — 埼玉・春日部エリアで展開",
+      "text": "OpenStreetと埼玉県春日部市の株式会社ブランが業務提携し、2026年9月よりHELLO CYCLINGに電動アシスト自転車200台を導入。地域の暮らしやすい街づくりと新たな移動手段提供に貢献する。HELLO CYCLINGのパートナー網がさらに拡大した。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000291.000113324.html"
+    },
     {
       "region": "na",
       "date": "2026.10.06",
       "title": "Bird Canada、エドモントンに次世代「Explorer」eバイク — 2027年本格展開・州規制強化にも対応",
       "text": "Bird Canadaがエドモントンに最新モデル「Bird Explorer」のeバイクを発表。既存より軽量・小型フレームで技術的には高速対応だが速度は市規制に準拠。カルガリー・ハリファックスでも先行展開中で、全面ロールアウトは2027年予定。アルバータ州の私的eバイク規制強化論議にも対応姿勢を示した。",
-      "url": "https://www.ctvnews.ca/edmonton/article/edmonton-to-get-new-fleet-of-e-bikes-amid-potential-private-micromobility-crackdowns/"
+      "url": "https://ctvnews.ca/edmonton/article/edmonton-to-get-new-fleet-of-e-bikes-amid-potential-private-micromobility-crackdowns"
     },
     {
       "region": "na",
@@ -191,27 +219,6 @@
       "url": "https://www.hel.fi/en/news/electric-scooter-use-has-decreased-in-helsinki"
     },
     {
-      "region": "jp",
-      "date": "2026.10.01",
-      "title": "HELLO CYCLING、広島廿日市市・広島電鉄とシェアサイクル連携協定を締結",
-      "text": "OpenStreetが広島県廿日市市および広島電鉄と「シェアサイクルの社会実験に関する協定」を締結。路面電車やバスと連携しラストワンマイルの交通利便性と観光回遊性の向上を目指す。HELLO CYCLINGの地方・公共交通連携がさらに拡大した。",
-      "url": "https://hellocycling.jp/info/news/2023/10/24/1590"
-    },
-    {
-      "region": "eu",
-      "date": "2026.09.30",
-      "title": "ブリュッセル、Bolt・Dott・Voiに全車両撤去命令 — 評議会がライセンスを取り消し、事実上の撤退へ",
-      "text": "ベルギー評議会がブリュッセルのシェアモビリティライセンスを取り消し、Bolt・Dott・Voiに対し全フリーフローティング車両の撤去を命令。ドック式のVillo!は2028年まで継続。Limeの法的異議申立てが端緒となった判断で、3社は事実上の市場撤退を余儀なくされた。",
-      "url": "https://micromobility.io/news/more-chaos-for-shared-micromobility-in-brussels"
-    },
-    {
-      "region": "eu",
-      "date": "2026.09.30",
-      "title": "Voi、€150M回転信用枠を確保 — Nordic3行と契約、10月19日に既存債券を償還",
-      "text": "VoiがDanske Bank・Swedbank・DNB Swedenの3行から€150Mの回転信用枠（RCF）を締結。Q2売上€68.8M（+47%）の好業績を背景に、資金調達をノルディック債券市場から銀行融資へ移行。既存債券は10月19日に103.375%で償還し、Nasdaq Stockholmから上場廃止予定。調達資金でフリート拡大も加速する。",
-      "url": "https://www.eu-startups.com/2026/09/swedish-micromobility-company-voi-secures-e150-million-rcf-to-redeem-outstanding-bonds-and-scale-its-fleet"
-    },
-    {
       "region": "na",
       "date": "2026.10.01",
       "title": "カリフォルニア州SB 1167成立 — eモトとeバイクを法律で明確区分、2027年1月施行",
@@ -240,25 +247,25 @@
       "url": "https://www.cbc.ca/news/canada/kitchener-waterloo/waterloo-region-lime-micromobility-e-scooters-e-bikes-9.7365742"
     },
     {
-      "region": "jp",
-      "date": "2026.10.01",
-      "title": "HELLO CYCLING、横浜市で低速小型EV「スロモビ」シェア開始 — 桜木町など3駅、10月5日始動",
-      "text": "OpenStreetが10月5日より横浜市でHELLO CYCLINGアプリを通じた移動用小型車「スロモビ」のシェアサービスを開始。桜木町駅・関内駅・日本大通り地下駐車場の3カ所にステーションを設置。最高時速6kmで免許不要、最大12時間無料で利用できる。2027年3月末まで実施予定。",
-      "url": "https://www.openstreet.co.jp/news/slomobi2026"
+      "region": "eu",
+      "date": "2026.09.30",
+      "title": "ブリュッセル、Bolt・Dott・Voiに全車両撤去命令 — 評議会がライセンスを取り消し、事実上の撤退へ",
+      "text": "ベルギー評議会がブリュッセルのシェアモビリティライセンスを取り消し、Bolt・Dott・Voiに対し全フリーフローティング車両の撤去を命令。ドック式のVillo!は2028年まで継続。Limeの法的異議申立てが端緒となった判断で、3社は事実上の市場撤退を余儀なくされた。",
+      "url": "https://micromobility.io/news/more-chaos-for-shared-micromobility-in-brussels"
+    },
+    {
+      "region": "eu",
+      "date": "2026.09.30",
+      "title": "Voi、€150M回転信用枠を確保 — Nordic3行と契約、10月19日に既存債券を償還",
+      "text": "VoiがDanske Bank・Swedbank・DNB Swedenの3行から€150Mの回転信用枠（RCF）を締結。Q2売上€68.8M（+47%）の好業績を背景に、資金調達をノルディック債券市場から銀行融資へ移行。既存債券は10月19日に103.375%で償還し、Nasdaq Stockholmから上場廃止予定。調達資金でフリート拡大も加速する。",
+      "url": "https://www.eu-startups.com/2026/09/swedish-micromobility-company-voi-secures-e150-million-rcf-to-redeem-outstanding-bonds-and-scale-its-fleet"
     },
     {
       "region": "jp",
       "date": "2026.10.02",
       "title": "Luup札幌、冬季営業最終日を11月15日に延長 — 当初予定の10月31日から変更",
       "text": "Luupは北海道札幌市における2026年シーズンの営業最終日を、当初予定の10月31日から11月15日（日）へ延長すると発表。今シーズンはポート数を昨年の67カ所から85カ所に増設して再開しており、ラストワンマイルの移動手段としての利用拡大を図る。",
-      "url": "https://luup.sc/news/2026-03-30-sapporo/"
-    },
-    {
-      "region": "eu",
-      "date": "2026.09.30",
-      "title": "イタリア競争当局、ローマのBird・Dott・Limeに計€2.675M制裁 — 無料乗車付与を妨害",
-      "text": "イタリア競争当局（AGCM）が、ローマ公共交通定期券保有者への無料乗車提供を不当に妨害したとして、Bird・Dott・Limeに合計€2.675Mの制裁金を科した。Limeが€1.4M（最大）、Dottが€525K、Birdが€300K。3社は申請処理体制の不備で無料パック付与を遅延・不履行していた。",
-      "url": "https://www.wantedinrome.com/news/italy-fines-e-scooter-firms-bird-dott-and-lime-26-million-over-blocked-free-rides-in-rome.html"
+      "url": "https://luup.sc/news/2026-04-16-sapporo/"
     }
   ],
   "stats": [
