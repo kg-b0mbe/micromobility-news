@@ -1,11 +1,11 @@
 {
-  "updated": "2026.10.11",
+  "updated": "2026.10.12",
   "ticker": [
-    "🇺🇸 Bay Wheels、Lyft Bikeにリブランド — 新型eバイク投入",
-    "🇮🇹 伊当局、ローマのBird・Dott・Limeに€267.5万制裁",
+    "🇺🇸 DC官僚eスクーター死亡事故 — Limeら許可更新に逆風",
+    "🇺🇸 NYC・Citi Bike値下げ交渉難航 — Lyft独占が壁に",
+    "🇺🇸 ハーバーヒル市議会、eバイク・スクーター全公共施設禁止条例を可決",
     "🇫🇮 ヘルシンキ、eスクーター利用12%減 — ライセンス制初年度の影響か",
     "🇬🇧 Lime、ロンドン9区に£90万投資・eバイク駐車ベイ約600カ所整備",
-    "🇺🇸 ハーバーヒル市議会、eバイク・スクーター全公共施設禁止条例を可決",
     "🇯🇵 HELLO CYCLING、横浜で移動用小型車「スロモビ」シェア開始"
   ],
   "pulse": [
@@ -14,24 +14,24 @@
       "flag": "🇯🇵",
       "en": "JAPAN",
       "ja": "日本",
-      "stat": "連携・拠点拡張が加速",
-      "text": "三井のリパークが4社集約拠点を練馬区で開設、年度内全国500箇所・5,000台へ拡大目標。HELLO CYCLINGは横浜スロモビ・沖縄実証も始動。Luup札幌は冬季営業を11/15まで延長。"
+      "stat": "新モビリティ実証が相次ぐ",
+      "text": "HELLO CYCLINGが横浜でスロモビシェア・沖縄でHi!cycling実証を始動。LimeとのポートはHELLO CYCLING26年秋以降に相互連携予定。Luup札幌は冬季営業を11/15まで延長し拡大路線を継続。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "規制強化と再編が同時進行",
-      "text": "ハーバーヒルがeバイク・スクーターを全公共域で禁止、オハイオ州も規制法案提出。一方でBay WheelsがLyft Bikeにリブランドし新型eバイクを投入。シカゴDivvy独占問題はLimeの異議で審議が続く。"
+      "stat": "安全・独占・値上げが焦点",
+      "text": "DCでeスクーター死亡事故が発生しLimeら許可更新に逆風。NYではCiti Bike値下げを求める声が高まるもLyftの独占体制が壁に。シカゴDivvy独占問題はLimeの異議で審議延長が続く。"
     },
     {
       "cls": "eu",
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "制裁・撤退・規制が連鎖",
-      "text": "伊当局がローマのBird・Dott・Limeに€2.675M制裁。ブリュッセルはBolt・Dott・Voiに撤退命令。ヘルシンキはライセンス制初年度でeスクーター台数が12%減。Limeはロンドンへのeバイク駐車整備を継続。"
+      "stat": "制裁・規制強化が続く",
+      "text": "ローマでBird・Dott・Limeに€2.675M制裁、ヘルシンキはライセンス制初年度でeスクーター台数12%減。Limeはロンドン9区に£90万を投じeバイク駐車ベイ約600カ所を整備し継続展開。"
     },
     {
       "cls": "as",
@@ -47,11 +47,11 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "累計10億ライド超。Q2売上$304M（+24%）・通年$1.1B目標。ロンドン9区に£90万のeバイク駐車ベイ整備（10/7）。シカゴDivvy独占拡張に異議申立て。ローマでBird・Dottと共に€2.675M制裁（8/6）。",
+      "desc": "累計10億ライド超。Q2売上$304M（+24%）・通年$1.1B目標。ロンドン9区に£90万のeバイク駐車ベイ整備。シカゴDivvy独占に異議申立て継続。DC犯罪利用多発でeスクーター許可更新が注目局面に。",
       "tags": [
         "通年$1.1B目標",
         "ロンドン駐車整備",
-        "ローマ制裁"
+        "DC許可更新注目"
       ],
       "score": 98,
       "site": "https://www.li.me/"
@@ -73,11 +73,11 @@
       "medal": "🥉",
       "name": "Citi Bike",
       "meta": "米国 · ニューヨーク",
-      "desc": "北米最大。2026年6月に月間549万ライドで過去最高、eバイク比率は70%超。NYC市議会のClass 3 eバイク禁止含む法案23本が審議中で、事業への影響が注目される。",
+      "desc": "北米最大。2026年6月に月間549万ライドで過去最高、eバイク比率70%超。Mamdani市長が値下げを掲げるもLyftが車両・ステーションを所有する独占構造と2029年契約満了が壁となり交渉難航。",
       "tags": [
         "北米最大",
-        "Q2過去最高ライド",
-        "eバイク規制リスク"
+        "値下げ交渉難航",
+        "2029年契約更新"
       ],
       "score": 91,
       "site": "https://citibikenyc.com/"
@@ -112,11 +112,11 @@
       "medal": "#6",
       "name": "HELLO CYCLING",
       "meta": "日本 · OpenStreet",
-      "desc": "会員600万人突破（2026年9月）。横浜でスロモビシェア開始・沖縄南城市実証・三浦市まちづくり連携も進む。三井のリパーク練馬区集約拠点でもLimeと並んで展開。",
+      "desc": "会員600万人突破（2026年9月）。横浜でスロモビシェア開始・沖縄南城市実証始動。Limeとのポート相互連携を26年秋以降に予定。三井のリパーク練馬区集約拠点でも展開継続。",
       "tags": [
         "会員600万人突破",
         "スロモビ横浜開始",
-        "4社集約拠点参画"
+        "Limeポート連携へ"
       ],
       "score": 86,
       "site": "https://www.hellocycling.jp/"
@@ -125,7 +125,7 @@
       "medal": "#7",
       "name": "Luup",
       "meta": "日本 · 電動キックボード＋自転車",
-      "desc": "国内最大の電動マイクロモビリティ。ポート1.7万カ所超。三井のリパーク練馬区の4社集約拠点にも参画。さいたま市で電動アシスト自転車と電動シートボードを全国初の組み合わせで展開。札幌は冬季営業を11/15まで延長。",
+      "desc": "国内最大の電動マイクロモビリティ。ポート1.7万カ所超。三井のリパーク練馬区の4社集約拠点にも参画。さいたま市で電動アシスト自転車と電動シートボードを組み合わせ展開。札幌は冬季営業を11/15まで延長。",
       "tags": [
         "ポート1.7万+",
         "4社集約拠点参画",
@@ -157,6 +157,20 @@
   "news": [
     {
       "region": "na",
+      "date": "2026.10.11",
+      "title": "DC官僚がeスクーター衝突で死亡 — 犯罪利用多発でLimeら許可更新に逆風",
+      "text": "ワシントンDCでeスクーター同士の衝突事故により市長帰還市民局長が死亡。同時期に10代グループがLimeバイク・スクーターを使った強盗逃走事案が相次ぎ、Limeなど事業者が許可更新を控える中でeバイク・スクーターへの監視強化が求められている。",
+      "url": "https://washingtontimes.com/news/2026/oct/11/dc-officials-fatal-e-scooter-crash-highlights-vehicles-connection"
+    },
+    {
+      "region": "na",
+      "date": "2026.10.10",
+      "title": "DC、eバイク・スクーターが犯罪逃走に多用 — Limeら許可更新前に精査強化",
+      "text": "ワシントンDCでeバイク・スクーターが強盗などの犯罪逃走手段として相次いで利用され市当局が問題視。Limeなど事業者は許可更新の時期に当たっており、データ共有や未成年者管理の強化を求める声が高まっている。",
+      "url": "https://www.washingtonpost.com/dc-md-va/2026/10/10/after-string-crimes-e-bikes-scooters-come-under-scrutiny-dc/"
+    },
+    {
+      "region": "na",
       "date": "2026.10.09",
       "title": "シカゴDivvy拡張が暗礁に — Lime「事実上の独占」と市議会に再警告",
       "text": "シカゴ市議会の委員会がDivvy拡張案を10月9日に審議。LimeはLyftの独占がロジャーズパークから南部まで競合を排除すると改めて警告した。Limeのシカゴ年間ライドは610万回でDivvyの680万回に迫る規模。採決は引き続き延期が焦点。",
@@ -170,11 +184,11 @@
       "url": "https://www.smartcitiesworld.net/micromobility/lime-invests-nearly-1m-in-e-bike-parking-in-london-13274"
     },
     {
-      "region": "eu",
-      "date": "2026.10.06",
-      "title": "ヘルシンキ、eスクーター利用12%減を報告 — ライセンス制導入初年度、3社体制で継続",
-      "text": "ヘルシンキ市が2026年シーズンの共有eスクーター台数が前年比約12%減と報告。ライセンス制導入や事業者数の4社から3社への減少が背景。現在はDott・Voi・Rydeの3社が稼働中。2027年向けライセンス条件は年内決定予定。",
-      "url": "https://www.hel.fi/en/news/electric-scooter-use-has-decreased-in-helsinki"
+      "region": "na",
+      "date": "2026.10.08",
+      "title": "Citi Bike値下げ、Mamdani市長の難題 — Lyft独占と2029年契約が壁",
+      "text": "NYC市長マムダニが掲げるCiti Bike値下げは、Lyftが車両・ステーションを所有する独占構造と2029年の契約満了まで市に価格決定権がない現実が障壁。新規参入コストは最大2.5億ドルと試算され競争環境の整備が急務と専門家が指摘。",
+      "url": "https://nyc.streetsblog.org/2026/10/08/the-big-lyft-mamdani-faces-tough-fight-for-cheaper-citi-bikes"
     },
     {
       "region": "na",
@@ -196,6 +210,13 @@
       "title": "沖縄県南城市でHELLO CYCLINGの「Hi!cycling」実証事業を開始",
       "text": "OpenStreetとスカイツアーズが沖縄県南城市と業務委託契約を締結し、HELLO CYCLINGプラットフォームを活用した「Hi!cycling」のシェアサイクル実証事業を10月7日に開始。HELLO CYCLINGの沖縄展開が本格化し、観光・生活移動の両面での活用が期待される。",
       "url": "https://prtimes.jp/main/html/rd/p/000000292.000113324.html"
+    },
+    {
+      "region": "eu",
+      "date": "2026.10.06",
+      "title": "ヘルシンキ、eスクーター利用12%減を報告 — ライセンス制導入初年度、3社体制で継続",
+      "text": "ヘルシンキ市が2026年シーズンの共有eスクーター台数が前年比約12%減と報告。ライセンス制導入や事業者数の4社から3社への減少が背景。現在はDott・Voi・Rydeの3社が稼働中。2027年向けライセンス条件は年内決定予定。",
+      "url": "https://www.hel.fi/en/news/electric-scooter-use-has-decreased-in-helsinki"
     },
     {
       "region": "na",
@@ -231,34 +252,6 @@
       "title": "Consumer Reports、eスクーター推奨を全廃止 — 13モデル試験、速度上昇と負傷増加が理由",
       "text": "Consumer Reportsが13のeスクーターモデルを試験し、推奨できるものは1台もないと発表。2022年時点の最高速度15.5mphが現在は20mph超が一般的となり、1台は28mphに達した。2017年から2024年でeスクーター負傷者は約10,500件から約80,000件へ急増。メーカーへの安全基準策定を求めた。",
       "url": "https://hoodline.com/2026/10/consumer-reports-drops-e-scooters-as-philly-crashes-jump-40-percent"
-    },
-    {
-      "region": "jp",
-      "date": "2026.10.02",
-      "title": "Luup札幌、冬季営業最終日を11月15日に延長 — 当初予定の10月31日から変更",
-      "text": "Luupは北海道札幌市における2026年シーズンの営業最終日を、当初予定の10月31日から11月15日（日）へ延長すると発表。今シーズンはポート数を昨年の67カ所から85カ所に増設して再開しており、ラストワンマイルの移動手段としての利用拡大を図る。",
-      "url": "https://luup.sc/news/2026-04-16-sapporo/"
-    },
-    {
-      "region": "na",
-      "date": "2026.10.01",
-      "title": "NYC市議会、Class 3 eバイク禁止含む法案23本を一括審議 — 販売・使用禁止・配達アプリ規制も",
-      "text": "NYC市議会が10月1日、eバイク・スクーター規制に関する過去最多23本の法案を審議。Class 3 eバイク（最大25mph）の販売・賃貸・使用禁止、配達アプリへの保険・データ提出義務、下取りプログラム創設などが議題に。市内eバイク労働者は約8万人と推計され、配達業界への影響が懸念される。",
-      "url": "https://www.bicycleretailer.com/industry-news/2026/10/01/banning-class-3-e-bikes-among-series-bills-introduced-nyc-curb-crashes"
-    },
-    {
-      "region": "eu",
-      "date": "2026.08.06",
-      "title": "伊当局、ローマのBird・Dott・Limeに計€267.5万制裁 — 公共交通定期券の無料乗車妨害",
-      "text": "イタリア競争当局（AGCM）がローマでeスクーター・eバイクを運営するBird・Dott・Limeに対し、公共交通年間定期券保有者への無料乗車パッケージへのアクセスを妨げたとして計€2.675Mの制裁金を科した。Limeは€140万・Birdは€75万・Dottは€52.5万。",
-      "url": "https://www.wantedinrome.com/news/italy-fines-e-scooter-firms-bird-dott-and-lime-26-million-over-blocked-free-rides-in-rome.html"
-    },
-    {
-      "region": "na",
-      "date": "2026.07.30",
-      "title": "Bay Wheels、Lyft Bikeにリブランド — 新型AstroとMetroをSFベイエリア6都市で展開",
-      "text": "LyftがSFベイエリアのシェアサイクル「Bay Wheels」を「Lyft Bike」にリブランドし、自社設計の新型eバイク「Astro」とペダルバイク「Metro」を導入。5年契約延長のもとで1,000台の新車両を追加し、SF・バークレー・オークランド等6都市で展開する。",
-      "url": "https://zagdaily.com/micromobility/bay-wheels-rebrands-to-lyft-bike-as-two-new-models-hit-the-streets/"
     }
   ],
   "stats": [
