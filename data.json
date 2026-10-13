@@ -1,12 +1,12 @@
 {
-  "updated": "2026.10.12",
+  "updated": "2026.10.13",
   "ticker": [
     "🇺🇸 DC官僚eスクーター死亡事故 — Limeら許可更新に逆風",
-    "🇺🇸 NYC・Citi Bike値下げ交渉難航 — Lyft独占が壁に",
-    "🇺🇸 ハーバーヒル市議会、eバイク・スクーター全公共施設禁止条例を可決",
-    "🇫🇮 ヘルシンキ、eスクーター利用12%減 — ライセンス制初年度の影響か",
-    "🇬🇧 Lime、ロンドン9区に£90万投資・eバイク駐車ベイ約600カ所整備",
-    "🇯🇵 HELLO CYCLING、横浜で移動用小型車「スロモビ」シェア開始"
+    "🇺🇸 シカゴDivvy独占問題、Lime異議で審議再延期",
+    "🇺🇸 St.Paul、Limeスクーター100台超がミシシッピ川に消える",
+    "🇧🇪 ブリュッセル、2027年1月よりシェアeスクーター全面禁止へ",
+    "🇨🇳 Segway、常州で第3世代「R1」等4車種を世界初公開",
+    "🇯🇵 NOLL（ドコモ・バイクシェア）、9月1日より全国ブランド統一完了"
   ],
   "pulse": [
     {
@@ -14,32 +14,32 @@
       "flag": "🇯🇵",
       "en": "JAPAN",
       "ja": "日本",
-      "stat": "新モビリティ実証が相次ぐ",
-      "text": "HELLO CYCLINGが横浜でスロモビシェア・沖縄でHi!cycling実証を始動。LimeとのポートはHELLO CYCLING26年秋以降に相互連携予定。Luup札幌は冬季営業を11/15まで延長し拡大路線を継続。"
+      "stat": "ブランド再編と新モビリティ拡充",
+      "text": "ドコモ・バイクシェアが「NOLL」へ刷新し全国63地域で統一ブランドが始動。HELLO CYCLINGは横浜スロモビ・沖縄Hi!cyclingと新カテゴリを相次ぎ展開。Luup札幌は冬季営業を11/15まで延長。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "安全・独占・値上げが焦点",
-      "text": "DCでeスクーター死亡事故が発生しLimeら許可更新に逆風。NYではCiti Bike値下げを求める声が高まるもLyftの独占体制が壁に。シカゴDivvy独占問題はLimeの異議で審議延長が続く。"
+      "stat": "安全規制と独占論争が激化",
+      "text": "DCでeスクーター死亡事故発生、Limeら許可更新に逆風。シカゴDivvyはLime異議で審議延長が続く。Consumer ReportsがeスクーターRecommend全廃止を発表し規制論が加速。"
     },
     {
       "cls": "eu",
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "制裁・規制強化が続く",
-      "text": "ローマでBird・Dott・Limeに€2.675M制裁、ヘルシンキはライセンス制初年度でeスクーター台数12%減。Limeはロンドン9区に£90万を投じeバイク駐車ベイ約600カ所を整備し継続展開。"
+      "stat": "禁止・規制の連鎖が広がる",
+      "text": "ブリュッセルが2027年1月よりシェアeスクーター全面禁止を決定。ヘルシンキはライセンス制初年度で台数12%減。ロンドンはTfL一元規制へ移行準備中。Limeはロンドン9区にeバイク駐車ベイ600カ所を整備。"
     },
     {
       "cls": "as",
       "flag": "🌏",
       "en": "ASIA",
       "ja": "アジア",
-      "stat": "中国3強が寡占",
-      "text": "中国はハローバイク・美団・青桔の3強体制で1回約30円の低価格が定着。インドのYuluは$93Mを調達し電動二輪フリートを20万台規模へ拡大計画。Segwayが常州で新製品発表会を9月開催。"
+      "stat": "Segway次世代機が登場",
+      "text": "Segwayが常州で第3世代eスクーター「R1」とCシリーズeバイク・配送用F100を発表。ブラインドスポット検知やAI歩道検知を搭載し耐久性とTCO削減を重視した設計。中国3強の低価格競争は継続。"
     }
   ],
   "ranking": [
@@ -47,11 +47,11 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "累計10億ライド超。Q2売上$304M（+24%）・通年$1.1B目標。ロンドン9区に£90万のeバイク駐車ベイ整備。シカゴDivvy独占に異議申立て継続。DC犯罪利用多発でeスクーター許可更新が注目局面に。",
+      "desc": "累計10億ライド超。Q2売上$304M（+24%）・通年$1.1B目標。ロンドン9区にeバイク駐車ベイ約600カ所整備。シカゴDivvy独占に異議継続。DCでは犯罪利用・死亡事故を受け許可更新が正念場。",
       "tags": [
         "通年$1.1B目標",
-        "ロンドン駐車整備",
-        "DC許可更新注目"
+        "DC許可更新正念場",
+        "ロンドン駐車整備"
       ],
       "score": 98,
       "site": "https://www.li.me/"
@@ -73,7 +73,7 @@
       "medal": "🥉",
       "name": "Citi Bike",
       "meta": "米国 · ニューヨーク",
-      "desc": "北米最大。2026年6月に月間549万ライドで過去最高、eバイク比率70%超。Mamdani市長が値下げを掲げるもLyftが車両・ステーションを所有する独占構造と2029年契約満了が壁となり交渉難航。",
+      "desc": "北米最大。2026年6月に月間549万ライドで過去最高、eバイク比率70%超。Mamdani市長が値下げを掲げるもLyftの独占構造と2029年契約満了が壁となり交渉難航。新規参入コストは最大2.5億ドルと試算。",
       "tags": [
         "北米最大",
         "値下げ交渉難航",
@@ -99,11 +99,11 @@
       "medal": "#5",
       "name": "Voi",
       "meta": "スウェーデン · 欧州130都市超",
-      "desc": "Q2売上€68.8M（+47%）・12カ月累計€210M超。Nordic 3行から€150M回転信用枠を確保し10/19に既存債券を償還予定。ブリュッセル撤退済み。ヘルシンキはDott・Rydeと3社体制で継続。",
+      "desc": "Q2売上€68.8M（+47%）・12カ月累計€210M超。Nordic 3行から€150M回転信用枠を確保。Voiager 9とExplorer 5等の2026年新型フリートをストックホルムから展開中。ブリュッセル撤退済み。",
       "tags": [
         "€150M信用枠確保",
-        "ブリュッセル撤退",
-        "ヘルシンキ継続"
+        "新型フリート展開",
+        "ブリュッセル撤退"
       ],
       "score": 88,
       "site": "https://www.voi.com/"
@@ -112,7 +112,7 @@
       "medal": "#6",
       "name": "HELLO CYCLING",
       "meta": "日本 · OpenStreet",
-      "desc": "会員600万人突破（2026年9月）。横浜でスロモビシェア開始・沖縄南城市実証始動。Limeとのポート相互連携を26年秋以降に予定。三井のリパーク練馬区集約拠点でも展開継続。",
+      "desc": "会員600万人突破（2026年9月）。横浜でスロモビシェア開始・沖縄南城市Hi!cycling実証始動。Limeとのポート相互連携を26年秋以降に予定。京急との連携事業「京急ちゃりんポ」も9月開始。",
       "tags": [
         "会員600万人突破",
         "スロモビ横浜開始",
@@ -125,7 +125,7 @@
       "medal": "#7",
       "name": "Luup",
       "meta": "日本 · 電動キックボード＋自転車",
-      "desc": "国内最大の電動マイクロモビリティ。ポート1.7万カ所超。三井のリパーク練馬区の4社集約拠点にも参画。さいたま市で電動アシスト自転車と電動シートボードを組み合わせ展開。札幌は冬季営業を11/15まで延長。",
+      "desc": "国内最大の電動マイクロモビリティ。ポート1.7万カ所超。三井のリパーク練馬区の4社集約拠点にも参画。さいたま市で電動アシスト自転車と電動シートボードを展開。札幌は冬季営業を11/15まで延長。",
       "tags": [
         "ポート1.7万+",
         "4社集約拠点参画",
@@ -136,9 +136,22 @@
     },
     {
       "medal": "#8",
+      "name": "NOLL（ドコモ・バイクシェア）",
+      "meta": "日本 · 全国63地域",
+      "desc": "2026年9月1日に「NOLL（ノル）」へ全面刷新。baybike・ちよくる等の地域ブランドを統一。新型車両（ノーパンクタイヤ・大容量バッテリー）を順次導入し、料金を30分制から10分制（99〜120円/10分）へ変更。",
+      "tags": [
+        "9月ブランド統一",
+        "新型車両展開中",
+        "10分課金制導入"
+      ],
+      "score": 78,
+      "site": "https://noll.docomo-cycle.jp/"
+    },
+    {
+      "medal": "#9",
       "name": "Dott（旧TIER統合）",
       "meta": "オランダ · 欧州",
-      "desc": "2025年統合後初の黒字化（売上€173M）。ブリュッセル撤退・ローマでBird・Limeと共に€2.675M制裁（8/6）。ヘルシンキはVoi・Rydeと3社体制継続。Fleetser連携で循環型フリート展開中。",
+      "desc": "2025年統合後初の黒字化（売上€173M）。ブリュッセル撤退・ローマでBird・Limeと共に€2.675M制裁。ヘルシンキはVoi・Rydeと3社体制継続。Fleetser連携で循環型フリート展開中。",
       "tags": [
         "初の黒字化",
         "ローマ制裁",
@@ -155,6 +168,27 @@
     "url": "https://zagdaily.com/micromobility/london-mayor-sets-out-plan-for-city-wide-dockless-e-bike-framework/"
   },
   "news": [
+    {
+      "region": "gl",
+      "date": "2026.10.12",
+      "title": "Segway、常州サミットで第3世代「R1」eスクーター等4車種を世界初公開",
+      "text": "Segwayが常州で60社超の事業者を集めたサミットを開催し、第3世代シェアeスクーター「R1」・CシリーズeバイクC100/C200・配送用F100を発表。R1はブラインドスポット検知・AI歩道検知・モジュラー構造を採用し、バッテリー交換あたりの走行距離を30%改善。耐久性とTCO削減を軸に設計。",
+      "url": "https://zagdaily.com/featured/how-segways-latest-e-scooter-takes-aim-at-the-realities-of-shared-fleets/"
+    },
+    {
+      "region": "na",
+      "date": "2026.10.12",
+      "title": "オハイオ州、eバイク・スクーター規制法案を追加提出 — 13歳以下禁止・ヘルメット義務化",
+      "text": "オハイオ州民主党議員が上院法案477を提出し、13歳以下のeバイク・スクーター利用禁止とヘルメット着用義務化を盛り込む。別途下院でも法案が準備中。負傷者急増を背景に州全体の統一規制整備を目指す。",
+      "url": "https://columbusunderground.com/legislation-announced-to-regulate-ebikes-and-scooters-in-ohio-ocj1"
+    },
+    {
+      "region": "eu",
+      "date": "2026.10.12",
+      "title": "ブリュッセル、2027年1月よりシェアeスクーター全面禁止へ — 欧州で禁止拡大",
+      "text": "ベルギー・ブリュッセル首都圏が2027年1月1日よりシェアレンタルeスクーターを全面禁止する計画を発表。安全性・歩行者空間の問題が背景。すでにDott・Voiはブリュッセルから撤退済み。欧州各都市で規制強化の連鎖が続く。",
+      "url": "https://gulfnews.com/living-in-uae/transport/e-scooter-bans-worldwide-cities-restrictions-dubai-rules-1.500707388"
+    },
     {
       "region": "na",
       "date": "2026.10.11",
@@ -194,36 +228,15 @@
       "region": "na",
       "date": "2026.10.08",
       "title": "ハーバーヒル市議会、eバイク・スクーターを公共全域で禁止する条例を全会一致で可決",
-      "text": "マサチューセッツ州ハーバーヒル市議会が10月8日、eバイク・電動スクーター等のマイクロモビリティ機器を公共歩道・自転車道・自然遊歩道・学校敷地など全公共施設で禁止する条例を全会一致で可決。警察に車両没収権限を付与。12歳少女死亡事故を受けた安全対策が背景。",
+      "text": "マサチューセッツ州ハーバーヒル市議会が10月8日、eバイク・電動スクーター等を公共歩道・自転車道・自然遊歩道・学校敷地など全公共施設で禁止する条例を全会一致で可決。警察に車両没収権限を付与。12歳少女死亡事故を受けた安全対策が背景。",
       "url": "https://eagletribune.com/news/haverhill/new-rules-put-the-brakes-on-e-bikes-scooters/article_53404ef9-d340-4418-bc66-213bfa76a89f.html"
     },
     {
       "region": "na",
-      "date": "2026.10.07",
-      "title": "オハイオ州、eバイク・スクーター規制強化法案を提出 — 登録義務・最低利用年齢18歳・速度制限も",
-      "text": "オハイオ州議会がeバイク・スクーターを対象とした規制法案を提出。州登録義務・ヘルメット着用・レンタル利用の最低年齢18歳・歩道5mph／共用路10mphの速度制限などを盛り込む。負傷者急増を背景に、州全体の統一ルール整備を目指す。",
-      "url": "https://abc6onyourside.com/news/local/ohio-lawmakers-push-new-e-bike-scooter-regulations-as-injuries-rise-class-3-rules-electric-bicycles-state-senator-bill-demora-akron-childrens-hospital-short-north-columbus-state-representative-eric-synenberg-democrat-beachwood"
-    },
-    {
-      "region": "jp",
-      "date": "2026.10.07",
-      "title": "沖縄県南城市でHELLO CYCLINGの「Hi!cycling」実証事業を開始",
-      "text": "OpenStreetとスカイツアーズが沖縄県南城市と業務委託契約を締結し、HELLO CYCLINGプラットフォームを活用した「Hi!cycling」のシェアサイクル実証事業を10月7日に開始。HELLO CYCLINGの沖縄展開が本格化し、観光・生活移動の両面での活用が期待される。",
-      "url": "https://prtimes.jp/main/html/rd/p/000000292.000113324.html"
-    },
-    {
-      "region": "eu",
       "date": "2026.10.06",
-      "title": "ヘルシンキ、eスクーター利用12%減を報告 — ライセンス制導入初年度、3社体制で継続",
-      "text": "ヘルシンキ市が2026年シーズンの共有eスクーター台数が前年比約12%減と報告。ライセンス制導入や事業者数の4社から3社への減少が背景。現在はDott・Voi・Rydeの3社が稼働中。2027年向けライセンス条件は年内決定予定。",
-      "url": "https://www.hel.fi/en/news/electric-scooter-use-has-decreased-in-helsinki"
-    },
-    {
-      "region": "na",
-      "date": "2026.10.06",
-      "title": "Bird Canada、エドモントンに次世代「Explorer」eバイク — 2027年本格展開・州規制強化にも対応",
-      "text": "Bird Canadaがエドモントンに最新モデル「Bird Explorer」のeバイクを発表。既存より軽量・小型フレームで技術的には高速対応だが速度は市規制に準拠。カルガリー・ハリファックスでも先行展開中で、全面ロールアウトは2027年予定。アルバータ州の私的eバイク規制強化論議にも対応姿勢を示した。",
-      "url": "https://ctvnews.ca/edmonton/article/edmonton-to-get-new-fleet-of-e-bikes-amid-potential-private-micromobility-crackdowns"
+      "title": "St.Paul、Limeスクーター100台超がミシシッピ川に — 男が2台を投棄し逮捕",
+      "text": "ミネソタ州セントポールでWabasha橋付近からLimeのeスクーター100台超が行方不明となる事案が発生。男が2台をミシシッピ川に投棄したとして訴追された。9月初旬から被害が続いており、Lime・市当局が対応に追われている。",
+      "url": "https://www.startribune.com/lime-scooter-mississippi-river-st-paul/601898262"
     },
     {
       "region": "na",
@@ -233,11 +246,18 @@
       "url": "https://publicola.com/2026/10/06/greater-seattle-bike-and-scooter-share-could-soon-lap-2025s-record-setting-numbers/"
     },
     {
+      "region": "jp",
+      "date": "2026.10.07",
+      "title": "沖縄県南城市でHELLO CYCLINGの「Hi!cycling」実証事業を開始",
+      "text": "OpenStreetとスカイツアーズが沖縄県南城市と業務委託契約を締結し、HELLO CYCLINGプラットフォームを活用した「Hi!cycling」のシェアサイクル実証事業を10月7日に開始。HELLO CYCLINGの沖縄展開が本格化し、観光・生活移動の両面での活用が期待される。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000292.000113324.html"
+    },
+    {
       "region": "na",
-      "date": "2026.10.05",
-      "title": "Lime、シカゴ市DivvyのLyft独占拡張に異議 — 市議会に採決延期を要求",
-      "text": "Limeがシカゴ市議会に書簡を送り、DivvyオペレーターのLyftとの5年契約延長案に反対。独占拡大によりLimeが市内から排除されると警告。「現在の提案はLyftにとっての独占を生み出す」と明言し、採決延期と競争条件の見直しを求めた。市議会委員会は10/9に審議予定。",
-      "url": "https://chicago.suntimes.com/transportation/2026/10/05/lime-scooter-divvy-expansion"
+      "date": "2026.10.04",
+      "title": "Consumer Reports、eスクーター推奨を全廃止 — 13モデル試験、速度上昇と負傷増加が理由",
+      "text": "Consumer Reportsが13のeスクーターモデルを試験し、推奨できるものは1台もないと発表。2022年時点の最高速度15.5mphが現在は20mph超が一般的となり、1台は28mphに達した。2017年から2024年でeスクーター負傷者は約10,500件から約80,000件へ急増。",
+      "url": "https://hoodline.com/2026/10/consumer-reports-drops-e-scooters-as-philly-crashes-jump-40-percent"
     },
     {
       "region": "jp",
@@ -247,11 +267,11 @@
       "url": "https://www.openstreet.co.jp/news/slomobi2026"
     },
     {
-      "region": "na",
-      "date": "2026.10.04",
-      "title": "Consumer Reports、eスクーター推奨を全廃止 — 13モデル試験、速度上昇と負傷増加が理由",
-      "text": "Consumer Reportsが13のeスクーターモデルを試験し、推奨できるものは1台もないと発表。2022年時点の最高速度15.5mphが現在は20mph超が一般的となり、1台は28mphに達した。2017年から2024年でeスクーター負傷者は約10,500件から約80,000件へ急増。メーカーへの安全基準策定を求めた。",
-      "url": "https://hoodline.com/2026/10/consumer-reports-drops-e-scooters-as-philly-crashes-jump-40-percent"
+      "region": "eu",
+      "date": "2026.10.06",
+      "title": "ヘルシンキ、eスクーター利用12%減を報告 — ライセンス制導入初年度、3社体制で継続",
+      "text": "ヘルシンキ市が2026年シーズンの共有eスクーター台数が前年比約12%減と報告。ライセンス制導入や事業者数の4社から3社への減少が背景。現在はDott・Voi・Rydeの3社が稼働中。2027年向けライセンス条件は年内決定予定。",
+      "url": "https://www.hel.fi/en/news/electric-scooter-use-has-decreased-in-helsinki"
     }
   ],
   "stats": [
