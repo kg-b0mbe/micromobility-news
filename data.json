@@ -1,12 +1,12 @@
 {
-  "updated": "2026.10.18",
+  "updated": "2026.10.19",
   "ticker": [
-    "🇵🇹 リスボン市長、シェアeスクーター停止宣言 — 3社に60日撤去猶予",
-    "🇺🇸 Lime、Nasdaq上場完了 — $167M調達・ティッカー「LIME」",
-    "🇯🇵 JR内房線運休でHELLO CYCLING緊急投入 — 全国初の災害代替",
-    "🇺🇸 DC警察、eバイク・スクーター安全取締を開始 — 交通死亡62%増を受け",
-    "🇨🇦 バンクーバーMobi、ロジャーズと命名権を2029年まで更新",
-    "🇧🇪 ブリュッセル、2027年1月にeスクーター全面禁止確定"
+    "🇺🇸 Citi Bike、NYC7地域に230駅・3,700ドック追加完了",
+    "🇵🇹 リスボン、eスクーター1月末撤去確定 — 再導入計画なし",
+    "🇬🇧 Lime、ウォルソール展開でウェストミッドランズ全域制覇",
+    "🇺🇸 Lime・Spin、SF許可を2028年まで延長 — 苦情倍増でも継続",
+    "🇯🇵 HELLO CYCLING緊急300台投入 — 全国初の災害代替交通",
+    "🇪🇺 イタリア競争当局、Bird・Dott・Limeに計€2.7M制裁"
   ],
   "pulse": [
     {
@@ -15,23 +15,23 @@
       "en": "JAPAN",
       "ja": "日本",
       "stat": "災害代替・地方展開が加速",
-      "text": "台風25号でJR内房線が運休、HELLO CYCLINGが緊急300台を投入（全国初の災害代替交通）。山口市が10/16からHELLO CYCLING本格運用開始（県内初）。Luupはさいたま市で9月10日にサービス開始（埼玉県内初の広域展開）。"
+      "text": "台風25号JR内房線運休でHELLO CYCLINGが緊急300台投入（全国初の災害代替交通）。山口市が10/16からHELLO CYCLING本格運用開始（県内初）。NOLLは9月1日にブランド統一・新型車両・10分課金制を導入。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "Lime上場・安全規制が同時進行",
-      "text": "LimeがNasdaqにIPO完了（$167M調達、7月1日上場）。DCでは市職員eスクーター死亡事故を受けMPDが全市で安全取締を開始。Limeシアトルは2026年ライド数10.5M超で前年記録を2カ月前倒し突破。"
+      "stat": "拡張と安全規制が同時進行",
+      "text": "Citi BikeがNYC7地域・230駅・3,700ドックの大型拡張を完了（10/15）。DCでは死亡事故急増を受けMPDが全市安全取締を開始。LimeのSFとシアトルでの許可延長・記録更新も続く。"
     },
     {
       "cls": "eu",
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "リスボン停止・欧州禁止拡大",
-      "text": "リスボン市長がeスクーター停止を宣言、Bolt・Lime・Birdに60日以内撤去通告（10/21市議会で正式審議）。ブリュッセルは2027年1月の全面禁止が既定路線。ロンドンはLimeが9区に駐車ベイ約600カ所を整備中。"
+      "stat": "禁止拡大・英国でLime躍進",
+      "text": "リスボンがeスクーター1月末撤去・再導入なしを確定。ブリュッセルも2027年1月禁止が既定路線。一方Limeはウォルソールでウェストミッドランズ全域をカバー、ロンドン9区に駐車ベイ約600カ所整備中。"
     },
     {
       "cls": "as",
@@ -47,10 +47,10 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "7月1日にNasdaqへIPO完了（$167M調達、ティッカー「LIME」）。2025年売上$886.7M（前年比+29%）。シアトル2026年ライド10.5M超を2カ月前倒し達成。リスボン停止宣言で撤去通告、DC許可更新が正念場。",
+      "desc": "7月1日Nasdaq上場（$167M調達）。2025年売上$886.7M（+29%）。SFとシアトルで許可延長・ライド記録更新。ウォルソール展開でウェストミッドランズ全域制覇。リスボン停止・ローマで€1.4M制裁金・DC許可更新が正念場。",
       "tags": [
         "Nasdaq上場完了",
-        "シアトル10.5M超",
+        "英国全域展開加速",
         "DC許可更新正念場"
       ],
       "score": 98,
@@ -73,13 +73,13 @@
       "medal": "🥉",
       "name": "Citi Bike",
       "meta": "米国 · ニューヨーク",
-      "desc": "北米最大。2026年6月に月間549万ライドで過去最高、eバイク比率70%超。Mamdani市長の値下げ交渉はLyft独占構造と2029年契約満了が壁で難航。NYC DOTが利用者アンケートで次期契約の方向性を探る。",
+      "desc": "北米最大。10/15にNYC7地域・230駅・3,700ドックの大型拡張を完了。マムダニ市長とLyftの値下げ交渉は2029年契約満了を前に難航。eバイク比率70%超・月間過去最高記録を更新中。",
       "tags": [
-        "北米最大",
+        "7地域230駅拡張完了",
         "値下げ交渉難航",
         "2029年契約更新"
       ],
-      "score": 91,
+      "score": 92,
       "site": "https://citibikenyc.com/"
     },
     {
@@ -151,7 +151,7 @@
       "medal": "#9",
       "name": "Dott（旧TIER統合）",
       "meta": "オランダ · 欧州",
-      "desc": "2025年統合後初の黒字化（売上€173M）。€85M調達・4万5千台の新フリートを欧州展開中。ブリュッセルはライセンス取消で撤退対応。ローマでLime・Birdとともに不公正商慣行で制裁金€525,000を科される。",
+      "desc": "2025年統合後初の黒字化（売上€173M）。€85M調達・新フリート欧州展開中。ブリュッセル撤退対応。ローマでBird・Limeとともに不公正商慣行で制裁金（Dott分€525,000）を科される。",
       "tags": [
         "初の黒字化",
         "ローマで制裁金",
@@ -168,6 +168,20 @@
     "url": "https://www.euronews.com/2026/10/16/lisbon-mayor-moves-to-suspend-shared-e-scooter-scheme"
   },
   "news": [
+    {
+      "region": "na",
+      "date": "2026.10.15",
+      "title": "Citi Bike、NYC7地域に230駅・3,700ドック追加 — マムダニ市長が大型拡張完了を発表",
+      "text": "マムダニ市長・NYC DOT・Lyftが10月15日、Citi Bikeのブロンクス・ブルックリン・クイーンズ7地域への拡張完了を発表。230以上のステーションと3,700ドックを追加。ノーウッド・リバーデール・ブラウンズビルなど従来カバーされていなかった地域に初めてサービスが届く。",
+      "url": "https://www.nyc.gov/mayors-office/news/2026/10/mayor-mamdani-expands-citi-bike-to-seven-more-neighborhoods--add"
+    },
+    {
+      "region": "eu",
+      "date": "2026.10.14",
+      "title": "Lime、ウォルソールにeバイク展開 — ウェストミッドランズ全6都市カバー完了",
+      "text": "Limeが10月13日にウォルソールでeバイクサービスを開始し、4月のバーミンガム等に続きウェストミッドランズ全域をカバー。ウェスト・ミッドランズ統合局が任命した唯一のオペレーターとして既存スキームを置き換え。20ペンス/分またはLimePassバンドルで利用可能。",
+      "url": "https://www.wmca.org.uk/news/lime-launches-e-bike-hire-into-walsall/"
+    },
     {
       "region": "na",
       "date": "2026.10.16",
@@ -211,13 +225,6 @@
       "url": "https://www.openstreet.co.jp/news/chiba2026oct"
     },
     {
-      "region": "jp",
-      "date": "2026.10.12",
-      "title": "山口市、HELLO CYCLINGで10月16日からシェアサイクル本格運用 — 山口県内初の行政主導",
-      "text": "山口市が2020年から続けた実証事業を経て、10月16日からHELLO CYCLINGによる本格運用を開始。市内40カ所のポートに電動アシスト付き自転車150台を配置。初年度1,101件だった利用が2025年度に約14,000件へ急増したことが本格化の決め手。行政が主体となるシェアサイクルは県内初。",
-      "url": "https://news.yahoo.co.jp/articles/3e9ab48324dc63a4b16e04b681425bfe06ab514e"
-    },
-    {
       "region": "na",
       "date": "2026.10.13",
       "title": "トロント自転車レーン撤去が始動 — Cycle Toronto、最高裁へ上訴申請",
@@ -232,18 +239,18 @@
       "url": "https://cheknews.ca/victoria-voters-can-get-free-e-bike-e-scooter-rides-to-polls-1352913"
     },
     {
+      "region": "jp",
+      "date": "2026.10.12",
+      "title": "山口市、HELLO CYCLINGで10月16日からシェアサイクル本格運用 — 山口県内初の行政主導",
+      "text": "山口市が2020年から続けた実証事業を経て、10月16日からHELLO CYCLINGによる本格運用を開始。市内40カ所のポートに電動アシスト付き自転車150台を配置。初年度1,101件だった利用が2025年度に約14,000件へ急増したことが本格化の決め手。行政が主体となるシェアサイクルは県内初。",
+      "url": "https://news.yahoo.co.jp/articles/3e9ab48324dc63a4b16e04b681425bfe06ab514e"
+    },
+    {
       "region": "gl",
       "date": "2026.10.12",
       "title": "Segway、常州サミットで第3世代「R1」eスクーター等4車種を世界初公開",
       "text": "Segwayが常州で60社超の事業者を集めたサミットを開催し、第3世代シェアeスクーター「R1」・CシリーズeバイクC100/C200・配送用F100を発表。R1はブラインドスポット検知・AI歩道検知・モジュラー構造を採用し、バッテリー交換あたりの走行距離を30%改善。耐久性とTCO削減を軸に設計。",
       "url": "https://zagdaily.com/featured/how-segways-latest-e-scooter-takes-aim-at-the-realities-of-shared-fleets/"
-    },
-    {
-      "region": "na",
-      "date": "2026.10.12",
-      "title": "オハイオ州、eバイク・スクーター規制法案を追加提出 — 13歳以下禁止・ヘルメット義務化",
-      "text": "オハイオ州民主党議員が上院法案477を提出し、13歳以下のeバイク・スクーター利用禁止とヘルメット着用義務化を盛り込む。別途下院でも法案が準備中。負傷者急増を背景に州全体の統一規制整備を目指す。",
-      "url": "https://ohiocapitaljournal.com/2026/10/12/ohio-lawmakers-introduce-bills-to-add-age-limits-regulate-electric-bikes-and-electric-scooters"
     },
     {
       "region": "eu",
@@ -260,18 +267,18 @@
       "url": "https://www.smartcitiesworld.net/micromobility/lime-invests-nearly-1m-in-e-bike-parking-in-london-13274"
     },
     {
+      "region": "eu",
+      "date": "2026.08.06",
+      "title": "イタリア競争当局、ローマのBird・Dott・Limeに計€2.7M制裁 — 無料ライド妨害が理由",
+      "text": "イタリア競争当局（AGCM）がローマでeスクーター・eバイクを運営するBird・Dott・Limeに計€2.675M（約3.1M USD）の制裁金を科した。年間交通パス保有者への無料ライド特典を不当に利用困難にしたと認定。Lime€1.4M・Bird€750,000・Dott€525,000の内訳。",
+      "url": "https://live.euronext.com/en/financial-news/italy-fines-rome-e-scooter-firms-bird-dott-and-lime-around-31-million"
+    },
+    {
       "region": "na",
       "date": "2026.07.01",
       "title": "LimeがNasdaqに上場 — $167M調達、ティッカー「LIME」で公開市場デビュー",
       "text": "マイクロモビリティ大手Limeが7月1日にNasdaqへ上場（ティッカー「LIME」）。1株$25で668万株を売り出し$167M調達、初日は約9%高で推移。2025年売上$886.7M（前年比+29%）。約10億ドルの負債返済が急務で、IPO資金の約$115Mを優先弁済に充当する。",
       "url": "https://techcrunch.com/2026/07/01/lime-begins-life-as-a-public-company-after-years-of-uncertainty/"
-    },
-    {
-      "region": "jp",
-      "date": "2026.10.05",
-      "title": "HELLO CYCLING、横浜で移動用小型車「スロモビ」シェアサービスを開始 — 桜木町駅等3拠点",
-      "text": "OpenStreetが10月5日より神奈川県横浜市の桜木町駅・関内駅・日本大通り駅の3カ所で移動用小型車「スロモビ」のシェアサービスを開始。HELLO CYCLINGアプリで利用可能。実証期間中は最大12時間無料。豊田鉄工と共同開発した最高時速6kmの歩行者扱い小型車。2027年3月末まで展開。",
-      "url": "https://www.openstreet.co.jp/news/slomobi2026"
     }
   ],
   "stats": [
