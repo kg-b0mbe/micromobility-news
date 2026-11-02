@@ -1,12 +1,12 @@
 {
-  "updated": "2026.11.01",
+  "updated": "2026.11.02",
   "ticker": [
-    "🇯🇵 Luup、石川県・能登町で初導入 — 水素燃料電池で充電する実証",
-    "🇯🇵 Luup、11/3渋谷「SOCIAL INNOVATION WEEK」登壇",
-    "🇧🇪 ブリュッセル、2027年1月eスクーター完全禁止確定",
+    "🇵🇹 リスボン市議会、eスクーター禁止可決 — 60日以内に3社撤去へ",
+    "🇬🇧 サンタンデール・サイクルズ、11/17にQRコード解錠アプリ刷新",
+    "🇺🇸 Lime、シカゴDivvy独占懸念で市議会委員会審議延期に",
     "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Voiグラスゴー、1年未満で200万ライド・前比780%増",
-    "🇳🇱 Dott、Q3で初のEBIT黒字（€3.4M）・売上€55.6Mを達成",
-    "🇺🇸 Lime、全米中間選挙向け無料ライド「VOTE26」展開"
+    "🇳🇱 Dott、Q3初のEBIT黒字（€3.4M）・売上€55.6M達成",
+    "🇺🇸 Lime＆Veo、DC中間選挙向けVOTE26無料ライドを展開"
   ],
   "pulse": [
     {
@@ -14,24 +14,24 @@
       "flag": "🇯🇵",
       "en": "JAPAN",
       "ja": "日本",
-      "stat": "地方実証が能登・石川にまで拡大",
-      "text": "Luupが石川県初となる能登町・恋路海岸で10/22〜11/21の期間限定実証を開始。水素燃料電池由来の電力でLUUP車両を充電する取り組みも同時展開。山梨・甲府市実証も継続中（〜2027/1/31）。"
+      "stat": "能登実証＆地方展開が加速",
+      "text": "Luupが石川県・能登町で水素燃料電池を活用した期間限定実証（〜11/21）を展開中。11/3には渋谷「SOCIAL INNOVATION WEEK」に登壇。HELLO CYCLINGは長崎・山口での新規展開や会員600万人突破など地方拡大が続く。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "選挙無料ライドと安全規制が同時進行",
-      "text": "Limeが11/3の中間選挙に向けVOTE26コードで全米無料ライドを展開。ミシガン州では今年だけで6名が死亡し、警察・消防が州法整備を緊急要求。DCはDDOTの$100罰金、Denverは11/1よりVeo取締を開始と規制が多層化。"
+      "stat": "シカゴ独占論争と選挙無料ライド",
+      "text": "LimeがシカゴのDivvy/Lyft契約延長に「独占形成」と反発し市議会委員会が10/9に審議延期。Lime・Veoは中間選挙（11/3）向けVOTE26無料ライドをDC全域で展開。ミシガン州では今年6名死亡を受け州法整備を緊急要求。"
     },
     {
       "cls": "eu",
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "ブリュッセル禁止確定・Voi快進撃続く",
-      "text": "ブリュッセルが2027年1月からeスクーター完全禁止を確定（BoltとDottが年末撤退）。一方VoiはグラスゴーでQ3売上+53%・200万ライド突破と好調継続。サウスワーク区でLime・Voiが£1.75上限割引、リスボンは60日以内にeスクーター撤去へ。"
+      "stat": "リスボン禁止・ロンドンアプリ刷新",
+      "text": "リスボンが10/21にeスクーター禁止を可決、Bolt・Lime・Birdが60日以内に撤去へ。ブリュッセルも2027年1月禁止確定。ロンドンはサンタンデール・サイクルズが11/17にQRコード解錠・Apple Pay対応の新アプリを投入。"
     },
     {
       "cls": "as",
@@ -39,7 +39,7 @@
       "en": "ASIA-PACIFIC",
       "ja": "アジア太平洋",
       "stat": "豪州・カナダで規制実態が浮上",
-      "text": "クイーンズランド州の調査で私有eモビリティ約100万台の半数が非適合と判明。カナダ・ハリファックスではBird Canadaが約600台を展開（北米2位の利用者数）、2カ年パイロット継続の可否を市議会が検討中。"
+      "text": "クイーンズランド州の調査で私有eモビリティ約100万台の半数が非適合と判明。カナダ・ハリファックスではBird Canadaが約600台展開中で市議会が2カ年パイロット継続可否を検討中。"
     }
   ],
   "ranking": [
@@ -47,10 +47,10 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "7月Nasdaq上場（$167M調達）、2025年売上$886.7M（+29%）。中間選挙向けVOTE26無料ライドを全米展開。DCで$1,700万安全計画・1,000超アカウントBAN。オックスフォード・リスボン撤退で欧州再編が加速。",
+      "desc": "Nasdaq上場（$167M調達）・2025年売上$886.7M（+29%）。シカゴのDivvy/Lyft契約延長に独占懸念で反発し市議会審議を延期させた。中間選挙向けVOTE26無料ライドを全米展開。",
       "tags": [
+        "シカゴ独占論争",
         "全米選挙無料ライド",
-        "DC安全計画$17M",
         "欧州2都市撤退"
       ],
       "score": 96,
@@ -169,11 +169,32 @@
   },
   "news": [
     {
-      "region": "jp",
+      "region": "eu",
+      "date": "2026.10.27",
+      "title": "リスボン、eスクーター禁止を市議会で可決 — Bolt・Lime・Birdに60日以内撤去命令",
+      "text": "リスボン市議会が10/21にシェアeスクーター禁止を可決。Bolt・Lime・Birdの3社に対し60日以内の撤去を命じた。市長は「月1,200台超を違法駐輪で回収しており、もはや機能していない」と指摘。ブリュッセルに続き欧州主要都市でのeスクーター禁止が加速している。",
+      "url": "https://micromobility.substack.com/p/lisbon-votes-to-ban-shared-e-scooters"
+    },
+    {
+      "region": "na",
+      "date": "2026.10.27",
+      "title": "Lime＆Veo、DC中間選挙向けVOTE26無料ライドを展開 — 投票所往復が無料に",
+      "text": "LimeとVeoがDCエリアの中間選挙（11/3）向けに無料ライドキャンペーンを展開。両社ともVOTE26コードを使用。Limeは30分×2回無料、Veoも同様の特典を提供。「移動の障壁をなくし投票参加を促す」と両社が表明。",
+      "url": "https://wtop.com/elections/2026/10/lime-veo-offer-free-rides-to-dc-area-voters-for-election-day"
+    },
+    {
+      "region": "na",
       "date": "2026.10.22",
-      "title": "Luup、石川県初・能登町で期間限定実証 — 水素燃料電池の電力でLUUP車両を充電",
-      "text": "Luupが10/22〜11/21の期間限定で、石川県能登町・恋路海岸にマイクロモビリティシェアを導入。石川県初の展開となる。再生可能エネルギー由来の水素燃料電池で発電した電力でLUUP車両を充電する実証も同時展開し、能登地域の脱炭素型モビリティと災害時非常用電源の可能性を検証する。",
-      "url": "https://prtimes.jp/main/html/rd/p/000000530.000043250.html"
+      "title": "Lime、シカゴで悪駐輪対策の徒歩パトロールチームを投入 — Divvy独占論争の中で",
+      "text": "LimeがシカゴのDivvy/Lyft契約延長（2033年まで）に「独占形成」と反発し市議会委員会審議を10/9に延期させた後、悪駐輪改善策としてリンカーンパーク・レークビューなど主要地区に徒歩パトロールチームを展開。AI駐車ソリューションとの組み合わせで運用改善を図る。",
+      "url": "https://www.cbsnews.com/chicago/news/lime-foot-patrols-fix-badly-parked-scooters-chicago/"
+    },
+    {
+      "region": "eu",
+      "date": "2026.10.21",
+      "title": "TfL×Santander、サンタンデール・サイクルズを11/17にQRコード解錠アプリへ刷新",
+      "text": "TfLとSantanderが10月21日、11月17日にサンタンデール・サイクルズの新アプリを公開すると発表。全車両にQRコードを搭載しスマホで即解錠・Apple/Google Pay対応。切り替え期間（11/13〜17）はサービス一時停止。2026年累計ライドは既に760万件・前年比2.5%増。",
+      "url": "https://tfl-newsroom.prgloo.com/news/tfl-and-santander-to-launch-brand-new-santander-cycles-app-with-major-upgrades-to-make-bike-hire-quicker-and-easier-than-ever"
     },
     {
       "region": "eu",
@@ -191,13 +212,6 @@
     },
     {
       "region": "eu",
-      "date": "2026.10.28",
-      "title": "ロンドン・サウスワーク区、Lime＆Voiのeバイクを£1.75上限で提供 — バス運賃並みに",
-      "text": "サウスワーク区が10/28、Lime・Voiとの割引協定の詳細を正式公表。区民は20分ライドを最大£1.75（通常最大£7）で利用可能。Voiは30分1日パスを£1.75で提供。Lime・Voi・Forestの3社が歩道駐輪の取締費用も負担し、マナー向上も図る。",
-      "url": "https://www.southwark.gov.uk/news/2026/southwark-residents-benefit-cheaper-e-bike-fares"
-    },
-    {
-      "region": "eu",
       "date": "2026.10.29",
       "title": "Voiグラスゴー、1年未満で200万ライド達成 — 前スキーム比780%増・11万9千人が利用",
       "text": "グラスゴー市が10/29、Voiのeバイクスキームが開始1年未満で200万ライドを突破したと発表。2025年11月の全電動化移行後、利用は前スキーム比780%増。11万9千人が延べ630万kmを走行し、8月の月間最多333,015ライド・9月日次最多13,332ライドを記録。",
@@ -211,18 +225,18 @@
       "url": "https://yahoo.com/news/politics/articles/wa-midterm-elections-lime-offers-191311804.html"
     },
     {
-      "region": "na",
-      "date": "2026.10.26",
-      "title": "Lime、中間選挙向け「Lime to the Polls」を全米展開 — VOTE26コードで2回無料ライド",
-      "text": "Limeが10/26、2026年中間選挙（11/3投票日）に向け「Lime to the Polls」を全米展開。プロモコードVOTE26を使えば投票所・期日前投票所・投票箱への往復30分×2回が無料。非営利団体HeadCountと連携し有権者登録支援も実施。DC・ボルチモア・カリフォルニア等が対象。",
-      "url": "https://roastbrief.us/lime-offers-free-rides-across-the-us-to-help-voters-get-to-the-polls-this-election-season/"
+      "region": "eu",
+      "date": "2026.10.28",
+      "title": "ロンドン・サウスワーク区、Lime＆Voiのeバイクを£1.75上限で提供 — バス運賃並みに",
+      "text": "サウスワーク区が10/28、Lime・Voiとの割引協定の詳細を正式公表。区民は20分ライドを最大£1.75（通常最大£7）で利用可能。Voiは30分1日パスを£1.75で提供。Lime・Voi・Forestの3社が歩道駐輪の取締費用も負担し、マナー向上も図る。",
+      "url": "https://www.southwark.gov.uk/news/2026/southwark-residents-benefit-cheaper-e-bike-fares"
     },
     {
-      "region": "jp",
-      "date": "2026.10.28",
-      "title": "チャリチャリ×HELLO CYCLING、長崎市で10/28シェアサイクル開始 — 電動アシスト40台・3ポート",
-      "text": "チャリチャリとOpenStreetが10/28、長崎市内でシェアサイクルを開始（NHK報道）。長崎スタジアムシティ・JR長崎駅西口・ベネックス長崎ブリックホールの3ポートに電動アシスト自転車40台を配置。坂のまちの回遊性向上とスポーツツーリズム促進を目指す。",
-      "url": "https://news.web.nhk.or.jp/newsweb/na/nd-20261028de66848"
+      "region": "na",
+      "date": "2026.10.27",
+      "title": "NYC、セントラルパークでeバイク禁止求めデモ — 「プリシラ法」可決も要求",
+      "text": "NYC E-Vehicle Safety Allianceが10/27セントラルパークでデモを実施し、公園内eバイク・eスクーター禁止を要求。今年10/18時点で公園内のeバイク・eスクーター事故は26件に上る。eバイク登録・ナンバープレート義務化を定める「プリシラ法」の可決も同時に訴えた。",
+      "url": "https://abc7ny.com/post/central-park-bike-ban-protesters-call-stricter-safety-measures/19987038/"
     },
     {
       "region": "eu",
@@ -233,10 +247,17 @@
     },
     {
       "region": "na",
-      "date": "2026.10.27",
-      "title": "NYC、セントラルパークでeバイク禁止求めデモ — 「プリシラ法」可決も要求",
-      "text": "NYC E-Vehicle Safety Allianceが10/27セントラルパークでデモを実施し、公園内eバイク・eスクーター禁止を要求。今年10/18時点で公園内のeバイク・eスクーター事故は26件に上る。eバイク登録・ナンバープレート義務化を定める「プリシラ法」の可決も同時に訴えた。",
-      "url": "https://abc7ny.com/post/central-park-bike-ban-protesters-call-stricter-safety-measures/19987038/"
+      "date": "2026.10.26",
+      "title": "Lime、中間選挙向け「Lime to the Polls」を全米展開 — VOTE26コードで2回無料ライド",
+      "text": "Limeが10/26、2026年中間選挙（11/3投票日）に向け「Lime to the Polls」を全米展開。プロモコードVOTE26を使えば投票所・期日前投票所・投票箱への往復30分×2回が無料。非営利団体HeadCountと連携し有権者登録支援も実施。DC・ボルチモア・カリフォルニア等が対象。",
+      "url": "https://roastbrief.us/lime-offers-free-rides-across-the-us-to-help-voters-get-to-the-polls-this-election-season/"
+    },
+    {
+      "region": "eu",
+      "date": "2026.10.23",
+      "title": "Dott、Q3 2026で初のEBIT黒字（€3.4M）達成 — 売上€55.6M・DMCマージン45%",
+      "text": "Dottが10月23日に発表したQ3 2026決算で、EBITが€3.4Mと業界初の四半期黒字を達成。純売上€55.6M（前年比+22%ライド増）、調整後EBITDA€16.1M（前年比+42%）、DMCマージン45%と過去最高を更新。通年調整後EBITDAは€30〜32Mを見込む。",
+      "url": "https://www.morningstar.com/news/pr-newswire/20261023ln79403/dott-publishes-q3-2026-financial-report"
     },
     {
       "region": "na",
@@ -247,24 +268,17 @@
     },
     {
       "region": "eu",
-      "date": "2026.10.23",
-      "title": "Dott、Q3 2026で初のEBIT黒字（€3.4M）達成 — 売上€55.6M・DMCマージン45%",
-      "text": "Dottが10月23日に発表したQ3 2026決算で、EBITが€3.4Mと業界初の四半期黒字を達成。純売上€55.6M（前年比+22%ライド増）、調整後EBITDA€16.1M（前年比+42%）、DMCマージン45%と過去最高を更新。通年調整後EBITDAは€30〜32Mを見込む。",
-      "url": "https://www.morningstar.com/news/pr-newswire/20261023ln79403/dott-publishes-q3-2026-financial-report"
-    },
-    {
-      "region": "eu",
-      "date": "2026.10.21",
-      "title": "TfL×Santander、サンタンデール・サイクルズを11/17にQRコード解錠アプリへ刷新",
-      "text": "TfLとSantanderが10月21日、11月17日にサンタンデール・サイクルズの新アプリを公開すると発表。全車両にQRコードを搭載しスマホで即解錠・Apple/Google Pay対応。切り替え期間（11/13〜17）はサービス一時停止。ロンドンの2026年累計ライドは既に700万件超。",
-      "url": "https://tfl-newsroom.prgloo.com/news/tfl-and-santander-to-launch-brand-new-santander-cycles-app-with-major-upgrades-to-make-bike-hire-quicker-and-easier-than-ever"
-    },
-    {
-      "region": "eu",
       "date": "2026.10.22",
       "title": "Voi、Q3 2026売上+53%の€88.2M・調整後EBITDA+90%で過去最高を更新",
       "text": "Voiが10月22日に発表したQ3 2026決算で、売上高は前年比+53%の€88.2M、調整後EBITDAは+90%の€31M（マージン35.2%）と四半期最高を更新。53百万ライドを達成し2025年通年の半数近くを単四半期で記録。LTM売上は€241Mに達し通年ベースでも2025年を超過済み。",
       "url": "https://zagdaily.com/micromobility/voi-posts-record-quarter-as-revenue-jumps-53/"
+    },
+    {
+      "region": "jp",
+      "date": "2026.10.22",
+      "title": "Luup、石川県初・能登町で期間限定実証 — 水素燃料電池の電力でLUUP車両を充電",
+      "text": "Luupが10/22〜11/21の期間限定で、石川県能登町・恋路海岸にマイクロモビリティシェアを導入。石川県初の展開となる。再生可能エネルギー由来の水素燃料電池で発電した電力でLUUP車両を充電する実証も同時展開し、能登地域の脱炭素型モビリティと災害時非常用電源の可能性を検証する。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000530.000043250.html"
     }
   ],
   "stats": [
