@@ -1,11 +1,11 @@
 {
-  "updated": "2026.11.09",
+  "updated": "2026.11.10",
   "ticker": [
     "🇺🇸 MMA 2026、11/11-12 SFパレス・オブ・ファインアーツ開幕",
     "🇬🇧 英DfT、シェアeバイク全国ライセンス化コンサル開始（〜12/31）",
-    "🇬🇧 LimeがOxfordから撤退、Voiが単独事業者に選定",
-    "🇸🇪 Voi・グラスゴーでeバイク開始1年で200万ライド達成",
-    "🇵🇹 リスボン市議会、eスクーター禁止可決 — 60日以内に3社撤去へ",
+    "🇬🇧 DottがブリストルでAIカメラ搭載eスクーター試験開始",
+    "🇵🇹 リスボン、Bolt・Lime・Birdに60日以内の全車撤去命令",
+    "🇺🇸 Veo、デンバー独占運営で開始2カ月に1.34Mトリップ達成",
     "🇯🇵 Luup、岐阜県下呂市・飛騨小坂で期間限定マイクロモビリティ実証"
   ],
   "pulse": [
@@ -15,23 +15,23 @@
       "en": "JAPAN",
       "ja": "日本",
       "stat": "地方実証＆京急無料CP",
-      "text": "Luupが能登町（〜11/21）・飛騨小坂（〜11/30）実証を並行展開。11/19〜25は京急電鉄と無料キャンペーン。HELLO CYCLINGは29都道府県・約14,900ステーションで地域インフラとして定着。"
+      "text": "Luupが能登町（〜11/21）・飛騨小坂（〜11/30）実証を並行展開。11/19〜25は京急電鉄と無料キャンペーン。HELLO CYCLINGは29都道府県・約14,900ステーションで会員600万人を突破し地域インフラとして定着。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "MMA開幕＆Citi Bike値上げ論争",
-      "text": "MMA 2026が11/11-12 SFパレス・オブ・ファインアーツで開幕。Citi Bike値上げ論争が継続し市議会は$3上限法案を審議中。北米シェアモビリティは2025年に過去最多2.37億トリップを達成。"
+      "stat": "MMA開幕＆Veoデンバー席巻",
+      "text": "MMA 2026が11/11-12 SFで開幕。VeoがデンバーでLime・Birdを置き換え独占運営し開始2カ月で1.34Mトリップ。Bird/Spin親会社が$20M調達し新車両35,000台を展開中。Citi Bike値上げ論争も継続。"
     },
     {
       "cls": "eu",
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "英ライセンス化＆禁止拡大並走",
-      "text": "英DfTが全国eバイクライセンス化コンサル開始（〜12/31）。LimeがOxford撤退、Voiが単独選定。ロンドンP3継続中。リスボン禁止・ブリュッセル2027年禁止が確定しeスクーター締め出し加速。"
+      "stat": "禁止ドミノ加速＆英ライセンス化",
+      "text": "リスボンがeスクーター禁止可決、Bolt・Lime・Birdに60日以内撤去命令（約6,000台）。ブリュッセルも2027年1月禁止が確定し欧州5首都目の禁止に。英DfTはライセンス化コンサルを継続中。"
     },
     {
       "cls": "as",
@@ -47,7 +47,7 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "Q3 2026売上$361M（+20%）・LTM初の$10億超え。純利益$44M（+41%）、調整後EBITDA $118M。LimePrime加入者の利用頻度は非加入者比8倍。OxfordはVoiに敗れ撤退。ロンドンP3継続。",
+      "desc": "Q3 2026売上$361M（+20%）・LTM初の$10億超え。純利益$44M（+41%）、調整後EBITDA $118M。LimePrime加入者の利用頻度は非加入者比8倍。リスボン禁止・Oxford撤退の一方、ロンドンP3継続。",
       "tags": [
         "LTM初の10億ドル超",
         "Oxford撤退",
@@ -151,10 +151,10 @@
       "medal": "#9",
       "name": "Dott（旧TIER統合）",
       "meta": "オランダ · 欧州",
-      "desc": "Q3 2026売上€55.6M・EBIT初黒字（€3.4M）、DMCマージン45%と過去最高。Fleetserと車両二次流通提携で循環型運営を推進。ブリュッセルは年末でライセンス失効し撤退。通年EBITDAは€30〜32M見通し。",
+      "desc": "Q3 2026売上€55.6M・EBIT初黒字（€3.4M）、DMCマージン45%。ブリストルでNearhumanと共同でAIカメラ試験を導入。ブリュッセルは年末でライセンス失効し撤退。通年EBITDAは€30〜32M見通し。",
       "tags": [
         "初のEBIT黒字",
-        "Fleetser二次流通提携",
+        "AIカメラ試験導入",
         "ブリュッセル年末撤退"
       ],
       "score": 77,
@@ -183,6 +183,13 @@
   "news": [
     {
       "region": "eu",
+      "date": "2026.11.04",
+      "title": "Dott、ブリストルのeスクーターにAIカメラ試験導入 — Nearhumanと協力し安全監視",
+      "text": "DottがブリストルでAIスタートアップNearhumanと組み、eスクーターのステムにAIカメラ「Scootrr」を装着する試験を開始。歩道走行・ヒヤリハット・路面障害をリアルタイム検知しライダーへ警告。Nearhumanは£35万のプレシード調達済み。",
+      "url": "https://zagdaily.com/micromobility/dott-adds-nearhumans-ai-cameras-to-bristol-e-scooter-fleet/"
+    },
+    {
+      "region": "eu",
       "date": "2026.11.08",
       "title": "Voi、グラスゴーeバイク開始1年で200万ライド達成 — Oxford単独事業者にも選定",
       "text": "Voiのグラスゴーeバイクスキームがサービス開始から1年未満で200万ライドを達成。同時にOxford市議会はVoiをeバイク・eスクーターの単独事業者に選定。今年だけで21万件超のトリップを記録していたLimeはOxfordから撤退することとなった。",
@@ -198,9 +205,30 @@
     {
       "region": "gl",
       "date": "2026.11.08",
-      "title": "MMA 2026本日開幕 — 共有モビリティExecs登壇、業界の収益化・規制を議論",
-      "text": "Micromobility America 2026がSFパレス・オブ・ファインアーツで11/11-12に開幕。11日午前にはDrop Mobilityのダーを司会に主要シェアモビリティ事業者CEOが一堂に会し、成長・収益・規制・フリート経済を公開討論する予定。北米では2025年に過去最多2.37億トリップを達成。",
+      "title": "MMA 2026スタートアップアリーナ — AIサイクル安全・ソーラー充電など新鋭が集結",
+      "text": "Micromobility America 2026（11/11-12、SF）のスタートアップアリーナ参加各社が発表。AIサイクル安全・ソーラー充電・個人電動モビリティの新アプローチを持つスタートアップがRide Stageに登壇予定。500ブランド・50講演者が一堂に会する。",
+      "url": "https://micromobility.io/news/inside-the-startup-arena-at-micromobility-america-2026"
+    },
+    {
+      "region": "na",
+      "date": "2026.11.08",
+      "title": "Bird/Spin親会社Third Lane Mobility、$20M調達 — 35,000台の新車両を主要都市へ",
+      "text": "Bird・Spinを傘下に持つThird Lane Mobilityが今年$20Mを調達し、約35,000台の新車両購入を計画。アトランタ・LA・ナッシュビル・ボルチモア・SF・シアトル・テルアビブ・ローマなどで春2026から展開中。MMA 2026ではBird CEOが登壇予定。",
       "url": "https://micromobility.io/news/shared-micromobility-execs-roundtable"
+    },
+    {
+      "region": "na",
+      "date": "2026.11.08",
+      "title": "MMA 2026本日開幕 — 共有モビリティExecs登壇、業界の収益化・規制を議論",
+      "text": "Micromobility America 2026がSFパレス・オブ・ファインアーツで11/11-12に開幕。11日午前にはDrop MobilityのDarを司会に主要シェアモビリティ事業者CEOが一堂に会し、成長・収益・規制・フリート経済を公開討論する予定。北米では2025年に過去最多2.37億トリップを達成。",
+      "url": "https://micromobility.io/news/shared-micromobility-execs-roundtable"
+    },
+    {
+      "region": "eu",
+      "date": "2026.11.03",
+      "title": "欧州eスクーター禁止ドミノ — パリ以降5首都目のリスボン可決で欧州全土に拡大",
+      "text": "リスボン市議会が10/21にeスクーター禁止を可決し、Bolt・Lime・Birdの約6,000台が60日以内に撤去へ。パリ（2023）・マドリード（2024）・プラハ・ブリュッセル（2027/1）に続く5都市目の欧州首都禁止となり、欧州での規制強化トレンドが鮮明になった。",
+      "url": "https://micromobility.substack.com/p/from-paris-to-lisbon-how-europes"
     },
     {
       "region": "eu",
@@ -231,20 +259,6 @@
       "url": "https://zagdaily.com/micromobility/england-heads-towards-shared-e-bike-national-standards/"
     },
     {
-      "region": "jp",
-      "date": "2026.10.30",
-      "title": "Luup、岐阜県下呂市・飛騨小坂で期間限定マイクロモビリティ実証 — 11/30まで",
-      "text": "Luupが10/30より岐阜県下呂市小坂町（飛騨小坂）で電動キックボード・電動アシスト自転車のシェアサービスを期間限定提供（〜11/30）。飛騨小坂観光協会と連携し、観光地でのマイクロモビリティ活用を検証する。能登町実証と合わせ、地方での展開が加速している。",
-      "url": "https://luup.sc/news/tag/press/"
-    },
-    {
-      "region": "eu",
-      "date": "2026.11.02",
-      "title": "Donkey Republic、Q3 2026売上+10.9%・ドイツ展開が本格稼働",
-      "text": "Donkey RepublicがQ3 2026決算を発表。売上はDKK 61.3M（+10.9%）、EBITDA DKK 23.1M（+8.9%）。デュッセルドルフは全展開完了、ルール地方は95%稼働と大規模なドイツ展開が進捗。H1で初のEBIT黒字を達成し、通年売上ガイダンスDKK 184〜194Mを維持。",
-      "url": "https://www.inderes.fi/en/releases/donkey-republic-delivers-continued-growth-in-q3-2026-and-across-the-high-season"
-    },
-    {
       "region": "na",
       "date": "2026.11.03",
       "title": "Lime、Q3 2026売上$361M・LTM初の$10億超え — LimePrime加入者が非加入者比8倍のライド",
@@ -257,13 +271,6 @@
       "title": "UAE、2027年1月からeスクーター免許義務化 — 最低年齢15歳・有効期限3年",
       "text": "UAEが連邦交通法施行令（Cabinet No.174/2026）に基づき、2027年1月1日からeスクーター・eバイク・ミニバイクの免許取得を義務化すると発表。最低年齢15歳・有効期限3年の許可証が必要。eスクーターは車道乗り入れ禁止・指定ルート限定。ドバイ既存規則（16歳以上）との調整は未確定。",
       "url": "https://www.thenationalnews.com/news/uae/2026/11/03/uae-traffic-laws-2027-vehicle-registration-fees-e-scooter-rules/"
-    },
-    {
-      "region": "gl",
-      "date": "2026.11.03",
-      "title": "Micromobility America 2026、11/11-12 SF開幕 — 500ブランド・50講演者が集結",
-      "text": "世界最大級のマイクロモビリティ会議「Micromobility America 2026」がSFパレス・オブ・ファインアーツで11/11-12に開幕。500ブランド・50講演者が参加し、共有モビリティの収益化・規制・次世代車両を議論。北米シェアモビリティは2025年に過去最多2.37億トリップを達成。",
-      "url": "https://micromobility.substack.com/p/micromobility-america-2026-heres"
     },
     {
       "region": "as",
