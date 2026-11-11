@@ -1,12 +1,12 @@
 {
-  "updated": "2026.11.10",
+  "updated": "2026.11.11",
   "ticker": [
     "🇺🇸 MMA 2026、11/11-12 SFパレス・オブ・ファインアーツ開幕",
-    "🇬🇧 英DfT、シェアeバイク全国ライセンス化コンサル開始（〜12/31）",
-    "🇬🇧 DottがブリストルでAIカメラ搭載eスクーター試験開始",
-    "🇵🇹 リスボン、Bolt・Lime・Birdに60日以内の全車撤去命令",
-    "🇺🇸 Veo、デンバー独占運営で開始2カ月に1.34Mトリップ達成",
-    "🇯🇵 Luup、岐阜県下呂市・飛騨小坂で期間限定マイクロモビリティ実証"
+    "🇬🇧 VoiがロンドンEalingから撤退、「不公平な政策」と批判",
+    "🇺🇸 DC議会、eバイク・eスクーターバッテリー安全緊急法案を11/10審議",
+    "🇺🇸 イリノイ州、2027/1から高速eバイク免許・登録・保険義務化",
+    "🇨🇦 トロント、Bloor St.の自転車レーン1.2km撤去完了",
+    "🇬🇧 Limeが西ミッドランズ全展開で1日利用者9倍に急増"
   ],
   "pulse": [
     {
@@ -14,24 +14,24 @@
       "flag": "🇯🇵",
       "en": "JAPAN",
       "ja": "日本",
-      "stat": "地方実証＆京急無料CP",
-      "text": "Luupが能登町（〜11/21）・飛騨小坂（〜11/30）実証を並行展開。11/19〜25は京急電鉄と無料キャンペーン。HELLO CYCLINGは29都道府県・約14,900ステーションで会員600万人を突破し地域インフラとして定着。"
+      "stat": "地方実証継続＆京急CP",
+      "text": "Luupが能登町（〜11/21）・飛騨小坂（〜11/30）実証を並行展開中。11/19〜25は京急電鉄と無料キャンペーン。HELLO CYCLINGは29都道府県・約14,900ステーションで会員600万人を突破し地域インフラとして定着。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "MMA開幕＆Veoデンバー席巻",
-      "text": "MMA 2026が11/11-12 SFで開幕。VeoがデンバーでLime・Birdを置き換え独占運営し開始2カ月で1.34Mトリップ。Bird/Spin親会社が$20M調達し新車両35,000台を展開中。Citi Bike値上げ論争も継続。"
+      "stat": "MMA開幕・DC安全法案・IL規制",
+      "text": "MMA 2026が11/11-12 SFで開幕。DCがeバイクバッテリー安全緊急法案を審議（11/10）。イリノイ州は2027年1月から高速eバイク免許・登録・保険を義務化。トロントでBloor St.自転車レーン1.2km撤去完了。"
     },
     {
       "cls": "eu",
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "禁止ドミノ加速＆英ライセンス化",
-      "text": "リスボンがeスクーター禁止可決、Bolt・Lime・Birdに60日以内撤去命令（約6,000台）。ブリュッセルも2027年1月禁止が確定し欧州5首都目の禁止に。英DfTはライセンス化コンサルを継続中。"
+      "stat": "禁止ドミノ続く＆Voiイーリング撤退",
+      "text": "リスボンのeスクーター禁止・ブリュッセル2027年1月禁止が確定済み。VoiがロンドンEalingからライセンス取り消しを受け撤退、「不公平・排除的な政策」と批判。英DfTライセンス化コンサルは12/31まで継続。"
     },
     {
       "cls": "as",
@@ -47,11 +47,11 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "Q3 2026売上$361M（+20%）・LTM初の$10億超え。純利益$44M（+41%）、調整後EBITDA $118M。LimePrime加入者の利用頻度は非加入者比8倍。リスボン禁止・Oxford撤退の一方、ロンドンP3継続。",
+      "desc": "Q3 2026売上$361M（+20%）・LTM初の$10億超え。純利益$44M、調整後EBITDA $118M。LimePrime加入者の利用頻度は非加入者比8倍。西ミッドランズ全展開で1日利用者が前体制比9倍に急増。",
       "tags": [
         "LTM初の10億ドル超",
-        "Oxford撤退",
-        "ロンドンP3継続"
+        "西ミッドランズ9倍成長",
+        "Oxford撤退"
       ],
       "score": 97,
       "site": "https://www.li.me/"
@@ -99,11 +99,11 @@
       "medal": "#5",
       "name": "Voi",
       "meta": "スウェーデン · 欧州130都市超",
-      "desc": "Q3 2026売上€88.2M（+53%）・調整後EBITDA+90%と四半期最高を更新。グラスゴーeバイク1年で200万ライド達成。OxfordではLimeを退け単独選定。ロンドンP3継続・新型V8導入。IPOは当面予定なし。",
+      "desc": "Q3 2026売上€88.2M（+53%）・調整後EBITDA+90%と四半期最高を更新。グラスゴーeバイク1年で200万ライド・Oxford単独選定。ロンドンEalingではライセンス取り消しを受け撤退。",
       "tags": [
         "Q3売上+53%過去最高",
         "Glasgow200万ライド",
-        "Oxford単独選定"
+        "Ealing撤退"
       ],
       "score": 91,
       "site": "https://www.voi.com/"
@@ -182,25 +182,46 @@
   },
   "news": [
     {
+      "region": "na",
+      "date": "2026.11.10",
+      "title": "DC議会、eバイク・eスクーターバッテリー安全緊急法案を審議 — 熱暴走リスクに対応",
+      "text": "DC議会がWard 6議員Charles Allen提出の「マイクロモビリティ防火安全基準緊急改正法2026」を11/10付議。eバイク・eスクーターのリチウムイオン電池火災リスクを受け、販売・レンタル機器に安全基準適合を義務付ける緊急措置として審議。議会で保留（Retained）となった。",
+      "url": "https://wjla.com/news/local/washington-e-bike-dc-battery-safety-fire-micromobility-amendment-charles-allen-lithium-ion-scooters-battery-rechargeable-legislative-damage"
+    },
+    {
       "region": "eu",
+      "date": "2026.11.10",
+      "title": "VoiがロンドンEalingから撤退 — 「不公平・排除的な政策」とライセンス取り消しに反発",
+      "text": "VoiがロンドンEaling区から撤退。CoMoUKからバイクシェア認定取り消しの通告を受け、同区の追加資金要求を「Limeの非データ共有・Forestの無許可運営と不公平」と批判。今後はロンドン全32区統一のeバイク・eスクーター枠組みを要求する方針。",
+      "url": "https://road.cc/ebiketips/news/voi-finally-withdraws-from-ealing"
+    },
+    {
+      "region": "na",
+      "date": "2026.11.10",
+      "title": "Limeが西ミッドランズ全6都市展開で1日利用者が前体制比9倍に急増",
+      "text": "LimeがBerylに代わり西ミッドランズ（バーミンガム・コベントリー等）に参入後、4月から1日あたり利用者が750人から6,536人と9倍超に急増。9月には累計100万ライドを達成。WMCAとの契約下で英国第2規模の地域展開として定着しつつある。",
+      "url": "https://birminghamdispatch.co.uk/lime-bikes-a-love-affair"
+    },
+    {
+      "region": "na",
       "date": "2026.11.04",
-      "title": "Dott、ブリストルのeスクーターにAIカメラ試験導入 — Nearhumanと協力し安全監視",
-      "text": "DottがブリストルでAIスタートアップNearhumanと組み、eスクーターのステムにAIカメラ「Scootrr」を装着する試験を開始。歩道走行・ヒヤリハット・路面障害をリアルタイム検知しライダーへ警告。Nearhumanは£35万のプレシード調達済み。",
-      "url": "https://zagdaily.com/micromobility/dott-adds-nearhumans-ai-cameras-to-bristol-e-scooter-fleet/"
+      "title": "英DfT eバイク新ライセンス計画、「駐輪散乱解消も」とサイクリスト界も支持",
+      "text": "英政府の共有eバイク全国ライセンス化コンサル（〜12/31）に対し、自転車界も「歩道散乱解消につながる」と歓迎。保険要件を含む事業者最低基準が策定され、地方自治体の認可権が強化される見通し。",
+      "url": "https://www.visordown.com/news/motorcycle-parking-rules-could-include-lime-bikes-under-new-government-plans"
     },
     {
-      "region": "eu",
+      "region": "na",
+      "date": "2026.10.31",
+      "title": "トロント、Bloor St.自転車レーン1.2km撤去完了 — Ontario州が残り19km撤去へ",
+      "text": "オンタリオ州がBloor St. West（Clissold〜Royal York間1.2km）の保護自転車レーン撤去を完了。州控訴裁が2026年8月に撤去合憲と判断し工事が進行。Cycle Torontoは最高裁への上訴を申請中で、残り18kmの行方が焦点となっている。",
+      "url": "https://nowtoronto.com/news/ontario-completes-bloor-street-bike-lane-removal/"
+    },
+    {
+      "region": "na",
       "date": "2026.11.08",
-      "title": "Voi、グラスゴーeバイク開始1年で200万ライド達成 — Oxford単独事業者にも選定",
-      "text": "Voiのグラスゴーeバイクスキームがサービス開始から1年未満で200万ライドを達成。同時にOxford市議会はVoiをeバイク・eスクーターの単独事業者に選定。今年だけで21万件超のトリップを記録していたLimeはOxfordから撤退することとなった。",
-      "url": "https://micromobility.substack.com/p/voi-hits-2m-rides-in-its-first-year"
-    },
-    {
-      "region": "eu",
-      "date": "2026.11.07",
-      "title": "英DfT、シェアeバイク全国ライセンス化コンサル詳細公開 — Lime・Voi・Berylら対象",
-      "text": "英国交通省が11/5開始の全国シェアeバイクライセンス制度コンサルテーション詳細を公開。対象はLime・Voi・Forest・Beryl・Dott・Bolt等。地方自治体に事業者認可権を付与し駐輪・フリート管理・データ共有の最低基準を策定する。12/31まで意見受付。",
-      "url": "https://sustainableconstruction-now.com/article/560775/shared-ebike-schemes-face-licensing-dft-consults-to-31-december"
+      "title": "MMA 2026本日開幕 — 共有モビリティExecs登壇、業界の収益化・規制を議論",
+      "text": "Micromobility America 2026がSFパレス・オブ・ファインアーツで11/11-12に開幕。11日午前にはDrop MobilityのDarを司会に主要シェアモビリティ事業者CEOが一堂に会し、成長・収益・規制・フリート経済を公開討論する予定。北米では2025年に過去最多2.37億トリップを達成。",
+      "url": "https://micromobility.io/news/shared-micromobility-execs-roundtable"
     },
     {
       "region": "gl",
@@ -217,25 +238,18 @@
       "url": "https://micromobility.io/news/shared-micromobility-execs-roundtable"
     },
     {
-      "region": "na",
+      "region": "eu",
       "date": "2026.11.08",
-      "title": "MMA 2026本日開幕 — 共有モビリティExecs登壇、業界の収益化・規制を議論",
-      "text": "Micromobility America 2026がSFパレス・オブ・ファインアーツで11/11-12に開幕。11日午前にはDrop MobilityのDarを司会に主要シェアモビリティ事業者CEOが一堂に会し、成長・収益・規制・フリート経済を公開討論する予定。北米では2025年に過去最多2.37億トリップを達成。",
-      "url": "https://micromobility.io/news/shared-micromobility-execs-roundtable"
+      "title": "Voi、グラスゴーeバイク開始1年で200万ライド達成 — Oxford単独事業者にも選定",
+      "text": "Voiのグラスゴーeバイクスキームがサービス開始から1年未満で200万ライドを達成。同時にOxford市議会はVoiをeバイク・eスクーターの単独事業者に選定。今年だけで21万件超のトリップを記録していたLimeはOxfordから撤退することとなった。",
+      "url": "https://micromobility.substack.com/p/voi-hits-2m-rides-in-its-first-year"
     },
     {
       "region": "eu",
-      "date": "2026.11.03",
-      "title": "欧州eスクーター禁止ドミノ — パリ以降5首都目のリスボン可決で欧州全土に拡大",
-      "text": "リスボン市議会が10/21にeスクーター禁止を可決し、Bolt・Lime・Birdの約6,000台が60日以内に撤去へ。パリ（2023）・マドリード（2024）・プラハ・ブリュッセル（2027/1）に続く5都市目の欧州首都禁止となり、欧州での規制強化トレンドが鮮明になった。",
-      "url": "https://micromobility.substack.com/p/from-paris-to-lisbon-how-europes"
-    },
-    {
-      "region": "eu",
-      "date": "2026.09.23",
-      "title": "ロンドンeスクーター試験フェーズ3開始 — Lime・Voiが2028年まで継続運営",
-      "text": "TfLとロンドン各区がeスクーター試験フェーズ3を開始。LimeとVoiが2年間の継続運営に再任命され、2028年5月まで運営。VoiはV8新型車、LimeはLondon全台を最新4.1sへ切り替え。フェーズ2では600万トリップ超を記録しており、フェーズ3は安全・商業性・新技術の検証に注力。",
-      "url": "https://zagdaily.com/micromobility/londons-e-scooter-trial-progresses-as-uk-legislation-remains-pending/"
+      "date": "2026.11.07",
+      "title": "英DfT、シェアeバイク全国ライセンス化コンサル詳細公開 — Lime・Voi・Berylら対象",
+      "text": "英国交通省が11/5開始の全国シェアeバイクライセンス制度コンサルテーション詳細を公開。対象はLime・Voi・Forest・Beryl・Dott・Bolt等。地方自治体に事業者認可権を付与し駐輪・フリート管理・データ共有の最低基準を策定する。12/31まで意見受付。",
+      "url": "https://sustainableconstruction-now.com/article/560775/shared-ebike-schemes-face-licensing-dft-consults-to-31-december"
     },
     {
       "region": "na",
@@ -253,10 +267,10 @@
     },
     {
       "region": "eu",
-      "date": "2026.11.05",
-      "title": "英政府、シェアeバイク全国ライセンス化コンサルテーション開始 — 12/31まで意見募集",
-      "text": "英国交通省が11/5、シェアサイクル・eバイク事業者に対する全国共通ライセンス制度の導入に向けたコンサルテーションを開始。駐輪・フリート管理・データ共有・料金設定などを対象に国家最低基準を策定。地方自治体に事業者認可権を付与する方針で、12/31まで意見を受け付ける。",
-      "url": "https://zagdaily.com/micromobility/england-heads-towards-shared-e-bike-national-standards/"
+      "date": "2026.11.04",
+      "title": "Dott、ブリストルのeスクーターにAIカメラ試験導入 — Nearhumanと協力し安全監視",
+      "text": "DottがブリストルでAIスタートアップNearhumanと組み、eスクーターのステムにAIカメラ「Scootrr」を装着する試験を開始。歩道走行・ヤリハット・路面障害をリアルタイム検知しライダーへ警告。Nearhumanは£35万のプレシード調達済み。",
+      "url": "https://zagdaily.com/micromobility/dott-adds-nearhumans-ai-cameras-to-bristol-e-scooter-fleet/"
     },
     {
       "region": "na",
@@ -266,32 +280,18 @@
       "url": "https://globenewswire.com/news-release/2026/11/03/3394774/0/en/lime-announces-third-quarter-2026-financial-results.html"
     },
     {
+      "region": "eu",
+      "date": "2026.11.03",
+      "title": "欧州eスクーター禁止ドミノ — パリ以降5首都目のリスボン可決で欧州全土に拡大",
+      "text": "リスボン市議会が10/21にeスクーター禁止を可決し、Bolt・Lime・Birdの約6,000台が60日以内に撤去へ。パリ（2023）・マドリード（2024）・プラハ・ブリュッセル（2027/1）に続く5都市目の欧州首都禁止となり、欧州での規制強化トレンドが鮮明になった。",
+      "url": "https://micromobility.substack.com/p/from-paris-to-lisbon-how-europes"
+    },
+    {
       "region": "as",
       "date": "2026.11.03",
       "title": "UAE、2027年1月からeスクーター免許義務化 — 最低年齢15歳・有効期限3年",
       "text": "UAEが連邦交通法施行令（Cabinet No.174/2026）に基づき、2027年1月1日からeスクーター・eバイク・ミニバイクの免許取得を義務化すると発表。最低年齢15歳・有効期限3年の許可証が必要。eスクーターは車道乗り入れ禁止・指定ルート限定。ドバイ既存規則（16歳以上）との調整は未確定。",
       "url": "https://www.thenationalnews.com/news/uae/2026/11/03/uae-traffic-laws-2027-vehicle-registration-fees-e-scooter-rules/"
-    },
-    {
-      "region": "as",
-      "date": "2026.11.06",
-      "title": "豪ACCC、eバイク全国安全基準策定へ — $430万投資・11/30までパブコメ受付",
-      "text": "オーストラリアのACCCがeバイク・eスクーター・eスケートボードを対象に全国統一の安全基準を策定中。$430万の安全対策予算のもと、販売可能な製品の出力・速度を欧州基準EN-15194に準拠させる方針。コンバートキットも規制対象。パブコメは11/30締切。",
-      "url": "https://illawarramercury.com.au/story/9387021/motorbikes-with-a-battery-e-bike-safety-crackdown"
-    },
-    {
-      "region": "eu",
-      "date": "2026.10.31",
-      "title": "ブリュッセル、2027年1月からeスクーター完全禁止 — BoltとDottが年末でライセンス失効",
-      "text": "ブリュッセルは2027年1月1日付けでシェアeスクーターを完全禁止する方針を確定。現在運営中のBoltとDottの許可証が2026年末に失効し撤退となる。2025年には市内で950万超のシェアeスクーターライドが記録されていたが、安全・犯罪問題を理由に禁止を決定。2027年以降はシェアeバイクネットワークの拡充に軸足を移す。",
-      "url": "https://micromobility.substack.com/p/cowboys-co-founder-is-back-with-a"
-    },
-    {
-      "region": "eu",
-      "date": "2026.10.14",
-      "title": "Lime、ウォルソールでeバイク展開 — ウェスト・ミッドランズ全6都市への展開完了",
-      "text": "Limeが10/13-14、ウォルソール市にeバイクを展開し、ウェスト・ミッドランズ全域（バーミンガム・コベントリー・サンドウェル・ソリハル・ウォルバーハンプトン・ウォルソール）への展開を完了。WMCAとの契約に基づき英国第2の規模となる地域展開が全面稼働した。",
-      "url": "https://www.wmca.org.uk/news/lime-launches-e-bike-hire-into-walsall/"
     }
   ],
   "stats": [
