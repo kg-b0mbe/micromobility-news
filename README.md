@@ -24,28 +24,31 @@
 
 ## 🤖 毎朝、AIが編集しています
 
-このサイトには人間の編集部はいません。毎朝6時（日本時間）、GitHub Actions上で **Claude** がWeb検索を使って世界のニュースを収集し、要約・選定・ランキング更新までを自動で行っています。
+このサイトには人間の編集部はいません。毎朝6時（日本時間）、自宅の **DGX Spark で動くローカルLLM** が世界のニュースを選定・要約し、ティッカーやランキングまで自動で更新しています。
 
 ```
 毎朝6:00 JST
    │
    ▼
-Claude がWeb検索で世界のニュースを調査（日本・北米・欧州・アジア）
+スクリプトがニュース検索・RSSで候補を集める（日本・北米・欧州・アジア）
    │
    ▼
-要約・ティッカー・ランキングを更新した data.json を生成
+ローカルLLMが候補を選び、記事本文を読んで1本ずつ要約
+   │
+   ▼
+ティッカー・地域パルス・ランキングを更新した data.json を生成
    │
    ▼
 形式チェックに合格したら自動コミット → サイトに反映 🚲
 ```
 
-出力は毎回スキーマ検証しており、AIの出力が崩れた日は更新をスキップするだけなので、サイトが壊れることはありません。
+記事URLは検索結果からプログラムが埋めるので、AIがURLを創作することはありません。出力は毎回スキーマ検証しており、AIの出力が崩れた日は更新をスキップするだけなので、サイトが壊れることはありません。
 
 ## 🛠️ つくり
 
 - **フロントエンド**: 素のHTML/CSS/JS 1ファイル。フレームワークなし、ビルドなし
 - **データ**: `data.json` 1ファイル。毎朝これだけが更新されます
-- **自動更新**: GitHub Actions + [Claude API](https://docs.claude.com/)（Web検索ツール）
+- **自動更新**: 自宅マシンの cron + ローカルLLM（OpenAI互換API）＋ DuckDuckGo News / RSS
 - **ホスティング**: GitHub Pages
 
 デザインテーマは「晴れた日の自転車レーン」。ページ上部の道路では、車輪を回しながら自転車が走り続けています。
@@ -65,20 +68,46 @@ AIによる自動収集のため、要約に不正確な点が含まれる可能
 index.html                         # サイト本体（data.jsonを読み込んで描画）
 data.json                          # ニュース・ランキングなど全データ
 ogp.png                            # SNSシェア用OGP画像（1200×630）
-scripts/update_news.py             # Claude APIでニュースを収集するスクリプト
-.github/workflows/daily-update.yml # 毎朝6時(JST)に実行するGitHub Actions
+scripts/update_news.py             # ニュースを集めてローカルLLMで更新するスクリプト
+scripts/run_local.sh               # 毎朝cronで実行（pull → 更新 → push）
+scripts/.env.example               # LLMサーバーなどの設定例
+.github/workflows/daily-update.yml # 手動実行用のGitHub Actions
 ```
 
-### セットアップ
+### セットアップ（ローカルLLM）
 
-1. このリポジトリをフォーク
-2. **Settings → Pages** で GitHub Pages を有効化（Deploy from a branch / main / root）
-3. **Settings → Secrets and variables → Actions** で `ANTHROPIC_API_KEY` を登録（[Anthropic Console](https://console.anthropic.com/) で発行）
-4. **Actions** タブ → Daily News Update → **Run workflow** でテスト実行
+OpenAI互換API（vLLM / SGLang / llama.cpp / Ollama など）で動くLLMサーバーがあれば動きます。
+実行するマシン（例: 常時起動のMac miniやDGX Spark）で:
+
+```sh
+git clone git@github.com:<you>/micromobility-news.git && cd micromobility-news
+python3 -m venv .venv && .venv/bin/pip install ddgs
+cp scripts/.env.example scripts/.env   # LLM_BASE_URL / LLM_MODEL / LLM_API_KEY を書く
+.venv/bin/python scripts/update_news.py --dry-run   # 書き込まずに試す
+scripts/run_local.sh                                # 本番（更新してpush）
+```
+
+毎朝6時に回すには cron に登録します（マシンのタイムゾーンがJSTの場合）:
+
+```
+0 6 * * * /path/to/micromobility-news/scripts/run_local.sh >> /tmp/ride-the-world.log 2>&1
+```
+
+push には、このリポジトリだけに書き込める **Deploy key**（Settings → Deploy keys、Allow write access）を使うのがおすすめです。
+
+### 処理の流れ
+
+1. `ddgs`（DuckDuckGo News）と RSS で直近1週間の候補記事を集め、掲載済みURLと重複を除く
+2. LLMが候補一覧から載せる記事を最大6本選ぶ（候補IDで返すのでURLは創作できない）
+3. 選んだ記事の本文を取得し、LLMが1本ずつ要約（本文に無い数字は使わない指示）
+4. LLMがニュース一覧からティッカー・地域パルス・注目記事・ランキング説明を更新
+5. 文字数・スキーマを検証して `data.json` を保存（`stats` は手動更新）
+
+検索を自前の SearXNG にしたい場合は `.env` で `SEARCH_BACKEND=searxng` と `SEARXNG_URL` を設定します。
 
 ### コストの目安
 
-1回の実行あたり、Web検索 最大8回（$10/1,000回）＋モデル利用料で数円〜10円程度。毎日実行しても月数百円以内が目安です。
+ローカルLLMなのでAPI料金はかかりません（電気代のみ）。
 
 ### 表示・フィルタのテスト
 
