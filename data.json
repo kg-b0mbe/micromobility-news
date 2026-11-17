@@ -1,12 +1,12 @@
 {
-  "updated": "2026.11.17",
+  "updated": "2026.11.18",
   "ticker": [
-    "🇺🇸 Limeがロチェスター冬季運休、2027年春再開へ",
-    "🇪🇸 Stark Futureが€150m調達でユニコーンに",
-    "🇺🇸 テキサスA&M、スクーター歩道走行を禁止",
-    "🇬🇧 TaiSan、Romi向けナトリウム電池を初製作",
-    "🇫🇷 CooltraがMotto買収、eバイク6000台体制に",
-    "🇫🇮 ヘルシンキ、2027年免許条件を年内決定へ"
+    "🇺🇸 会員13%減でも走行距離34%増、ユタ州のシェア自転車",
+    "🇯🇵 松本市シェアサイクル、7年半で利用3倍の年7万回",
+    "🇪🇺 欧州カーシェア車両数、3年で23%増の12.9万台",
+    "🇫🇷 CooltraがパリのMotto買収、eバイク6000台体制",
+    "🇺🇸 電動キックボードは自転車より頭部重傷リスク高い",
+    "🇹🇭 バンコク都庁、シェアサイクルの危険運転に注意喚起"
   ],
   "pulse": [
     {
@@ -14,32 +14,32 @@
       "flag": "🇯🇵",
       "en": "JAPAN",
       "ja": "日本",
-      "stat": "NOLL刷新・HELLO 10周年",
-      "text": "NOLLが11/24広島・12/1大阪で新型車両（前輪サスペンション・鍵不要）を投入し刷新が本格化。HELLO CYCLINGは10周年で会員630万人・約15,700ポートに達成。Luupは大阪市と合同で安全講習会を開催。"
+      "stat": "松本市で利用3倍・HELLO 10周年",
+      "text": "松本市のHELLO CYCLINGは導入7年半で利用が年約7万回に3倍増、ステーション41カ所・175台へ拡大。HELLO CYCLINGは10周年で会員630万人・約15,700ポートに達成。Luupは大阪市と合同で安全講習会を開催。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "安全規制と冬季運休",
-      "text": "テキサスA&Mがスクーター歩道走行禁止など新規則を発表。Limeはロチェスターで冬季運休へ。Micromobility America 2026ではMahaloがスタートアップ賞金賞。ジャクソンビルはVeoを新プロバイダーに拡大。"
+      "stat": "安全規制と冬季運休が進行",
+      "text": "テキサスA&M大学がスクーターの歩道走行禁止など新規則を発表。Limeはロチェスターで冬季運休へ。全国研究では電動キックボード利用者が自転車より頭部・頸部の重傷リスク高いと判明。"
     },
     {
       "cls": "eu",
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "Cooltra買収と免許整備",
-      "text": "CooltraがMottoを買収し電動自転車6000台体制に、2030年までに倍増目指す。Stark Futureが€150m調達で欧州eモト初のユニコーンに。VoiはEaling撤退でUK統一枠組み要求、ヘルシンキは年内に免許条件決定へ。"
+      "stat": "Cooltra買収とeモト初ユニコーン",
+      "text": "CooltraがパリのMottoを買収し電動自転車6000台体制、2030年までに倍増目指す。Stark Futureが€150m調達で欧州eモト初のユニコーンに。ヘルシンキは2027年免許条件を年内決定へ。"
     },
     {
       "cls": "as",
       "flag": "🌏",
       "en": "ASIA-PACIFIC",
       "ja": "アジア太平洋",
-      "stat": "豪安全基準・UAE免許義務化",
-      "text": "豪ACCCがeバイク全国安全基準を策定中（パブコメ〜11/30）。UAEは2027年1月からeスクーター免許義務化（最低年齢15歳）。子どもの負傷増を背景に規制強化が加速。"
+      "stat": "バンコク都庁が安全利用を呼びかけ",
+      "text": "バンコク都庁（BMA）がシェアサイクルの危険運転・ルール違反に対し注意喚起。1台1人の利用や走行前点検を要請し、逆走やスマホ操作運転などを禁止事項として挙げた。"
     }
   ],
   "ranking": [
@@ -112,13 +112,13 @@
       "medal": "#6",
       "name": "HELLO CYCLING",
       "meta": "日本 · OpenStreet",
-      "desc": "11/11にサービス開始10周年。会員630万人超・32都道府県268自治体・約15,700ステーションに拡大。総走行距離は約3億kmを突破。京急電鉄との「京急ちゃりんポ」連携（〜11/30）でポイント・クーポン施策も展開中。",
+      "desc": "サービス10周年で会員630万人超・32都道府県268自治体・約15,700ステーション、総走行距離約3億km。松本市では導入7年半で利用が年約7万回に3倍増。",
       "tags": [
         "サービス10周年",
         "32都道府県展開",
-        "京急連携キャンペーン"
+        "松本市で利用3倍"
       ],
-      "score": 91,
+      "score": 92,
       "site": "https://www.hellocycling.jp/"
     },
     {
@@ -183,6 +183,41 @@
   "news": [
     {
       "region": "na",
+      "date": "2026.11.18",
+      "title": "Summit Bike Share、会員減も走行距離は伸びる — 乗車時間60分へ延長が奏功",
+      "text": "米ユタ州のSummit Bike Shareが2026年シーズンを終えた。会員数は前年比13%減の約2万人だったが、走行距離は約9万3000マイルと34%増加。30分から60分への乗車時間延長と料金改定が長距離利用につながったという。低所得層向けのAccess Passも導入し、リゾート労働者の多い住宅地の駅が最多利用となった。",
+      "url": "https://www.parkrecord.com/2026/11/17/summit-bike-share-sees-dip-in-ridership-this-season-despite-significant-increases-in-mileage-ride-times/"
+    },
+    {
+      "region": "jp",
+      "date": "2026.11.17",
+      "title": "松本市のシェアサイクル利用が年間約7万回に — HELLO CYCLING導入7年半で3倍に拡大",
+      "text": "OpenStreetと長野県松本市は2019年からシェアサイクル「HELLO CYCLING」を展開している。導入当初年間約2万3千回だった利用は現在約7万回、ステーションは14カ所から41カ所、自転車も100台から175台に増加。観光地が点在する市内の回遊性向上を狙い、レンタサイクルから切り替えた経緯などが市へのインタビューで明かされた。",
+      "url": "https://note.com/openstreet/n/n570801642615"
+    },
+    {
+      "region": "as",
+      "date": "2026.11.17",
+      "title": "バンコク都庁、シェアサイクルの危険運転・ルール違反を注意 — 安全な利用を呼びかけ",
+      "text": "バンコク都庁（BMA）は、タイ人・外国人が利用できる都内のシェアサイクルで、一部利用者による交通ルール違反や危険な運転が見受けられるとして安全な利用を呼びかけた。1台1人の利用や走行前の車両点検を要請し、泥よけや前かごへの乗車、手つなぎ運転、スマホ操作運転、逆走などを禁止事項として挙げた。",
+      "url": "https://newsclip.be/thai-news/thai-local/44236"
+    },
+    {
+      "region": "na",
+      "date": "2026.11.17",
+      "title": "電動キックボード利用者は自転車より頭部・頸部の重傷リスクが高い — 米国全国規模の研究",
+      "text": "米国外傴センターで2023〜24年に治療を受けた4万7000人超の成人を調べた全国研究で、電動キックボード利用者は自転車利用者に比べ頭部や頸部の重傷を負うリスクが高いことが分かった。研究ではヘルメット着用状況にも着目しており、マイクロモビリティの安全対策への関心を高める結果となった。",
+      "url": "https://www.mystateline.com/news/e-scooter-riders-face-greater-risk-of-serious-head-and-neck-injuries-than-bicyclists-national-study-finds/"
+    },
+    {
+      "region": "eu",
+      "date": "2026.11.17",
+      "title": "欧州のカーシェア車両数が3年で23%増 — 2026年に12.9万台",
+      "text": "Inversの調査で、欧州のカーシェア車両数が2023年の10.5万台から23%増の12.9万台に達したことが分かった。前年とほぼ同規模で市場は安定。ドイツが約4.32万台で首位、フランス、イタリア、オランダ、ベルギーが続く。密度ではバルト3国が高く、リトアニアは欧州5位のフリーフローティング市場に成長している。",
+      "url": "https://zagdaily.com/urban/europes-car-sharing-fleet-grows-23-in-three-years/"
+    },
+    {
+      "region": "na",
       "date": "2026.11.17",
       "title": "Lime、ロチェスターでスクーター冬季運休へ — 2027年春に再開",
       "text": "シェアサイクル大手Limeが、ロチェスターの街から電動スクーターと電動アシスト自転車を引き上げる。冬季の運休措置で、撤去は水曜日に行われる見通しだ。車両は2027年春に同市へ戻る予定で、利用者はそれまでLimeのサービスを利用できなくなる。寒期の需要減に合わせた定期的な撤退とみられる。",
@@ -238,53 +273,18 @@
       "url": "https://zagdaily.com/micromobility/cooltra-acquires-motto-to-take-e-bike-subscriptions-across-europe/"
     },
     {
+      "region": "jp",
+      "date": "2026.11.14",
+      "title": "叡山電鉄がシェアサイクル「チャリチャリ」と連携協定 — 沿線へのポート設置や相互誘客で観光促進へ",
+      "text": "叡山電鉄は10月30日、福岡と熊本でシェアサイクルを運営するチャリチャリと連携協定を締結した。相互観光誘客と2次交通拡充が目的で、第1弾として両社の広告媒体を活用した誘客や、叡電沿線へのシェアサイクルポート設置を行う。訪日誘客に向けた情報発信や共同プロモーションも展開し、分散型観光による持続可能な観光地づくりを推進する。",
+      "url": "https://www.kankokeizai.com/2611140730kks/"
+    },
+    {
       "region": "eu",
       "date": "2026.11.14",
       "title": "ヘルシンキ、2027年eスクーター免許条件を年内決定へ — 2026年は台数12%減・3社体制",
       "text": "ヘルシンキ市が2027年シーズン向けマイクロモビリティ免許条件を年内に策定する方針。2026年は新免許制度施行でフリート総数が前年比12%減（約1万900台）となりDott・Voi・Rydeの3社体制に。7月末からDonkey Republicが機械式自転車で免許取得し参入。",
       "url": "https://www.hel.fi/en/news/the-use-of-electric-scooters-has-decreased-in-helsinki"
-    },
-    {
-      "region": "na",
-      "date": "2026.11.13",
-      "title": "米ブレッケンリッジの電動シェアサイクル、利用回数42%増 — だが州補助金が尽き財源が課題に",
-      "text": "米コロラド州ブレッケンリッジの電動シェアサイクル「Breck E-Ride」は4シーズン目を終え、利用回数が前年比42%増の40,315回に達した。1日平均217回、平均走行距離1.37マイル。自家用車の代わりに利用した回答は64%に上る。ただし財源の50万ドル州補助金が尽き、来年度分は未定。",
-      "url": "https://www.summitdaily.com/news/breckenridge-e-ride-trips-jump-42-this-year-while-state-grant-funding-runs-out-for-2027/"
-    },
-    {
-      "region": "na",
-      "date": "2026.11.13",
-      "title": "Micromobility America 2026開幕 — 新製品発表やテスト走行、Lime本社へのライド",
-      "text": "サンフランシスコでMicromobility America 2026の初日が開催された。基調講演に続き、Next-Machinaが自転車と自動車の中間を狙う全輪駆動EV「Dragonfly」を発表。VeoやDrop Mobilityの経営陣が成長や収益性、規制を議論した。",
-      "url": "https://micromobility.substack.com/p/mma26-day-1-is-a-wrap-launches-test"
-    },
-    {
-      "region": "na",
-      "date": "2026.11.13",
-      "title": "ジャクソンビル、Veoを新プロバイダーにシェアスクーター事業を拡大 — 対象地域も拡大へ",
-      "text": "米ジャクソンビル市はシェアスクーター事業を拡大する。新たにVeoをプロバイダーとして迎え、これまでの対象地域に加え、Arlington、Avondale、Riversideなどへサービスを広げる方針だ。市は複数のプロバイダー体制で利用者の利便性向上を図る。マイクロモビリティの普及を後押しする動きとして注目される。",
-      "url": "https://www.jaxdailyrecord.com/news/2026/nov/13/city-expanding-shared-scooter-program/"
-    },
-    {
-      "region": "eu",
-      "date": "2026.11.12",
-      "title": "チェコ自治体、持続可能なモビリティ移行への準備度にばらつき — 資金不足と行政分断が課題",
-      "text": "チェコ自治体の全国調査で、戦略上の優先事項はEUの持続可能な交通目標と概ね一致する一方、実行段階の制度面の準備度は自治体により大きく異なると判明。37都市への調査では、行政分断、多層ガバナンスの不整合、慢性的な資金不足が移行を制約。包括的モビリティ文書の策定は約半数にとどまり、実行は計画策定より行政能力と技術力に左右されるという。",
-      "url": "https://bioengineer.org/czech-municipalities-show-uneven-institutional-readiness-for-sustainable-mobility-transitions/"
-    },
-    {
-      "region": "eu",
-      "date": "2026.11.12",
-      "title": "欧州バイクシェア、自治体管理強化トレンドが鮮明に — 単独事業者・フリート上限・仮想ステーション化が加速",
-      "text": "ZAG Daily（11/12）が欧州バイクシェアの調達構造転換を分析。過去3年で都市が事業者フリート規制・eスクーター禁止・仮想ステーション導入を推進し、広告会社主導の独占体制から自治体主導モデルへ移行が加速。VisionEdgeOne傘下のInurba・PubliBikeも新規テンダーを狙う。",
-      "url": "https://zagdaily.com/micromobility/why-europes-bike-share-future-is-moving-towards-greater-municipal-control/"
-    },
-    {
-      "region": "eu",
-      "date": "2026.11.11",
-      "title": "VoiがEalingから正式撤退 — UK全国統一eバイク枠組みを要求",
-      "text": "VoiがロンドンEaling区から正式撤退。CoMoUKによる全英資格取り消し警告を受け11/6までに撤収。EalingがLime・Forestを優先選定した経緯をめぐり「法的根拠なき排除」と批判。Voi側はロンドン32区統一eバイク・eスクーター枠組みの整備を要求している。",
-      "url": "https://cityam.com/voi-forced-out-of-ealing-after-threat-to-revoke-uk-wide-accreditation"
     }
   ],
   "stats": [
