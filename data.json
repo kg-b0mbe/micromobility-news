@@ -1,12 +1,12 @@
 {
-  "updated": "2026.11.14",
+  "updated": "2026.11.17",
   "ticker": [
-    "🇯🇵 HELLO CYCLING10周年・会員630万人超に拡大",
-    "🇯🇵 NOLL、11/24広島から新型車両展開・ブランド刷新スタート",
-    "🇸🇪 Voi Q3売上€88.2M・+53%・53百万ライドで四半期最高更新",
-    "🇫🇮 ヘルシンキ、2027年eスクーター免許条件を年内決定へ",
-    "🇬🇧 VoiがEalingから正式撤退・UK統一枠組みを要求",
-    "🇺🇸 Micromobility America 2026がSFで開催"
+    "🇺🇸 テキサスA&Mがスクーター歩道走行を禁止",
+    "🇬🇧 TaiSanがRomi向けナトリウム電池を初製作",
+    "🇫🇷 CooltraがMotto買収、eバイク6000台に",
+    "🇫🇮 ヘルシンキ2027年免許条件を年内決定へ",
+    "🇯🇵 HELLO CYCLING 10周年、会員630万人",
+    "🇺🇸 イリノイ州新法2027年1月施行へ"
   ],
   "pulse": [
     {
@@ -14,24 +14,24 @@
       "flag": "🇯🇵",
       "en": "JAPAN",
       "ja": "日本",
-      "stat": "NOLL刷新・京急連携加速",
-      "text": "NOLLが11/24広島・12/1大阪で新型車両（前輪サスペンション・鍵不要）を投入しブランド刷新が本格始動。LUUPは11/19〜25に京急電鉄と「京急ちゃりんポ」第2弾を実施、京急川崎・鶴見駅ポート発着60分無料キャンペーンを展開。"
+      "stat": "NOLL刷新・HELLO 10周年",
+      "text": "NOLLが11/24広島・12/1大阪で新型車両（前輪サスペンション・鍵不要）を投入し刷新が本格化。HELLO CYCLINGは10周年で会員630万人・約15,700ポートに達成。NAVITIMEが満空情報反映のルート検索に対応。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "安全規制・業界会議が加速",
-      "text": "Micromobility America 2026がSFで11/11〜12開催。イリノイ州新法SB3484が2027年1月施行、フロリダ州ペンブローク・パインズが11/18にeバイク規制条例を採決予定。バッテリー火災事故が相次ぎ各地で安全立法が加速。"
+      "stat": "安全規制が各地で加速",
+      "text": "テキサスA&Mがスクーター歩道走行禁止など新規則を発表。イリノイ州SB3484が2027年1月施行、ウェストチェスター郡は町村への規制権限付与を全会一致で可決。バッテリー火災も相次ぎ立法が加速。"
     },
     {
       "cls": "eu",
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "Voi撤退・免許整備加速",
-      "text": "VoiがEalingから正式撤退。UK全土統一eバイク枠組みの整備を要求。英DfTの全国標準化コンサル（〜12/31）が進行中。ヘルシンキは2027年シーズン向け免許条件を年内に決定予定、2026年はDott・Voi・Rydeの3社が運営。"
+      "stat": "Cooltra買収と免許整備",
+      "text": "CooltraがMottoを買収し電動自転車6000台体制に、2030年までに倍増目指す。VoiがEalingから撤退しUK統一枠組みを要求。ヘルシンキは2027年免許条件を年内決定へ、2026年は3社体制。"
     },
     {
       "cls": "as",
@@ -39,7 +39,7 @@
       "en": "ASIA-PACIFIC",
       "ja": "アジア太平洋",
       "stat": "豪安全基準・UAE免許義務化",
-      "text": "豪ACCCがeバイク全国安全基準を策定中（パブコメ〜11/30）。UAEは2027年1月からeスクーター免許義務化（最低年齢15歳）。子どものeバイク・eスクーター負傷が2023〜26年比400%増と研究で判明し規制強化が加速。"
+      "text": "豪ACCCがeバイク全国安全基準を策定中（パブコメ〜11/30）。UAEは2027年1月からeスクーター免許義務化（最低年齢15歳）。子どもの負傷が2023〜26年比400%増との研究もあり規制強化が加速。"
     }
   ],
   "ranking": [
@@ -182,6 +182,41 @@
   },
   "news": [
     {
+      "region": "na",
+      "date": "2026.11.17",
+      "title": "テキサスA&M大学が電動スクーター等の新規則を発表 — 歩道走行禁止に",
+      "text": "テキサスA&M大学はキャンパスのマイクロモビリティ規則を改定すると発表した。電動スクーターなどスロットル式電動デバイスは歩道と駐車場の走行が禁止され、車道、指定レーン、指定パスに限定される。全デバイス共通で時速20マイルの速度制限と携帯電話・イヤホン使用の禁止も課される。",
+      "url": "https://wtaw.com/texas-am-announces-new-rules-for-micro-mobility-users/"
+    },
+    {
+      "region": "eu",
+      "date": "2026.11.17",
+      "title": "英TaiSanが折りたたみ電動スクーター「Romi」向けナトリウム電池パックを初製作",
+      "text": "英ケンブリッジの電池開発企業TaiSanが、New Fold社の折りたたみ電動スクーターRomi（12kg未満）向けに、固体電解質を用いたナトリウム電池パックを初めて製作した。リチウムイオンに代わる選択肢として、スクーターの携帯性を損なわない航続や充電性能を性能データで検証する段階という。重量や容量などの詳細は未公表で、量産時期も未定。",
+      "url": "https://zagdaily.com/micromobility/uk-battery-developer-builds-sodium-pack-for-foldable-electric-scooter/"
+    },
+    {
+      "region": "jp",
+      "date": "2026.11.16",
+      "title": "大阪市が電動キックボード安全運転の講習会 — Luupと合同で区役所職員ら対象",
+      "text": "電動キックボード関連の事故減少を目的に、大阪市はLuup（ループ）と合同で交通安全講習会を開いた。対象は区役所職員らで、会場は都島区のミヤコジマドライビングスクール。シェアサービスの利用が広がる中、安全運転の意識向上を図る取り組みだ。",
+      "url": "https://www.msn.com/ja-jp/news/other/電動キックボード安全運転を-事故減へ大阪市が講習会-ゴーグル着けて酒酔い疑似体験も/ar-AA2hwZli"
+    },
+    {
+      "region": "na",
+      "date": "2026.11.16",
+      "title": "米ケンブリッジでBluebikes新ステーション3カ所開設 — 利用者アクセスは市人口の33%",
+      "text": "米ケンブリッジでシェアサイクルBluebikesの新ステーション3カ所が開設された。Central Square、Baldwin地区、Wellington-HarringtonのDonnelly Fieldに設置。市の2025年データでは2024年時点で人口の33%にあたる39,959人が徒歩3分以内にステーションがある。",
+      "url": "https://hoodline.com/2026/11/three-new-bluebikes-stations-open-in-cambridge-as-city-tracks-access-and-cycling-infrastructure/"
+    },
+    {
+      "region": "eu",
+      "date": "2026.11.16",
+      "title": "CooltraがMottoを買収 — 欧州へ電動自転車サブスク展開を拡大",
+      "text": "欧州のシェアモビリティ企業CooltraがパリのMottoを買収した。Mottoは2021年創業で、パリとイル・ド・フランスで約2000人の日次利用者に電動自転車サブスクを提供し、2025年にはEBITDA黒字を達成。買収でCooltraの電動自転車は計6000台となり、2030年までに倍増を目指す。まずパリに注力し、他欧州市場への展開も支援する。",
+      "url": "https://zagdaily.com/micromobility/cooltra-acquires-motto-to-take-e-bike-subscriptions-across-europe/"
+    },
+    {
       "region": "eu",
       "date": "2026.11.14",
       "title": "ヘルシンキ、2027年eスクーター免許条件を年内決定へ — 2026年は台数12%減・3社体制",
@@ -189,11 +224,11 @@
       "url": "https://www.hel.fi/en/news/the-use-of-electric-scooters-has-decreased-in-helsinki"
     },
     {
-      "region": "eu",
-      "date": "2026.11.11",
-      "title": "VoiがEalingから正式撤退 — UK全国統一eバイク枠組みを要求",
-      "text": "VoiがロンドンEaling区から正式撤退。CoMoUKによる全英資格取り消し警告を受け11/6までに撤収。EalingがLime・Forestを優先選定した経緯をめぐり「法的根拠なき排除」と批判。Voi側はロンドン32区統一eバイク・eスクーター枠組みの整備を要求している。",
-      "url": "https://cityam.com/voi-forced-out-of-ealing-after-threat-to-revoke-uk-wide-accreditation"
+      "region": "na",
+      "date": "2026.11.13",
+      "title": "ジャクソンビル、Veoを新プロバイダーにシェアスクーター事業を拡大 — 対象地域も拡大へ",
+      "text": "米ジャクソンビル市はシェアスクーター事業を拡大する。新たにVeoをプロバイダーとして迎え、これまでの対象地域に加え、Arlington、Avondale、Riversideなどへサービスを広げる方針だ。市は複数のプロバイダー体制で利用者の利便性向上を図る。マイクロモビリティの普及を後押しする動きとして注目される。",
+      "url": "https://www.jaxdailyrecord.com/news/2026/nov/13/city-expanding-shared-scooter-program/"
     },
     {
       "region": "eu",
@@ -201,6 +236,13 @@
       "title": "欧州バイクシェア、自治体管理強化トレンドが鮮明に — 単独事業者・フリート上限・仮想ステーション化が加速",
       "text": "ZAG Daily（11/12）が欧州バイクシェアの調達構造転換を分析。過去3年で都市が事業者フリート規制・eスクーター禁止・仮想ステーション導入を推進し、広告会社主導の独占体制から自治体主導モデルへ移行が加速。VisionEdgeOne傘下のInurba・PubliBikeも新規テンダーを狙う。",
       "url": "https://zagdaily.com/micromobility/why-europes-bike-share-future-is-moving-towards-greater-municipal-control/"
+    },
+    {
+      "region": "eu",
+      "date": "2026.11.11",
+      "title": "VoiがEalingから正式撤退 — UK全国統一eバイク枠組みを要求",
+      "text": "VoiがロンドンEaling区から正式撤退。CoMoUKによる全英資格取り消し警告を受け11/6までに撤収。EalingがLime・Forestを優先選定した経緯をめぐり「法的根拠なき排除」と批判。Voi側はロンドン32区統一eバイク・eスクーター枠組みの整備を要求している。",
+      "url": "https://cityam.com/voi-forced-out-of-ealing-after-threat-to-revoke-uk-wide-accreditation"
     },
     {
       "region": "jp",
@@ -243,48 +285,6 @@
       "title": "NOLLが11月24日スタート — 広島から新型車両と新料金を順次展開",
       "text": "ドコモ・バイクシェアが11/24に広島、12/1から大阪でNOLLブランドの新型車両（前輪サスペンション・大容量バッテリー・アプリ操作のみで鍵不要）を導入。ブランド刷新は当初5月予定から2度延期され、当初予定から半年以上遅れての実現。導入エリアでは料金キャンペーンも実施。",
       "url": "https://www.appbank.net/2026/11/10/iphone-news/3160098.php"
-    },
-    {
-      "region": "na",
-      "date": "2026.11.10",
-      "title": "フロリダ州ペンブローク・パインズ、eバイク・eスクーター規制条例を11/18採決へ",
-      "text": "フロリダ州ペンブローク・パインズ市が11/18にeバイク・eスクーター規制条例を採決予定。2025年1月以降51件の事故通報を受け、公共施設や運動場での使用禁止・速度制限・違反時$50罰金を盛り込む。シェアモビリティ事業者の公有地へのデバイス配置も禁止する方向。",
-      "url": "https://www.cbsnews.com/miami/news/pembroke-pines-ordinance-e-bikes-e-scooters-commission-vote-november-2026/"
-    },
-    {
-      "region": "na",
-      "date": "2026.11.10",
-      "title": "DC議会、eバイク・eスクーターバッテリー安全緊急法案を審議 — 熱暴走リスクに対応",
-      "text": "DC議会がWard 6議員Charles Allen提出の「マイクロモビリティ防火安全基準緊急改正法2026」を11/10付議。eバイク・eスクーターのリチウムイオン電池火災リスクを受け、販売・レンタル機器に安全基準適合を義務付ける緊急措置として審議。議会で保留（Retained）となった。",
-      "url": "https://wjla.com/news/local/washington-e-bike-dc-battery-safety-fire-micromobility-amendment-charles-allen-lithium-ion-scooters-battery-rechargeable-legislative-damage"
-    },
-    {
-      "region": "eu",
-      "date": "2026.11.10",
-      "title": "Limeが西ミッドランズ全6都市展開で1日利用者が前体制比9倍に急増",
-      "text": "LimeがBerylに代わり西ミッドランズ（バーミンガム・コベントリー等）に参入後、4月から1日あたり利用者が750人から6,536人と9倍超に急増。9月には累計100万ライドを達成。WMCAとの契約下で英国第2規模の地域展開として定着しつつある。",
-      "url": "https://birminghamdispatch.co.uk/lime-bikes-a-love-affair"
-    },
-    {
-      "region": "eu",
-      "date": "2026.11.06",
-      "title": "ロンドン・シティのVoi拒否議員がLime関係者と判明 — 利益相反で辞任要求",
-      "text": "ロンドン・シティ・オブ・ロンドン区でVoiのeバイク参入を否決した議員がLime関連の役職を持つことが判明し、利益相反として辞任を求める声が上がっている。VoiはLime・Forestとともにシティの路上でeバイクを運営していたが、同区の意思決定の透明性に疑問が呈された。",
-      "url": "https://road.cc/ebiketips/feature/city-of-london-councillor-who-rejected-voi-reveals-lime-role-and-faces-calls-to-quit-plus-litespeed-and-aurum-go-electric-with-new-super-lightweight-road-e-bikes-more"
-    },
-    {
-      "region": "eu",
-      "date": "2026.11.05",
-      "title": "英DfT、共有eバイク全国ライセンス化コンサルを開始 — Lime・Voi・Dott・Bolt等が対象",
-      "text": "英国交通省（DfT）が11/5、Lime・Voi・Forest・Beryl・Dott・Boltを対象とした共有eバイク全国標準コンサルテーションを開始（〜12/31）。事業者の最低基準・保険要件・地方自治体の認可権強化を含む全国統一フレームワーク策定が目的。歩道への放置問題解消も期待される。",
-      "url": "https://www.visordown.com/news/motorcycle-parking-rules-could-include-lime-bikes-under-new-government-plans"
-    },
-    {
-      "region": "na",
-      "date": "2026.11.03",
-      "title": "Lime、Q3 2026売上$361M・LTM初の$10億超え — LimePrime加入者が非加入者比8倍のライド",
-      "text": "Lime（Nasdaq: LIME）がQ3 2026決算を発表。売上$361M（+20%）・LTM売上が創業以来初めて$10億を突破。純利益$44M（+41%）、フリーキャッシュフロー$91M。LimePrimeサブスク加入者は非加入者比8倍のライド数を記録し、通年売上ガイダンスを$1.04〜1.1Bに引き上げた。",
-      "url": "https://globenewswire.com/news-release/2026/11/03/3394774/0/en/lime-announces-third-quarter-2026-financial-results.html"
     }
   ],
   "stats": [
