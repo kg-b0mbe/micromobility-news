@@ -95,6 +95,8 @@ def log(msg: str) -> None:
 
 
 def http_get(url: str, timeout: int = 15, max_bytes: int = 2_000_000) -> tuple[bytes, str]:
+    # 日本語などを含むURLはパーセントエンコードしてから取得する
+    url = urllib.parse.quote(url, safe=":/?#[]@!$&'()*+,;=%~")
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ja,en;q=0.8"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read(max_bytes), r.headers.get("Content-Type", "")
@@ -246,9 +248,17 @@ def collect_candidates(current: dict) -> list[dict]:
     return dedupe_candidates(rows, current)
 
 
+def slug_key(url: str) -> str:
+    """ホスト＋URL末尾の記事スラッグ。カテゴリ違いで同じ記事が来るのを見抜く。"""
+    p = urllib.parse.urlsplit(url)
+    last = [x for x in p.path.split("/") if x][-1:] or [""]
+    return re.sub(r"^www\.", "", p.netloc.lower()) + "|" + urllib.parse.unquote(last[0]).lower()
+
+
 def dedupe_candidates(rows: list[dict], current: dict) -> list[dict]:
     seen = {norm_url(n["url"]) for n in current["news"]}
     seen.add(norm_url(current["featured"]["url"]))
+    seen_slugs = {slug_key(n["url"]) for n in current["news"]} | {slug_key(current["featured"]["url"])}
     seen_titles = {re.sub(r"\W", "", n["title"])[:30] for n in current["news"]}
     out = []
     for r in rows:
@@ -257,13 +267,16 @@ def dedupe_candidates(rows: list[dict], current: dict) -> list[dict]:
             continue
         key = norm_url(url)
         tkey = re.sub(r"\W", "", r.get("title", ""))[:30]
-        if key in seen or (tkey and tkey in seen_titles):
+        skey = slug_key(url)
+        long_slug = len(skey.split("|", 1)[1]) >= 20  # 短いスラッグ（数字IDなど）は誤判定しやすいので使わない
+        if key in seen or (tkey and tkey in seen_titles) or (long_slug and skey in seen_slugs):
             continue
         r["date"] = parse_date(r.get("date"))
         if not is_recent(r.get("date")):
             continue
         seen.add(key)
         seen_titles.add(tkey)
+        seen_slugs.add(skey)
         out.append(r)
     out.sort(key=lambda r: r.get("date") or "", reverse=True)
     out = out[:MAX_CANDIDATES]
@@ -428,7 +441,8 @@ def step_select(llm: LLM, current: dict, cands: list[dict]) -> list[dict]:
 
 # タスク
 候補から、サイトに新しく載せる価値のあるニュースを最大{MAX_NEW_ITEMS}本選んでください。
-- シェアサイクル・電動キックボード・eバイクシェアなどマイクロモビリティ業界のニュースに限る（個人向け自転車の新製品レビュー、事故の個別報道、広告記事は除く）
+- シェアサイクル・シェア電動キックボード・eバイクシェアなど「シェア型マイクロモビリティ」の事業者・都市・政策・規制・利用動向に関するニュースに限る
+- 除外するもの: 個人向け車両やバッテリーの新製品、配達員・物流・労働問題、個別の事故報道、広告記事
 - 掲載済みと同じ話題、候補同士で重複する話題は1本にまとめる（より詳しそうな方を選ぶ）
 - 直近1週間のもの。日本・北米・欧州・アジアが偏りすぎないように
 - 該当がなければ空配列でよい
@@ -598,6 +612,9 @@ def step_headlines(llm: LLM, data: dict, new_items: list) -> None:
     for p in data["pulse"]:
         new = (d.get("pulse") or {}).get(p["cls"])
         if isinstance(new, dict) and new.get("stat") and new.get("text"):
+            if len(str(new["stat"])) > LIMITS["pulse.stat"]:
+                log(f"  pulse.{p['cls']} の見出しが長すぎるため前日の内容を維持")
+                continue
             p["stat"], p["text"] = str(new["stat"]), str(new["text"])
     f = d.get("featured", -1)
     if isinstance(f, int) and 0 <= f < len(data["news"]):
