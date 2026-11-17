@@ -433,6 +433,7 @@ def step_select(llm: LLM, current: dict, cands: list[dict]) -> list[dict]:
 - 直近1週間のもの。日本・北米・欧州・アジアが偏りすぎないように
 - 該当がなければ空配列でよい
 - region: jp=日本 / na=北米 / eu=欧州 / as=アジア太平洋 / gl=世界・複数地域
+  region は記事の言語や媒体ではなく「出来事が起きた場所」で決める（例: 日本語記事でもタイの話題なら as）
 
 # 出力形式
 {{"selected": [{{"id": "c0", "region": "jp"}}]}}"""
@@ -483,11 +484,12 @@ def step_summarize(llm: LLM, c: dict) -> dict | None:
 - title: 60字以内。「誰が・何を」が一目でわかる見出し。必要なら「 — 」で補足を続ける
 - text: 120〜160字の要約。です・だ調ミックスの簡潔なニュース文体
 - date: 記事の公開日（YYYY.MM.DD）。本文から分からなければ空文字
+- region: 出来事が起きた場所。jp=日本 / na=北米 / eu=欧州 / as=アジア太平洋 / gl=世界・複数地域（記事の言語や媒体の国ではない）
 - 本文に書かれていない数字・固有名詞は使わない
 - マイクロモビリティと無関係、または本文から内容が読み取れない場合は {{"skip": true}}
 
 # 出力形式
-{{"title": "...", "text": "...", "date": "YYYY.MM.DD"}}"""
+{{"title": "...", "text": "...", "date": "YYYY.MM.DD", "region": "{c['region']}"}}"""
     d = llm.json(SYSTEM, user, check=check, max_tokens=1200)
     if d.get("skip"):
         log(f"  LLMが見送り: {c['title'][:50]}")
@@ -497,7 +499,7 @@ def step_summarize(llm: LLM, c: dict) -> dict | None:
         log(f"  日付不明・古いため見送り: {c['title'][:50]}")
         return None
     return {
-        "region": c["region"],
+        "region": d.get("region") if d.get("region") in VALID_REGIONS else c["region"],
         "date": date,
         "title": clip(d["title"], LIMITS["news.title"]),
         "text": clip(d["text"], LIMITS["news.text"]),
@@ -506,7 +508,17 @@ def step_summarize(llm: LLM, c: dict) -> dict | None:
 
 
 # ---- ステップ3: ティッカー・地域パルス・注目・ランキング --------------------
-def step_headlines(llm: LLM, data: dict) -> None:
+def ranking_aliases(name: str) -> list:
+    """ランキング名からニュース本文と照合するための呼び名を作る。"""
+    base = re.split(r"[（(]", name)[0].strip()
+    inner = re.findall(r"[（(]([^）)]+)[）)]", name)
+    names = [base, base.replace("'", "").replace("’", "")] + [x for x in inner if not x.startswith("旧")]
+    if "'" in base or "’" in base:  # Vélib' Métropole → vélib
+        names.append(re.split(r"['’]", base)[0])
+    return [n.lower() for n in names if len(n) >= 2]
+
+
+def step_headlines(llm: LLM, data: dict, new_items: list) -> None:
     news_lines = "\n".join(
         f"[{i}] ({n['region']}) {n['date']} {n['title']} — {n['text']}" for i, n in enumerate(data["news"])
     )
@@ -515,7 +527,10 @@ def step_headlines(llm: LLM, data: dict) -> None:
         f"- {r['name']}（{r['meta']}）score={r['score']} tags={r['tags']}\n    {r['desc']}" for r in data["ranking"]
     )
     feat = data["featured"]
-    names = {r["name"] for r in data["ranking"]}
+    # 今日追加したニュースに名前が出てきた事業者だけ、ランキングの更新を許す
+    new_text = " ".join(n["title"] + " " + n["text"] for n in new_items).lower()
+    names = {r["name"] for r in data["ranking"] if any(a in new_text for a in ranking_aliases(r["name"]))}
+    names_line = "、".join(sorted(names)) if names else "（なし：ranking は空配列にする）"
 
     def check(d):
         probs = []
@@ -564,7 +579,11 @@ def step_headlines(llm: LLM, data: dict) -> None:
 2. pulse: jp/na/eu/as 各地域の「今いちばんの動き」。stat は20字以内の見出し、text は120字以内。
    既存文への追記ではなく、新旧の話題から重要な2〜3点だけを選んで毎回ゼロから書き直す。その地域の新しいニュースがなければ現状の内容を短く整える
 3. featured: 現在の注目より明らかに大きいニュースがあればその番号、なければ -1
-4. ranking: ニュースに大きな動き（業績発表・撤退・新規参入など）が出てきたプレイヤーだけ、desc（110字以内・追記せず書き直し）・tags（最大3個・各12字以内）・score（0〜100、変動は±3程度まで）を出す。動きがなければ空配列。name は現在のランキングと完全に同じ表記で
+4. ranking: 更新してよいのは次の事業者だけ → {names_line}
+   その事業者の全体像が変わる大きな動き（決算・資金調達・上場・国レベルの参入や撤退・大規模な拡大）があったときだけ更新する。
+   1都市への参入・事業者交代・キャンペーンのような小さな動きでは更新しない（迷ったら更新しない）。
+   更新する場合、desc（110字以内）は既存の要点のうち重要なもの（規模・業績など）を残し、新しい動きを1点加えて書き直す。
+   tags は最大3個・各12字以内、score は0〜100で変動は±3程度まで。name は現在のランキングと完全に同じ表記で。該当がなければ空配列
 ニュースに書かれていない数字や出来事を足さないこと。
 
 # 出力形式
@@ -678,7 +697,20 @@ def enforce_limits(data: dict) -> None:
 # ---------------------------------------------------------------------------
 # メイン
 # ---------------------------------------------------------------------------
+def load_env_file(path: Path) -> None:
+    """scripts/.env を読み込む（すでに設定済みの環境変数は上書きしない）。"""
+    if not path.exists():
+        return
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        k, v = line.split("=", 1)
+        os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+
+
 def main() -> int:
+    load_env_file(Path(__file__).resolve().parent / ".env")
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="data.jsonを書き換えずに結果を表示")
     ap.add_argument("--candidates-file", help="検索の代わりに使う候補JSON（テスト用）")
@@ -722,7 +754,7 @@ def main() -> int:
 
     log("4/4 LLMがティッカー・地域パルス・ランキングを更新中...")
     try:
-        step_headlines(llm, data)
+        step_headlines(llm, data, new_items)
     except Exception as e:
         log(f"  見出し更新に失敗（ニュース追加分のみ反映）: {e}")
 
