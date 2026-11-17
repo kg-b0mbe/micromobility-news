@@ -1,12 +1,12 @@
 {
   "updated": "2026.11.17",
   "ticker": [
-    "🇺🇸 テキサスA&Mがスクーター歩道走行を禁止",
-    "🇬🇧 TaiSanがRomi向けナトリウム電池を初製作",
-    "🇫🇷 CooltraがMotto買収、eバイク6000台に",
-    "🇫🇮 ヘルシンキ2027年免許条件を年内決定へ",
-    "🇯🇵 HELLO CYCLING 10周年、会員630万人",
-    "🇺🇸 イリノイ州新法2027年1月施行へ"
+    "🇺🇸 Limeがロチェスター冬季運休、2027年春再開へ",
+    "🇪🇸 Stark Futureが€150m調達でユニコーンに",
+    "🇺🇸 テキサスA&M、スクーター歩道走行を禁止",
+    "🇬🇧 TaiSan、Romi向けナトリウム電池を初製作",
+    "🇫🇷 CooltraがMotto買収、eバイク6000台体制に",
+    "🇫🇮 ヘルシンキ、2027年免許条件を年内決定へ"
   ],
   "pulse": [
     {
@@ -15,15 +15,15 @@
       "en": "JAPAN",
       "ja": "日本",
       "stat": "NOLL刷新・HELLO 10周年",
-      "text": "NOLLが11/24広島・12/1大阪で新型車両（前輪サスペンション・鍵不要）を投入し刷新が本格化。HELLO CYCLINGは10周年で会員630万人・約15,700ポートに達成。NAVITIMEが満空情報反映のルート検索に対応。"
+      "text": "NOLLが11/24広島・12/1大阪で新型車両（前輪サスペンション・鍵不要）を投入し刷新が本格化。HELLO CYCLINGは10周年で会員630万人・約15,700ポートに達成。Luupは大阪市と合同で安全講習会を開催。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "安全規制が各地で加速",
-      "text": "テキサスA&Mがスクーター歩道走行禁止など新規則を発表。イリノイ州SB3484が2027年1月施行、ウェストチェスター郡は町村への規制権限付与を全会一致で可決。バッテリー火災も相次ぎ立法が加速。"
+      "stat": "安全規制と冬季運休",
+      "text": "テキサスA&Mがスクーター歩道走行禁止など新規則を発表。Limeはロチェスターで冬季運休へ。Micromobility America 2026ではMahaloがスタートアップ賞金賞。ジャクソンビルはVeoを新プロバイダーに拡大。"
     },
     {
       "cls": "eu",
@@ -31,7 +31,7 @@
       "en": "EUROPE",
       "ja": "欧州",
       "stat": "Cooltra買収と免許整備",
-      "text": "CooltraがMottoを買収し電動自転車6000台体制に、2030年までに倍増目指す。VoiがEalingから撤退しUK統一枠組みを要求。ヘルシンキは2027年免許条件を年内決定へ、2026年は3社体制。"
+      "text": "CooltraがMottoを買収し電動自転車6000台体制に、2030年までに倍増目指す。Stark Futureが€150m調達で欧州eモト初のユニコーンに。VoiはEaling撤退でUK統一枠組み要求、ヘルシンキは年内に免許条件決定へ。"
     },
     {
       "cls": "as",
@@ -39,7 +39,7 @@
       "en": "ASIA-PACIFIC",
       "ja": "アジア太平洋",
       "stat": "豪安全基準・UAE免許義務化",
-      "text": "豪ACCCがeバイク全国安全基準を策定中（パブコメ〜11/30）。UAEは2027年1月からeスクーター免許義務化（最低年齢15歳）。子どもの負傷が2023〜26年比400%増との研究もあり規制強化が加速。"
+      "text": "豪ACCCがeバイク全国安全基準を策定中（パブコメ〜11/30）。UAEは2027年1月からeスクーター免許義務化（最低年齢15歳）。子どもの負傷増を背景に規制強化が加速。"
     }
   ],
   "ranking": [
@@ -47,11 +47,11 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "Q3 2026売上$361M（+20%）・LTM初の$10億超え。純利益$44M、調整後EBITDA $118M。LimePrime加入者の利用頻度は非加入者比8倍。選挙日に61都市で無料ライド提供。Oxford撤退後はVoi独占体制へ。",
+      "desc": "Q3 2026売上$361M（+20%）・LTM初の$10億超え。純利益$44M、調整後EBITDA $118M。選挙日に61都市で無料ライド。ロチェスターは冬季運休で車両撤去、2027年春再開予定。",
       "tags": [
         "LTM初の10億ドル超",
         "Oxford撤退",
-        "選挙日無料ライド"
+        "冬季運休開始"
       ],
       "score": 97,
       "site": "https://www.li.me/"
@@ -175,12 +175,26 @@
     }
   ],
   "featured": {
-    "date": "2026.11.11",
-    "title": "HELLO CYCLING、サービス開始10周年 — 32都道府県268自治体・会員630万人超に成長",
-    "text": "OpenStreetが展開するHELLO CYCLINGが2026年11月11日にサービス開始10周年を迎えた。会員登録者数は630万人超（9月に600万人突破）、ポートは全国約15,700カ所・32都道府県268自治体に拡大。総走行距離は約3億kmを突破し、地域インフラとして定着。",
-    "url": "https://prtimes.jp/main/html/rd/p/000000301.000113324.html"
+    "date": "2026.11.17",
+    "title": "Stark Futureが€150m調達、欧州eモトサイクル初のユニコーンに",
+    "text": "バルセロナの電動モトサイクルメーカーStark Futureが€150mを調達し、評価額は€1.2bに達した。欧州のeモトサイクル企業で初のユニコーンという。2020年創業で、モトクロスやエンデューロ向けのVargプラットフォームを展開する。資金はラテンアメリカなど既存市場の深耕や新プラットフォーム開発に充てる。",
+    "url": "https://zagdaily.com/micromobility/stark-future-becomes-european-e-motorcycle-unicorn-with-e150m-raise/"
   },
   "news": [
+    {
+      "region": "na",
+      "date": "2026.11.17",
+      "title": "Lime、ロチェスターでスクーター冬季運休へ — 2027年春に再開",
+      "text": "シェアサイクル大手Limeが、ロチェスターの街から電動スクーターと電動アシスト自転車を引き上げる。冬季の運休措置で、撤去は水曜日に行われる見通しだ。車両は2027年春に同市へ戻る予定で、利用者はそれまでLimeのサービスを利用できなくなる。寒期の需要減に合わせた定期的な撤退とみられる。",
+      "url": "https://www.kimt.com/news/lime-scooters-leaving-rochester-streets-wednesday-for-the-winter/article_a8841e2f-bc96-4864-bbd6-62501e9279a4.html"
+    },
+    {
+      "region": "eu",
+      "date": "2026.11.17",
+      "title": "Stark Futureが€150m調達、欧州eモトサイクル初のユニコーンに",
+      "text": "バルセロナの電動モトサイクルメーカーStark Futureが€150mを調達し、評価額は€1.2bに達した。欧州のeモトサイクル企業で初のユニコーンという。2020年創業で、モトクロスやエンデューロ向けのVargプラットフォームを展開する。資金はラテンアメリカなど既存市場の深耕や新プラットフォーム開発に充てる。",
+      "url": "https://zagdaily.com/micromobility/stark-future-becomes-european-e-motorcycle-unicorn-with-e150m-raise/"
+    },
     {
       "region": "na",
       "date": "2026.11.17",
@@ -194,6 +208,13 @@
       "title": "英TaiSanが折りたたみ電動スクーター「Romi」向けナトリウム電池パックを初製作",
       "text": "英ケンブリッジの電池開発企業TaiSanが、New Fold社の折りたたみ電動スクーターRomi（12kg未満）向けに、固体電解質を用いたナトリウム電池パックを初めて製作した。リチウムイオンに代わる選択肢として、スクーターの携帯性を損なわない航続や充電性能を性能データで検証する段階という。重量や容量などの詳細は未公表で、量産時期も未定。",
       "url": "https://zagdaily.com/micromobility/uk-battery-developer-builds-sodium-pack-for-foldable-electric-scooter/"
+    },
+    {
+      "region": "na",
+      "date": "2026.11.16",
+      "title": "Micromobility America 2026閉幕 — スタートアップ賞はMahaloが金賞",
+      "text": "サンフランシスコで開催のMicromobility America 2026が閉幕。Startup ArenaではMahaloが金賞、velo.aiが銀賞、Bike Fácilが銅賞に輝いた。DoorDash AirのHarrison Shihがドローン配送の可能性を語り、Archetrikeは新プラットフォームKTTと8150Nを披露。",
+      "url": "https://micromobility.substack.com/p/mma26-comes-to-a-close-startup-awards"
     },
     {
       "region": "jp",
@@ -226,9 +247,30 @@
     {
       "region": "na",
       "date": "2026.11.13",
+      "title": "米ブレッケンリッジの電動シェアサイクル、利用回数42%増 — だが州補助金が尽き財源が課題に",
+      "text": "米コロラド州ブレッケンリッジの電動シェアサイクル「Breck E-Ride」は4シーズン目を終え、利用回数が前年比42%増の40,315回に達した。1日平均217回、平均走行距離1.37マイル。自家用車の代わりに利用した回答は64%に上る。ただし財源の50万ドル州補助金が尽き、来年度分は未定。",
+      "url": "https://www.summitdaily.com/news/breckenridge-e-ride-trips-jump-42-this-year-while-state-grant-funding-runs-out-for-2027/"
+    },
+    {
+      "region": "na",
+      "date": "2026.11.13",
+      "title": "Micromobility America 2026開幕 — 新製品発表やテスト走行、Lime本社へのライド",
+      "text": "サンフランシスコでMicromobility America 2026の初日が開催された。基調講演に続き、Next-Machinaが自転車と自動車の中間を狙う全輪駆動EV「Dragonfly」を発表。VeoやDrop Mobilityの経営陣が成長や収益性、規制を議論した。",
+      "url": "https://micromobility.substack.com/p/mma26-day-1-is-a-wrap-launches-test"
+    },
+    {
+      "region": "na",
+      "date": "2026.11.13",
       "title": "ジャクソンビル、Veoを新プロバイダーにシェアスクーター事業を拡大 — 対象地域も拡大へ",
       "text": "米ジャクソンビル市はシェアスクーター事業を拡大する。新たにVeoをプロバイダーとして迎え、これまでの対象地域に加え、Arlington、Avondale、Riversideなどへサービスを広げる方針だ。市は複数のプロバイダー体制で利用者の利便性向上を図る。マイクロモビリティの普及を後押しする動きとして注目される。",
       "url": "https://www.jaxdailyrecord.com/news/2026/nov/13/city-expanding-shared-scooter-program/"
+    },
+    {
+      "region": "eu",
+      "date": "2026.11.12",
+      "title": "チェコ自治体、持続可能なモビリティ移行への準備度にばらつき — 資金不足と行政分断が課題",
+      "text": "チェコ自治体の全国調査で、戦略上の優先事項はEUの持続可能な交通目標と概ね一致する一方、実行段階の制度面の準備度は自治体により大きく異なると判明。37都市への調査では、行政分断、多層ガバナンスの不整合、慢性的な資金不足が移行を制約。包括的モビリティ文書の策定は約半数にとどまり、実行は計画策定より行政能力と技術力に左右されるという。",
+      "url": "https://bioengineer.org/czech-municipalities-show-uneven-institutional-readiness-for-sustainable-mobility-transitions/"
     },
     {
       "region": "eu",
@@ -243,48 +285,6 @@
       "title": "VoiがEalingから正式撤退 — UK全国統一eバイク枠組みを要求",
       "text": "VoiがロンドンEaling区から正式撤退。CoMoUKによる全英資格取り消し警告を受け11/6までに撤収。EalingがLime・Forestを優先選定した経緯をめぐり「法的根拠なき排除」と批判。Voi側はロンドン32区統一eバイク・eスクーター枠組みの整備を要求している。",
       "url": "https://cityam.com/voi-forced-out-of-ealing-after-threat-to-revoke-uk-wide-accreditation"
-    },
-    {
-      "region": "jp",
-      "date": "2026.11.11",
-      "title": "HELLO CYCLING、サービス開始10周年 — 32都道府県268自治体・会員630万人超",
-      "text": "OpenStreetが展開するHELLO CYCLINGが11/11にサービス開始10周年を迎えた。会員登録者数は630万人超、ポートは約15,700カ所・32都道府県268自治体に拡大。総走行距離は約3億kmを突破。サービス開始当初は中野区内5カ所のみだった。",
-      "url": "https://prtimes.jp/main/html/rd/p/000000301.000113324.html"
-    },
-    {
-      "region": "jp",
-      "date": "2026.11.11",
-      "title": "NAVITIMEがHELLO CYCLING・LUUP・NOLLの空き状況考慮ルート検索に対応",
-      "text": "11/11からNAVITIMEと自転車NAVITIMEが、HELLO CYCLING・LUUP・NOLL（ドコモ・バイクシェア）の3サービスのリアルタイム満空情報を反映したルート検索に対応。LUUPの電動アシスト自転車・電動キックボード・電動シートボードを使ったルートも検索可能になった。",
-      "url": "https://www.appbank.net/2026/11/11/iphone-news/3161918.php"
-    },
-    {
-      "region": "na",
-      "date": "2026.11.11",
-      "title": "オレゴン州でeバイクバッテリー爆発・家屋全焼 — 6人避難、DC安全法案の審議に影響も",
-      "text": "オレゴン州の住宅でリチウムイオンeバイクバッテリーが爆発し2階建て家屋が全焼、家族6人が避難（猫1匹死亡）。バッテリーは未充電状態でソファの上に置かれていた。米CPSCは互換性のない充電器の使用危険性を警告しており、DC緊急安全法案審議の追い風となる可能性がある。",
-      "url": "https://americanbazaaronline.com/2026/11/11/e-bike-battery-explosion-destroys-oregon-family-home-leaving-six-displaced-492099"
-    },
-    {
-      "region": "na",
-      "date": "2026.11.11",
-      "title": "ウェストチェスター郡、町・村がeバイク・eスクーター独自規制を制定できる法律を全会一致で可決",
-      "text": "ニューヨーク州ウェストチェスター郡の議会が11/10、町・村レベルでeバイク・eスクーターの速度制限やヘルメット着用義務などを独自に定める権限を付与する法律を全会一致で可決。州法では市のみに認められていた規制権を郡の立法で補完する措置。郡行政長官の署名後即時発効。",
-      "url": "https://westfaironline.com/government/county-legislators-pass-bill-allowing-towns-and-villages-to-set-rules-for-e-bikes-and-e-scooters/"
-    },
-    {
-      "region": "na",
-      "date": "2026.11.10",
-      "title": "イリノイ州、eバイク・eスクーター新法SB3484が2027年1月1日施行へ",
-      "text": "イリノイ州知事が署名したSB3484（Public Act 104-0854）が2027年1月1日に施行。eバイクの歩道走行を全州で禁止し、28mph超・750W超の高速モデルは「モーター駆動サイクル」に分類して免許・登録・保険を義務付け。クラス1・2の最低年齢は15歳に設定される。",
-      "url": "https://yahoo.com/news/us/articles/statewide-rules-e-bikes-scooters-233705759.html"
-    },
-    {
-      "region": "jp",
-      "date": "2026.11.10",
-      "title": "NOLLが11月24日スタート — 広島から新型車両と新料金を順次展開",
-      "text": "ドコモ・バイクシェアが11/24に広島、12/1から大阪でNOLLブランドの新型車両（前輪サスペンション・大容量バッテリー・アプリ操作のみで鍵不要）を導入。ブランド刷新は当初5月予定から2度延期され、当初予定から半年以上遅れての実現。導入エリアでは料金キャンペーンも実施。",
-      "url": "https://www.appbank.net/2026/11/10/iphone-news/3160098.php"
     }
   ],
   "stats": [
