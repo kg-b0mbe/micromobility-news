@@ -1,12 +1,12 @@
 {
-  "updated": "2026.11.19",
+  "updated": "2026.11.20",
   "ticker": [
-    "🇺🇸 猛暑や山火事でもスクーター必需移動に",
-    "🇪🇺 EU新大気汚染基準达标は40都市中3都市",
-    "🇯🇵 松本市シェアサイクル利用が7年半で3倍",
-    "🇺🇸 Limeロチェスター冬季運休へ2027年春再開",
-    "🇪🇺 Stark Futureが€150m調達で初ユニコーン",
-    "🇹🇭 バンコク都庁がシェアサイクル安全利用呼かけ"
+    "🇻🇳 ハノイでシェアeバイク試験導入、20台",
+    "🇺🇸 Limeの2025年CO2排出量20.6%減",
+    "🇪🇺 欧州40都市で大気基準達成は3都市",
+    "🇺🇸 Veo調査、猛暑時58%がスクーター利用",
+    "🇯🇵 松本シェアサイクル利用が3倍に拡大",
+    "🇪🇸 Stark Futureが€150m調達でユニコーン"
   ],
   "pulse": [
     {
@@ -47,10 +47,10 @@
       "medal": "🥇",
       "name": "Lime",
       "meta": "米国 · 世界29カ国230都市",
-      "desc": "Q3 2026売上$361M（+20%）・LTM初の$10億超え。純利益$44M、調整後EBITDA $118M。選挙日に61都市で無料ライド。ロチェスターは冬季運休で車両撤去、2027年春再開予定。",
+      "desc": "Q3 2026売上$361M（+20%）・LTM初の$10億超え。純利益$44M、調整後EBITDA $118M。サステナ報告書で2025年排出量20.6%減を公表。ロチェスターは冬季運休、2027年春再開予定。",
       "tags": [
         "LTM初の10億ドル超",
-        "Oxford撤退",
+        "CO2排出20.6%減",
         "冬季運休開始"
       ],
       "score": 97,
@@ -182,6 +182,27 @@
   },
   "news": [
     {
+      "region": "as",
+      "date": "2026.11.19",
+      "title": "ハノイでシェアeバイク運用開始 — 原付段階的廃止の中、ホーチミン市へも拡大",
+      "text": "ベトナム・ハノイで2025年12月1日、約20台のシェアeバイクが試験導入された。運営はTri Nam GroupのTNGoで、着脱式バッテリーで約90km走行可能。ハノイはガソリンバイクの段階的廃止を進めており、数カ月後にはホーチミン市にも展開。かつて自転車都市だったハノイでの公共交通との連携も課題だ。",
+      "url": "https://micromobility.substack.com/p/bike-share-in-the-land-of-the-motorbike"
+    },
+    {
+      "region": "gl",
+      "date": "2026.11.19",
+      "title": "Lime、2025年のCO2排出量を20.6%削減 — 上場後初のサステナビリティ報告書",
+      "text": "LimeがNasdaq上場後初となるサステナビリティ報告書を公開。2025年の総排出量は9万376トンCO2eで、前年比20.6%減だった。低炭素素材の調達でeスクーターやeバイクなどの単位あたり排出量を25.3%削減し、車両寿命の延長も寄与。売上高は29%増の8億8670万ドルと成長を続ける。排出量の97.5%はバリューチェーン由来のScope 3だった。",
+      "url": "https://zagdaily.com/micromobility/the-strategy-behind-limes-20-carbon-emissions-cut-in-a-single-year/"
+    },
+    {
+      "region": "eu",
+      "date": "2026.11.19",
+      "title": "WHO理事が英国の道路安全活動家を支持 — 交通事故死を公衆衛生の優先課題へ",
+      "text": "英国の道路安全活動家ミーラ・ナランMBE氏が、交通事故死を公衆衛生の優先課題とするよう求める活動で、WHOのエティエンヌ・クルグ理事から支持を得た。同氏の活動は英国初の道路安全戦略に反映され、車両安全技術18種の義務化を定める「デヴ法」にもつながった。戦略は2035年までに死者・重傷者を65%削減する目標を掲げる。",
+      "url": "https://zagdaily.com/urban/who-director-backs-uk-campaigners-call-to-make-road-deaths-a-public-health-priority/"
+    },
+    {
       "region": "na",
       "date": "2026.11.19",
       "title": "米Veo調査 — 猛暑や山火事時もシェアスクーター・自転車が必需の移動を支える",
@@ -264,27 +285,6 @@
       "title": "Micromobility America 2026閉幕 — スタートアップ賞はMahaloが金賞",
       "text": "サンフランシスコで開催のMicromobility America 2026が閉幕。Startup ArenaではMahaloが金賞、velo.aiが銀賞、Bike Fácilが銅賞に輝いた。DoorDash AirのHarrison Shihがドローン配送の可能性を語り、Archetrikeは新プラットフォームKTTと8150Nを披露。",
       "url": "https://micromobility.substack.com/p/mma26-comes-to-a-close-startup-awards"
-    },
-    {
-      "region": "jp",
-      "date": "2026.11.16",
-      "title": "大阪市が電動キックボード安全運転の講習会 — Luupと合同で区役所職員ら対象",
-      "text": "電動キックボード関連の事故減少を目的に、大阪市はLuup（ループ）と合同で交通安全講習会を開いた。対象は区役所職員らで、会場は都島区のミヤコジマドライビングスクール。シェアサービスの利用が広がる中、安全運転の意識向上を図る取り組みだ。",
-      "url": "https://www.msn.com/ja-jp/news/other/電動キックボード安全運転を-事故減へ大阪市が講習会-ゴーグル着けて酒酔い疑似体験も/ar-AA2hwZli"
-    },
-    {
-      "region": "na",
-      "date": "2026.11.16",
-      "title": "米ケンブリッジでBluebikes新ステーション3カ所開設 — 利用者アクセスは市人口の33%",
-      "text": "米ケンブリッジでシェアサイクルBluebikesの新ステーション3カ所が開設された。Central Square、Baldwin地区、Wellington-HarringtonのDonnelly Fieldに設置。市の2025年データでは2024年時点で人口の33%にあたる39,959人が徒歩3分以内にステーションがある。",
-      "url": "https://hoodline.com/2026/11/three-new-bluebikes-stations-open-in-cambridge-as-city-tracks-access-and-cycling-infrastructure/"
-    },
-    {
-      "region": "eu",
-      "date": "2026.11.16",
-      "title": "CooltraがMottoを買収 — 欧州へ電動自転車サブスク展開を拡大",
-      "text": "欧州のシェアモビリティ企業CooltraがパリのMottoを買収した。Mottoは2021年創業で、パリとイル・ド・フランスで約2000人の日次利用者に電動自転車サブスクを提供し、2025年にはEBITDA黒字を達成。買収でCooltraの電動自転車は計6000台となり、2030年までに倍増を目指す。まずパリに注力し、他欧州市場への展開も支援する。",
-      "url": "https://zagdaily.com/micromobility/cooltra-acquires-motto-to-take-e-bike-subscriptions-across-europe/"
     }
   ],
   "stats": [
