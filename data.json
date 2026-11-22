@@ -1,12 +1,12 @@
 {
-  "updated": "2026.11.22",
+  "updated": "2026.11.23",
   "ticker": [
-    "🇫🇮 Bolt、2027年ヘルシンキ圏で自動運転パイロット",
+    "🇺🇸 バトンルージュのシェアサイクル撤退、自転車撤去",
+    "🇺🇸 ボストンBluebikes、1日パスが地下鉄超え",
+    "🇫🇮 Bolt、2027年にヘルシンキで自動運転実証",
     "🇺🇸 シアトル、Limeに7万4500ドル罰金",
-    "🇺🇸 イリノイ州、キックボード新法を来年1月施行",
-    "🇫🇷 大阪市、Luup車両で職員向け講習会",
-    "🇻🇳 ハノイでシェアeバイク運用開始",
-    "🇺🇸 Lime、2025年CO2排出20.6%削減"
+    "🇮🇳 最高裁、ベンガルールのバイクタクシー許可",
+    "🇻🇳 ハノイでシェアeバイク試験導入開始"
   ],
   "pulse": [
     {
@@ -14,23 +14,23 @@
       "flag": "🇯🇵",
       "en": "JAPAN",
       "ja": "日本",
-      "stat": "大阪で安全講習、Luupの規制論も",
-      "text": "大阪市がLuupの車両を使い区役所職員約40人に電動キックボード講習会を実施。パリ禁止やマドリード許可取消など海外規制と比較し、地域の納得を得られるかがLuupの分かれ道と指摘された。"
+      "stat": "大阪で講習、Luup規制論も",
+      "text": "大阪市がLuup車両で区役所職員約40人に電動キックボード講習会。パリ禁止やマドリード許可取消など海外規制と比較し、地域の納得を得られるかがLuupの分かれ道と指摘された。"
     },
     {
       "cls": "na",
       "flag": "🌎",
       "en": "NORTH AMERICA",
       "ja": "北米",
-      "stat": "安全規制が相次ぐ米国",
-      "text": "シアトルがLimeに7万4500ドル罰金、運営許可条件も厳格化。イリノイ州は来年1月1日施行の新法で高速機種に登録・保険義務化。ウィンターパーク市も速度制限や教育義務の条例改正を検討中。"
+      "stat": "米国で安全規制が相次ぐ",
+      "text": "シアトルがLimeに7万4500ドル罰金、運営許可条件も厳格化。イリノイ州は来年1月1日施行の新法で高速機種に登録・保険義務化。ウィンターパーク市も速度制限や教育義務を検討中。"
     },
     {
       "cls": "eu",
       "flag": "🇪🇺",
       "en": "EUROPE",
       "ja": "欧州",
-      "stat": "Bolt、ヘルシンキで自動運転へ",
+      "stat": "Bolt、ヘルシンキで自動運転",
       "text": "Boltが2027年、ヘルシンキ・エスポー・ヴァンターとHSLと連携しレベル4自動運転車の実証実験を開始。駅へのフィーダー輸送や郊外オンデマンド移動に活用し、冬季条件対応と商用化を目指す。"
     },
     {
@@ -182,11 +182,32 @@
   },
   "news": [
     {
+      "region": "na",
+      "date": "2026.11.22",
+      "title": "米バトンルージュのシェアサイクル「We Bike BR」が撤退 — 自転車は撤去されラックも回収へ",
+      "text": "米バトンルージュのシェアサイクル「We Bike BR」が事実上終わりを迎えている。2019年にGotchaとして始まり、500台・50カ所のハブで運行してきたが、直近はTandem-Mobilityが運営し、同社が静かに撤退して自転車を持ち去ったという。",
+      "url": "https://www.wbrz.com/news/as-bike-share-program-exits-baton-rouge-cycling-scene-shifts-gears/"
+    },
+    {
+      "region": "na",
+      "date": "2026.11.22",
+      "title": "ボストンのシェアサイクルBluebikes、1日パスが地下鉄・バス乗り放題より高く — 新契約で値上げへ",
+      "text": "ボストン圏のシェアサイクルBluebikesで、1日乗り放題の料金が地下鉄・バスの1日乗り放題を上回った。13の自治体が運営者Lyftとの新契約で値上げに合意したもので、月額会員は32ドル、年間会員は141.50ドルへ引き上げられる。2017年の前契約時の3倍以上のステーション数や、2023年導入の電動自転車の電池交換など運営コスト増が背景という。",
+      "url": "https://www.yahoo.com/news/us/articles/boston-bike-share-day-passes-024800343.html"
+    },
+    {
       "region": "eu",
       "date": "2026.11.21",
       "title": "Bolt、2027年にヘルシンキ圏で自動運転車パイロット — 厳しい冬季条件に対応するサービス開発へ",
       "text": "欧州のシェアモビリティ企業Boltは2027年、ヘルシンキ圏で自動運転車の実証実験を開始する計画を発表した。ヘルシンキ、エスポー、ヴァンターの3市や交通当局HSLなどと連携し、厳しい冬季条件の都市向けサービス開発を目指す。レベル4の自動運転車を駅へのフィーダー輸送や郊外のオンデマンド移動に活用し、公共交通との統合や将来的な商用化を想定している。",
       "url": "https://zagdaily.com/connected/bolt-plans-driverless-vehicle-pilot-in-helsinki-region-for-2027/"
+    },
+    {
+      "region": "as",
+      "date": "2026.11.20",
+      "title": "アブダビ警察、自転車レンタルを装った冬季のオンライン詐欺に注意喚起",
+      "text": "アブダビ警察は11月22日、自転車などのレンタルや購入を検討している住民を狙ったオンライン詐欺への警戒を呼びかけた。冬季のキャンプ場レンタルを装った偽の募集も報告されており、住民に注意を促している。",
+      "url": "https://www.msn.com/en-ae/news/national/winter-scam-abu-dhabi-police-warn-of-fake-bike-campsite-rental-offers/ar-AA2hYLg0?ocid=BingNewsVerp"
     },
     {
       "region": "as",
@@ -238,6 +259,13 @@
       "url": "https://mynews13.com/fl/orlando/news/2026/08/13/winter-park-draft-ordinance-targets-micromobility-safety-concerns"
     },
     {
+      "region": "na",
+      "date": "2026.11.19",
+      "title": "米研究：未成年の電動自転車・キックボード事故が急増 — 重症・脳損傷は非電動の約2倍",
+      "text": "スタンフォード大学などの研究チームが医学誌JAMAで、米国の主要6小児病院で治療を受けた18歳未満1万3307人の電子カルテを分析した。電動自転車の負傷は四半期ごとに33％、電動キックボードは15％増加し、非電動を大きく上回った。重症者や脳損傷の割合も約2倍で、電動キックボードの負傷者の半数近くが12歳未満だった。",
+      "url": "https://news.infoseek.co.jp/article/itmedia_news_202611182000003265/"
+    },
+    {
       "region": "as",
       "date": "2026.11.19",
       "title": "中国・杭州の混雑した自転車レーンが示すもの — eバイク規制より街路設計が重要か",
@@ -257,34 +285,6 @@
       "title": "Lime、2025年のCO2排出量を20.6%削減 — 上場後初のサステナビリティ報告書",
       "text": "LimeがNasdaq上場後初となるサステナビリティ報告書を公開。2025年の総排出量は9万376トンCO2eで、前年比20.6%減だった。低炭素素材の調達でeスクーターやeバイクなどの単位あたり排出量を25.3%削減し、車両寿命の延長も寄与。売上高は29%増の8億8670万ドルと成長を続ける。排出量の97.5%はバリューチェーン由来のScope 3だった。",
       "url": "https://zagdaily.com/micromobility/the-strategy-behind-limes-20-carbon-emissions-cut-in-a-single-year/"
-    },
-    {
-      "region": "eu",
-      "date": "2026.11.19",
-      "title": "WHO理事が英国の道路安全活動家を支持 — 交通事故死を公衆衛生の優先課題へ",
-      "text": "英国の道路安全活動家ミーラ・ナランMBE氏が、交通事故死を公衆衛生の優先課題とするよう求める活動で、WHOのエティエンヌ・クルグ理事から支持を得た。同氏の活動は英国初の道路安全戦略に反映され、車両安全技術18種の義務化を定める「デヴ法」にもつながった。戦略は2035年までに死者・重傷者を65%削減する目標を掲げる。",
-      "url": "https://zagdaily.com/urban/who-director-backs-uk-campaigners-call-to-make-road-deaths-a-public-health-priority/"
-    },
-    {
-      "region": "na",
-      "date": "2026.11.19",
-      "title": "米Veo調査 — 猛暑や山火事時もシェアスクーター・自転車が必需の移動を支える",
-      "text": "米シェアマイクロモビリティ事業者Veoの調査で、猛暑や大気汚染、山火事時にも住民がシェアスクーターや自転車で通勤や買い物などの必需移動を確保する実態が明らかになった。猛暑時に58%が利用し、36%は歩行やバスが困難な暑さの中で使ったと回答。大気汚染のひどい時期の利用は44%。山火事地域では6%が避難に利用し、55%が検討するとしている。",
-      "url": "https://zagdaily.com/featured/wildfires-to-extreme-heat-veo-study-highlights-shared-micromobilitys-role-in-climate-resilience/"
-    },
-    {
-      "region": "eu",
-      "date": "2026.11.18",
-      "title": "欧州主要40都市で2030年EU大気汚染基準を満たすのはわずか3都市",
-      "text": "気候団体Clean Cities Campaignの2026年都市ランキングによると、2030年適用のEU厳格基準を満たすのは主要40都市中わずか3都市。上位はコペンハーゲン、ストックホルム、ヘルシンキで、ロンドンは16位。ロンドンはNO2が46.3%改善したが、自転車インフラは幹線道路の12%にとどまる。",
-      "url": "https://zagdaily.com/urban/just-three-of-40-major-european-cities-on-track-to-meet-tougher-eu-air-pollution-limits/"
-    },
-    {
-      "region": "na",
-      "date": "2026.11.18",
-      "title": "Summit Bike Share、会員減も走行距離は伸びる — 乗車時間60分へ延長が奏功",
-      "text": "米ユタ州のSummit Bike Shareが2026年シーズンを終えた。会員数は前年比13%減の約2万人だったが、走行距離は約9万3000マイルと34%増加。30分から60分への乗車時間延長と料金改定が長距離利用につながったという。低所得層向けのAccess Passも導入し、リゾート労働者の多い住宅地の駅が最多利用となった。",
-      "url": "https://www.parkrecord.com/2026/11/17/summit-bike-share-sees-dip-in-ridership-this-season-despite-significant-increases-in-mileage-ride-times/"
     }
   ],
   "stats": [
